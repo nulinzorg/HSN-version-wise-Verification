@@ -1,18 +1,28 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+# --- Secrets / personal data - NEVER commit these ---
+config.json
+subscribers.json
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# --- Generated at runtime - one machine's data, not source code ---
+hsn_delta.json
+hsn_history.json
+hsn_versions/
+hsn_current_version__*.xlsx
+hsn_delta__*.xlsx
+hsn_delta__*.xml
+hsn_validation_issues__*.csv
+hsn_validation_issues__*.xlsx
+hsn_full_validation__*.csv
+hsn_full_validation__*.xlsx
 
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+# --- OS/editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
