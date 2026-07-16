@@ -1,0 +1,7 @@
+requests>=2.31.0
+pandas>=2.0
+openpyxl>=3.1
+lxml>=5.0
+
+# Only needed if you want to test ci_check.py locally before pushing.
+# The GitHub Action installs these itself - this file is for local dev.

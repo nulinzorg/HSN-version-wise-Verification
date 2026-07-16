@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HSN / SAC Delta Validator</title>
+<style>
+  :root {
+    --bg: #F7F8FA;
+    --card: #FFFFFF;
+    --border: #E5E7EB;
+    --text-primary: #111827;
+    --text-secondary: #6B7280;
+    --text-muted: #9CA3AF;
+    --navy: #1E3A5F;
+    --green: #C6EFCE; --green-text: #065F46;
+    --red: #FFC7CE; --red-text: #991B1B;
+    --amber: #FFEB9C; --amber-text: #92400E;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text-primary);
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  header { background: var(--card); border-bottom: 1px solid var(--border); }
+  .header-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 16px 0; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-icon { width: 40px; height: 40px; border-radius: 10px; background: var(--navy); color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 15px; }
+  .brand h1 { font-size: 17px; margin: 0; font-weight: 600; }
+  .brand p { font-size: 12px; margin: 0; color: var(--text-secondary); }
+  a.gh-btn { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border); background: white; font-size: 13px; font-weight: 500; text-decoration: none; color: var(--text-primary); }
+  a.gh-btn:hover { background: #F9FAFB; }
+  .last-updated { font-size: 12px; color: var(--text-muted); padding-bottom: 12px; }
+  main { padding: 20px 0 60px; }
+
+  .sheet-selector { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .sheet-pill {
+    padding: 8px 16px; border-radius: 999px; border: 1px solid var(--border);
+    background: white; font-size: 13px; font-weight: 600; color: var(--text-secondary); cursor: pointer;
+  }
+  .sheet-pill.active { background: var(--navy); color: white; border-color: var(--navy); }
+  .sheet-pill .pill-badge { margin-left: 6px; font-weight: 500; opacity: 0.85; }
+
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 20px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card-label { font-size: 12px; font-weight: 500; color: var(--text-secondary); }
+  .card-value { font-size: 26px; font-weight: 600; margin: 10px 0 2px; }
+  .card.added .card-value { color: var(--green-text); }
+  .card.deleted .card-value { color: var(--red-text); }
+  .card.modified .card-value { color: var(--amber-text); }
+  .actions-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+  .dl-btn { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border); background: white; font-size: 13px; font-weight: 500; text-decoration: none; color: var(--text-primary); }
+  .dl-btn:hover { background: #F9FAFB; }
+  .dl-btn-primary { background: var(--navy); color: white; border-color: var(--navy); }
+  .dl-btn-primary:hover { background: #16304d; }
+  .banner { border-radius: 10px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
+  .banner.warn { background: #FFFBEB; color: #92400E; }
+  .banner.ok { background: #ECFDF5; color: #065F46; }
+  .banner.empty { background: #F3F4F6; color: var(--text-secondary); }
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+  .tab { padding: 10px 16px; font-size: 13px; font-weight: 500; color: var(--text-secondary); border-bottom: 2px solid transparent; cursor: pointer; }
+  .tab.active { color: var(--navy); border-bottom-color: var(--navy); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: 9px 12px; font-size: 13px; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-secondary); font-weight: 500; background: #FAFAFA; }
+  tr:last-child td { border-bottom: none; }
+  .empty-state { padding: 30px; text-align: center; color: var(--text-muted); font-size: 13px; }
+  .history-row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .mini-link { font-size: 12px; color: var(--navy); text-decoration: none; }
+  .mini-link:hover { text-decoration: underline; }
+  .delta-pill { display: inline-block; padding: 2px 7px; border-radius: 5px; font-size: 12px; font-weight: 500; margin-right: 4px; }
+  .delta-pill.added { background: var(--green); color: var(--green-text); }
+  .delta-pill.deleted { background: var(--red); color: var(--red-text); }
+  .delta-pill.modified { background: var(--amber); color: var(--amber-text); }
+  .delta-pill.zero { background: #F3F4F6; color: var(--text-muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="header-top">
+      <div class="brand">
+        <div class="brand-icon">HS</div>
+        <div>
+          <h1>HSN / SAC Delta Validator</h1>
+          <p>HSN and SAC are tracked as completely separate lists — never merged or cross-compared</p>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:16px;">
+        <a class="gh-btn" id="run-check-link" href="#" target="_blank" rel="noopener">Run a check now (opens GitHub)</a>
+      </div>
+    </div>
+    <div class="last-updated" id="last-updated">Loading…</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="config-error" class="banner warn" style="display:none;"></div>
+
+  <div class="banner empty">
+    This page updates automatically once a day via a scheduled GitHub Action —
+    no server is running, this is a static page reading committed results.
+    To check right now instead of waiting, click <strong>"Run a check now"</strong>
+    above, then click the green <strong>"Run workflow"</strong> button on GitHub —
+    this page will show the new results the next time that finishes (usually
+    under a minute) and you refresh this page.
+  </div>
+
+  <div class="sheet-selector" id="sheet-selector"></div>
+
+  <div class="cards">
+    <div class="card added"><div class="card-label">Added</div><div class="card-value" id="count-added">–</div></div>
+    <div class="card deleted"><div class="card-label">Deleted</div><div class="card-value" id="count-deleted">–</div></div>
+    <div class="card modified"><div class="card-label">Modified</div><div class="card-value" id="count-modified">–</div></div>
+  </div>
+
+  <div class="actions-row">
+    <a class="dl-btn dl-btn-primary" id="current-link" href="#" style="display:none;">⬇ Download current version (Excel)</a>
+    <a class="dl-btn" id="delta-excel-link" href="#" style="display:none;">⬇ Highlighted Excel (vs previous check)</a>
+    <a class="dl-btn" id="delta-xml-link" href="#" style="display:none;">⬇ Delta XML (Added + Modified only)</a>
+    <a class="dl-btn" id="issues-link" href="#" style="display:none;">⬇ Validation issues, delta only (CSV)</a>
+    <a class="dl-btn" id="issues-xlsx-link" href="#" style="display:none;">⬇ Validation issues, delta only, highlighted (Excel)</a>
+    <a class="dl-btn" id="full-issues-link" href="#" style="display:none;">⬇ Description issues, full list (CSV)</a>
+    <a class="dl-btn" id="full-issues-xlsx-link" href="#" style="display:none;">⬇ Description issues, full list, highlighted (Excel)</a>
+    <a class="dl-btn" id="zip-all-link" href="data/hsn_all_versions.zip">⬇ Download ALL versions, all sheets (ZIP)</a>
+  </div>
+
+  <div id="validation-banner"></div>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="added">Added</div>
+    <div class="tab" data-tab="deleted">Deleted</div>
+    <div class="tab" data-tab="modified">Modified</div>
+    <div class="tab" data-tab="history">Version History</div>
+  </div>
+
+  <div id="table-container"></div>
+</main>
+
+<script>
+// ---------------------------------------------------------------------
+// EDIT THIS to your actual GitHub username/org and repo name, so the
+// "Run a check now" button links to the right place.
+// ---------------------------------------------------------------------
+const GITHUB_REPO = "YOUR_GITHUB_USERNAME/YOUR_REPO_NAME";
+
+document.getElementById("run-check-link").href =
+  `https://github.com/${GITHUB_REPO}/actions/workflows/hsn_check.yml`;
+
+let lastData = null;
+let historyData = null;
+let activeSheet = null;
+let activeTab = "added";
+
+function safeName(name) {
+  return name.replace(/\W+/g, "_").replace(/^_+|_+$/g, "") || "sheet";
+}
+
+function fmtTime(iso) {
+  if (!iso) return "Never run yet";
+  return "Last checked " + new Date(iso).toLocaleString();
+}
+
+function fmtDateOnly(iso) {
+  if (!iso) return "–";
+  return new Date(iso).toLocaleString();
+}
+
+function pill(label, value, kind) {
+  const cls = value > 0 ? kind : "zero";
+  return `<span class="delta-pill ${cls}">${label} ${value}</span>`;
+}
+
+function renderSheetSelector(data) {
+  const container = document.getElementById("sheet-selector");
+  const names = data.sheet_names || [];
+  if (names.length === 0) {
+    container.innerHTML = "";
+    return;
+  }
+  if (!activeSheet || !names.includes(activeSheet)) {
+    activeSheet = names[0];
+  }
+  container.innerHTML = names.map(name => {
+    const s = data.sheets[name];
+    const total = s ? s.counts.added + s.counts.deleted + s.counts.modified : 0;
+    const badge = s && s.is_baseline ? "baseline" : (total > 0 ? `${total} change(s)` : "no changes");
+    const activeCls = name === activeSheet ? "active" : "";
+    return `<button class="sheet-pill ${activeCls}" data-sheet="${name}">${name}<span class="pill-badge">${badge}</span></button>`;
+  }).join("");
+
+  container.querySelectorAll(".sheet-pill").forEach(btn => {
+    btn.addEventListener("click", () => {
+      activeSheet = btn.dataset.sheet;
+      renderSheetSelector(lastData);
+      renderCurrentSheet();
+    });
+  });
+}
+
+function renderTable(rows) {
+  const container = document.getElementById("table-container");
+  if (!rows || rows.length === 0) {
+    container.innerHTML = '<div class="empty-state">No rows in this category.</div>';
+    return;
+  }
+  const cols = Object.keys(rows[0]).filter(c => c !== "_changed_fields" && c !== "_merge");
+  let html = "<table><thead><tr>";
+  cols.forEach(c => {
+    let label = c.replace(/_src$|_ref$/, "");
+    html += `<th>${label}</th>`;
+  });
+  if (rows[0]._changed_fields !== undefined) html += "<th>Changed fields</th>";
+  html += "</tr></thead><tbody>";
+  rows.forEach(r => {
+    html += "<tr>";
+    cols.forEach(c => { html += `<td>${(r[c] ?? "").toString().replace(/</g, "&lt;")}</td>`; });
+    if (r._changed_fields !== undefined) html += `<td>${r._changed_fields}</td>`;
+    html += "</tr>";
+  });
+  html += "</tbody></table>";
+  container.innerHTML = html;
+}
+
+function historyFileLink(runId, sheetName, kind) {
+  const safe = safeName(sheetName);
+  const names = {
+    source: `${safe}_snapshot.xlsx`,
+    excel: `${safe}_delta_vs_previous.xlsx`,
+    xml: `${safe}_delta_vs_previous.xml`,
+    issues: `${safe}_validation_issues.csv`,
+    issues_xlsx: `${safe}_validation_issues.xlsx`,
+    full_issues: `${safe}_full_validation.csv`,
+    excel_vs_reference: `${safe}_delta_vs_reference.xlsx`,
+  };
+  return `data/hsn_versions/${runId}/${names[kind]}`;
+}
+
+function renderHistoryForSheet(history, sheetName) {
+  const container = document.getElementById("table-container");
+  const rows = (history || []).filter(run => run.sheet_names && run.sheet_names.includes(sheetName));
+  if (rows.length === 0) {
+    container.innerHTML = `<div class="empty-state">No archived runs yet for "${sheetName}".</div>`;
+    return;
+  }
+  let html = "<table><thead><tr>";
+  html += "<th>Date / time</th><th>Since last check</th><th>vs Reference file</th><th>Delta issues</th><th>Description issues (full list)</th><th>Downloads</th>";
+  html += "</tr></thead><tbody>";
+  rows.forEach(run => {
+    const s = run.sheets[sheetName];
+    if (!s) return;
+    const ref = s.counts_vs_reference;
+    html += "<tr>";
+    html += `<td>${fmtDateOnly(run.timestamp)}</td>`;
+    html += s.is_baseline
+      ? `<td><span class="delta-pill zero">baseline — nothing to compare</span></td>`
+      : `<td>${pill("+", s.counts.added, "added")}${pill("-", s.counts.deleted, "deleted")}${pill("~", s.counts.modified, "modified")}</td>`;
+    html += ref
+      ? `<td>${pill("+", ref.added, "added")}${pill("-", ref.deleted, "deleted")}${pill("~", ref.modified, "modified")}</td>`
+      : `<td><span class="delta-pill zero">—</span></td>`;
+    html += `<td>${s.validation_issue_count > 0 ? "⚠ " + s.validation_issue_count : "✓ none"}</td>`;
+    html += `<td>${(s.full_validation_issue_count || 0) > 0 ? "⚠ " + s.full_validation_issue_count : "✓ none"}</td>`;
+    html += `<td><div class="history-row-actions">`
+      + `<a class="mini-link" href="${historyFileLink(run.run_id, sheetName, 'source')}">Source</a>`
+      + (!s.is_baseline ? `<a class="mini-link" href="${historyFileLink(run.run_id, sheetName, 'excel')}">Excel (vs prev)</a>` : "")
+      + (!s.is_baseline ? `<a class="mini-link" href="${historyFileLink(run.run_id, sheetName, 'xml')}">XML (vs prev)</a>` : "")
+      + (ref ? `<a class="mini-link" href="${historyFileLink(run.run_id, sheetName, 'excel_vs_reference')}">Excel (vs ref)</a>` : "")
+      + (s.validation_issue_count > 0 ? `<a class="mini-link" href="${historyFileLink(run.run_id, sheetName, 'issues')}">Delta issues CSV</a>` : "")
+      + `</div></td>`;
+    html += "</tr>";
+  });
+  html += "</tbody></table>";
+  container.innerHTML = html;
+}
+
+function renderCurrentSheet() {
+  if (!lastData || !activeSheet || !lastData.sheets[activeSheet]) return;
+  const s = lastData.sheets[activeSheet];
+  const safe = safeName(activeSheet);
+
+  document.getElementById("last-updated").textContent = fmtTime(lastData.ran_at);
+  document.getElementById("count-added").textContent = s.counts.added;
+  document.getElementById("count-deleted").textContent = s.counts.deleted;
+  document.getElementById("count-modified").textContent = s.counts.modified;
+
+  const hasFiles = s.has_files || {};
+  const currentLink = document.getElementById("current-link");
+  const excelLink = document.getElementById("delta-excel-link");
+  const xmlLink = document.getElementById("delta-xml-link");
+  const issuesLink = document.getElementById("issues-link");
+  const issuesXlsxLink = document.getElementById("issues-xlsx-link");
+  const fullIssuesLink = document.getElementById("full-issues-link");
+  const fullIssuesXlsxLink = document.getElementById("full-issues-xlsx-link");
+
+  currentLink.href = `data/hsn_current_version__${safe}.xlsx`;
+  excelLink.href = `data/hsn_delta__${safe}.xlsx`;
+  xmlLink.href = `data/hsn_delta__${safe}.xml`;
+  issuesLink.href = `data/hsn_validation_issues__${safe}.csv`;
+  issuesXlsxLink.href = `data/hsn_validation_issues__${safe}.xlsx`;
+  fullIssuesLink.href = `data/hsn_full_validation__${safe}.csv`;
+  fullIssuesXlsxLink.href = `data/hsn_full_validation__${safe}.xlsx`;
+
+  currentLink.style.display = hasFiles.current ? "inline-block" : "none";
+  excelLink.style.display = hasFiles.excel ? "inline-block" : "none";
+  xmlLink.style.display = hasFiles.xml ? "inline-block" : "none";
+  issuesXlsxLink.style.display = hasFiles.issues_xlsx ? "inline-block" : "none";
+  fullIssuesLink.style.display = hasFiles.full_issues_csv ? "inline-block" : "none";
+  fullIssuesLink.textContent = hasFiles.full_issues_csv
+    ? `⬇ Description issues, full list (${s.full_validation_issue_count} found)`
+    : "⬇ Description issues, full list (CSV)";
+  fullIssuesXlsxLink.style.display = hasFiles.full_issues_xlsx ? "inline-block" : "none";
+
+  const vBanner = document.getElementById("validation-banner");
+  let fullValidationLine = "";
+  if (lastData.ran_at) {
+    fullValidationLine = s.full_validation_issue_count > 0
+      ? `<div class="banner warn">⚠ Full-list scan: ${s.full_validation_issue_count} description field(s) across ALL ${s.total_codes} "${activeSheet}" codes contain invisible characters, stray whitespace, or special characters.</div>`
+      : `<div class="banner ok">✓ Full-list scan: no invisible or special characters found across all ${s.total_codes} "${activeSheet}" codes.</div>`;
+  }
+
+  if (!lastData.ran_at) {
+    vBanner.innerHTML = `<div class="banner empty">No check has run yet.</div>`;
+    issuesLink.style.display = "none";
+  } else if (s.is_baseline) {
+    vBanner.innerHTML = `<div class="banner empty">This is the latest "${activeSheet}" version on record — ${s.total_codes} code(s) captured as the baseline. Nothing to compare yet; the next scheduled check will show what changed since this one.</div>` + fullValidationLine;
+    issuesLink.style.display = "none";
+  } else {
+    let refLine = "";
+    if (s.counts_vs_reference) {
+      const r = s.counts_vs_reference;
+      refLine = `<div class="banner empty">vs reference file: ${pill("+", r.added, "added")}${pill("-", r.deleted, "deleted")}${pill("~", r.modified, "modified")}</div>`;
+    }
+    if (s.validation_issue_count > 0) {
+      vBanner.innerHTML = refLine + `<div class="banner warn">⚠ Delta scan: ${s.validation_issue_count} field(s) in THIS CHECK's Added/Modified rows had issues.</div>` + fullValidationLine;
+      issuesLink.style.display = "inline-block";
+    } else {
+      vBanner.innerHTML = refLine + `<div class="banner ok">This is the latest "${activeSheet}" version (${s.total_codes} total code(s)) — no issues detected in what changed.</div>` + fullValidationLine;
+      issuesLink.style.display = "none";
+    }
+  }
+
+  if (activeTab === "history") {
+    renderHistoryForSheet(historyData, activeSheet);
+  } else {
+    renderTable(s[activeTab] || []);
+  }
+}
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    activeTab = tab.dataset.tab;
+    renderCurrentSheet();
+  });
+});
+
+async function loadHistory() {
+  try {
+    const res = await fetch("data/hsn_history.json", { cache: "no-store" });
+    historyData = await res.json();
+    if (activeTab === "history") renderCurrentSheet();
+  } catch (e) { /* history is supplementary — fail quietly */ }
+}
+
+async function loadData() {
+  try {
+    const res = await fetch("data/hsn_delta.json", { cache: "no-store" });
+    const data = await res.json();
+    lastData = data;
+    renderSheetSelector(data);
+    renderCurrentSheet();
+  } catch (e) {
+    document.getElementById("config-error").style.display = "block";
+    document.getElementById("config-error").textContent =
+      "Could not load data/hsn_delta.json yet — the GitHub Action likely hasn't run for the first time. Click \"Run a check now\" above.";
+    document.getElementById("last-updated").textContent = "No data yet.";
+  }
+  loadHistory();
+}
+
+loadData();
+</script>
+</body>
+</html>

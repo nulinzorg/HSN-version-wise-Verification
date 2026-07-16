@@ -1,0 +1,14 @@
+{
+  "sheets": {
+    "HSN_MSTR": {
+      "key_col": "HSN_CD",
+      "compare_cols": ["HSN_Description"]
+    },
+    "SAC_MSTR": {
+      "key_col": "SAC_CD",
+      "compare_cols": ["SAC_Description"]
+    }
+  },
+  "auto_clean_xml": false,
+  "reference_file": null
+}
