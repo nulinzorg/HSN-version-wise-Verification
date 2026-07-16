@@ -1,0 +1,31 @@
+{
+  "_comment": "Copy this file to config.json and fill in your own values. config.json holds a password — don't share it or commit it to a public repo.",
+
+  "_gmail_instructions": "For Gmail: enable 2-Step Verification on your Google account, then create an 'App Password' at myaccount.google.com/apppasswords — use that (not your normal Gmail password) as smtp_password below. Free, no business account needed.",
+
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "youraddress@gmail.com",
+  "smtp_password": "your-16-character-app-password",
+
+  "hsn": {
+    "_comment": "No reference file is needed — every check is compared against the previous check automatically. Different sheets in the portal's file (e.g. HSN vs SAC) often use DIFFERENT column names, so give each sheet its own key_col/compare_cols under 'sheets' below, keyed by the EXACT sheet name (check the error message after a failed run — it lists real sheet names and real column names).",
+
+    "sheets": {
+      "HSN_MSTR": {
+        "key_col": "HSN_CD",
+        "compare_cols": ["HSN_Description"]
+      },
+      "SAC_MSTR": {
+        "key_col": "SAC_CD",
+        "compare_cols": ["SAC_Description"]
+      }
+    },
+
+    "_fallback_comment": "Optional: if you'd rather set ONE key_col/compare_cols that applies to every sheet not explicitly listed above, uncomment these two lines. Not needed if every sheet has its own entry under 'sheets' already.",
+
+    "auto_clean_xml": false,
+    "_reference_file_optional": "Uncomment and set this ONLY if you also want to compare against your own fixed master list, in addition to the automatic previous-vs-current comparison. Leave it out entirely otherwise.",
+    "reference_file": null
+  }
+}
