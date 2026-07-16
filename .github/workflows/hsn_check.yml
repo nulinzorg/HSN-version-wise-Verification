@@ -1,0 +1,46 @@
+name: HSN/SAC Daily Check
+
+on:
+  schedule:
+    # Runs once a day at 02:00 UTC (~7:30 AM IST). Change the cron
+    # expression to adjust — https://crontab.guru is helpful for this.
+    - cron: "0 2 * * *"
+  workflow_dispatch: {}   # adds a "Run workflow" button on the Actions tab for manual checks
+
+permissions:
+  contents: write   # needed so this workflow can commit the results back to the repo
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pandas openpyxl lxml
+
+      - name: Run HSN/SAC check
+        env:
+          HSN_DATA_DIR: docs/data
+          # Optional - only needed if you want email alerts. Add these as
+          # repo secrets under Settings -> Secrets and variables -> Actions.
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAILS: ${{ secrets.ALERT_EMAILS }}
+        run: python ci_check.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Automated HSN/SAC check $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
