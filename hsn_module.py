@@ -37,6 +37,7 @@ Shared files:
 import json
 import os
 import re
+from collections import Counter
 from datetime import datetime
 from io import BytesIO
 from pathlib import Path
@@ -253,6 +254,23 @@ def run_hsn_check(hsn_config: dict) -> dict:
         unique_codes = len({c for c in normalized_codes if c != ""})
         duplicate_count = max(total_codes - unique_codes, 0)
 
+        # Every row whose code appears more than once, so the dashboard can
+        # list and highlight them rather than just showing a count. Sorted
+        # by code so repeated occurrences of the same code sit next to
+        # each other. Not tied to the delta - this reflects the CURRENT
+        # version only, regardless of whether anything changed this run.
+        code_counts = Counter(normalized_codes)
+        duplicate_code_set = {c for c, n in code_counts.items() if n > 1 and c != ""}
+        duplicate_cols = [key_col] + list(compare_cols)
+        if duplicate_code_set:
+            dup_mask = [c in duplicate_code_set for c in normalized_codes]
+            dup_df = src_df.loc[dup_mask].copy()
+            dup_df["_sort_key"] = [core.normalize_for_compare(v) for v in dup_df[key_col]]
+            dup_df = dup_df.sort_values("_sort_key")
+            duplicate_records = dup_df[duplicate_cols].where(dup_df[duplicate_cols].notna(), "").to_dict(orient="records")
+        else:
+            duplicate_records = []
+
         # Archive this sheet's snapshot, permanently, on its own.
         snap_buf = BytesIO()
         src_df.to_excel(snap_buf, index=False)
@@ -373,6 +391,7 @@ def run_hsn_check(hsn_config: dict) -> dict:
             "added": added_records,
             "deleted": deleted_records,
             "modified": modified_records,
+            "duplicates": duplicate_records,
             "validation_issue_count": validation_issue_count,
             "full_validation_issue_count": full_validation_issue_count,
             "has_files": {
