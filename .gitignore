@@ -2,17 +2,20 @@
 config.json
 subscribers.json
 
-# --- Generated at runtime - one machine's data, not source code ---
-hsn_delta.json
-hsn_history.json
-hsn_versions/
-hsn_current_version__*.xlsx
-hsn_delta__*.xlsx
-hsn_delta__*.xml
-hsn_validation_issues__*.csv
-hsn_validation_issues__*.xlsx
-hsn_full_validation__*.csv
-hsn_full_validation__*.xlsx
+# --- Generated at runtime by local/Flask use - one machine's data, not
+# source code. Anchored to the repo root (leading "/") so these rules
+# only apply there - NOT under docs/data, which is the GitHub Action's
+# committed static-site output and must be tracked in git.
+/hsn_delta.json
+/hsn_history.json
+/hsn_versions/
+/hsn_current_version__*.xlsx
+/hsn_delta__*.xlsx
+/hsn_delta__*.xml
+/hsn_validation_issues__*.csv
+/hsn_validation_issues__*.xlsx
+/hsn_full_validation__*.csv
+/hsn_full_validation__*.xlsx
 
 # --- Python ---
 __pycache__/
