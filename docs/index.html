@@ -32,6 +32,7 @@
   a.gh-btn { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border); background: white; font-size: 13px; font-weight: 500; text-decoration: none; color: var(--text-primary); }
   a.gh-btn:hover { background: #F9FAFB; }
   .last-updated { font-size: 12px; color: var(--text-muted); padding-bottom: 12px; }
+  .last-updated strong { font-weight: 700; color: var(--text-primary); }
   main { padding: 20px 0 60px; }
 
   .sheet-selector { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
@@ -185,7 +186,7 @@ function safeName(name) {
 
 function fmtTime(iso) {
   if (!iso) return "Never run yet";
-  return "Last checked " + new Date(iso).toLocaleString();
+  return "Last checked <strong>" + new Date(iso).toLocaleString() + "</strong>";
 }
 
 function fmtDateOnly(iso) {
@@ -305,7 +306,7 @@ function renderCurrentSheet() {
   const s = lastData.sheets[activeSheet];
   const safe = safeName(activeSheet);
 
-  document.getElementById("last-updated").textContent = fmtTime(lastData.ran_at);
+  document.getElementById("last-updated").innerHTML = fmtTime(lastData.ran_at);
   document.getElementById("count-total").textContent = s.total_codes ?? "–";
   document.getElementById("count-total-sub").textContent =
     (s.duplicate_count || 0) > 0
