@@ -16,6 +16,7 @@
     --green: #C6EFCE; --green-text: #065F46;
     --red: #FFC7CE; --red-text: #991B1B;
     --amber: #FFEB9C; --amber-text: #92400E;
+    --purple: #E4D3FF; --purple-text: #5B21B6;
   }
   * { box-sizing: border-box; }
   body {
@@ -32,6 +33,7 @@
   a.gh-btn { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border); background: white; font-size: 13px; font-weight: 500; text-decoration: none; color: var(--text-primary); }
   a.gh-btn:hover { background: #F9FAFB; }
   .last-updated { font-size: 12px; color: var(--text-muted); padding-bottom: 12px; }
+  .last-updated strong { font-weight: 700; color: var(--text-primary); }
   main { padding: 20px 0 60px; }
 
   .sheet-selector { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
@@ -70,6 +72,7 @@
   .banner.warn { background: #FFFBEB; color: #92400E; }
   .banner.ok { background: #ECFDF5; color: #065F46; }
   .banner.empty { background: #F3F4F6; color: var(--text-secondary); }
+  .banner.dup { background: var(--purple); color: var(--purple-text); }
   .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
   .tab { padding: 10px 16px; font-size: 13px; font-weight: 500; color: var(--text-secondary); border-bottom: 2px solid transparent; cursor: pointer; }
   .tab.active { color: var(--navy); border-bottom-color: var(--navy); }
@@ -85,6 +88,9 @@
   .delta-pill.added { background: var(--green); color: var(--green-text); }
   .delta-pill.deleted { background: var(--red); color: var(--red-text); }
   .delta-pill.modified { background: var(--amber); color: var(--amber-text); }
+  .delta-pill.duplicate { background: var(--purple); color: var(--purple-text); }
+  tr.dup-row td { background: var(--purple); color: var(--purple-text); }
+  tr.dup-row:nth-of-type(odd) td { background: #EEE3FF; }
   .delta-pill.zero { background: #F3F4F6; color: var(--text-muted); }
 </style>
 </head>
@@ -158,6 +164,7 @@
     <div class="tab active" data-tab="added">Added</div>
     <div class="tab" data-tab="deleted">Deleted</div>
     <div class="tab" data-tab="modified">Modified</div>
+    <div class="tab" data-tab="duplicates">Duplicates</div>
     <div class="tab" data-tab="history">Version History</div>
   </div>
 
@@ -185,7 +192,7 @@ function safeName(name) {
 
 function fmtTime(iso) {
   if (!iso) return "Never run yet";
-  return "Last checked " + new Date(iso).toLocaleString();
+  return "Last checked <strong>" + new Date(iso).toLocaleString() + "</strong>";
 }
 
 function fmtDateOnly(iso) {
@@ -225,10 +232,12 @@ function renderSheetSelector(data) {
   });
 }
 
-function renderTable(rows) {
+function renderTable(rows, opts) {
   const container = document.getElementById("table-container");
+  const emptyMessage = (opts && opts.emptyMessage) || "No rows in this category.";
+  const rowClass = (opts && opts.rowClass) || "";
   if (!rows || rows.length === 0) {
-    container.innerHTML = '<div class="empty-state">No rows in this category.</div>';
+    container.innerHTML = `<div class="empty-state">${emptyMessage}</div>`;
     return;
   }
   const cols = Object.keys(rows[0]).filter(c => c !== "_changed_fields" && c !== "_merge");
@@ -240,7 +249,7 @@ function renderTable(rows) {
   if (rows[0]._changed_fields !== undefined) html += "<th>Changed fields</th>";
   html += "</tr></thead><tbody>";
   rows.forEach(r => {
-    html += "<tr>";
+    html += `<tr class="${rowClass}">`;
     cols.forEach(c => { html += `<td>${(r[c] ?? "").toString().replace(/</g, "&lt;")}</td>`; });
     if (r._changed_fields !== undefined) html += `<td>${r._changed_fields}</td>`;
     html += "</tr>";
@@ -305,7 +314,7 @@ function renderCurrentSheet() {
   const s = lastData.sheets[activeSheet];
   const safe = safeName(activeSheet);
 
-  document.getElementById("last-updated").textContent = fmtTime(lastData.ran_at);
+  document.getElementById("last-updated").innerHTML = fmtTime(lastData.ran_at);
   document.getElementById("count-total").textContent = s.total_codes ?? "–";
   document.getElementById("count-total-sub").textContent =
     (s.duplicate_count || 0) > 0
@@ -351,12 +360,15 @@ function renderCurrentSheet() {
       ? `<div class="banner warn">⚠ Full-list scan: ${s.full_validation_issue_count} description field(s) across ALL ${s.total_codes} "${activeSheet}" codes contain invisible characters, stray whitespace, or special characters.</div>`
       : `<div class="banner ok">✓ Full-list scan: no invisible or special characters found across all ${s.total_codes} "${activeSheet}" codes.</div>`;
   }
+  const duplicateLine = (s.duplicate_count || 0) > 0
+    ? `<div class="banner dup">⚠ ${s.duplicate_count} duplicate ${s.key_col} row(s) found in the current version — see the "Duplicates" tab below.</div>`
+    : "";
 
   if (!lastData.ran_at) {
     vBanner.innerHTML = `<div class="banner empty">No check has run yet.</div>`;
     issuesLink.style.display = "none";
   } else if (s.is_baseline) {
-    vBanner.innerHTML = `<div class="banner empty">This is the latest "${activeSheet}" version on record — ${s.total_codes} code(s) captured as the baseline. Nothing to compare yet; the next scheduled check will show what changed since this one.</div>` + fullValidationLine;
+    vBanner.innerHTML = `<div class="banner empty">This is the latest "${activeSheet}" version on record — ${s.total_codes} code(s) captured as the baseline. Nothing to compare yet; the next scheduled check will show what changed since this one.</div>` + duplicateLine + fullValidationLine;
     issuesLink.style.display = "none";
   } else {
     let refLine = "";
@@ -365,16 +377,21 @@ function renderCurrentSheet() {
       refLine = `<div class="banner empty">vs reference file: ${pill("+", r.added, "added")}${pill("-", r.deleted, "deleted")}${pill("~", r.modified, "modified")}</div>`;
     }
     if (s.validation_issue_count > 0) {
-      vBanner.innerHTML = refLine + `<div class="banner warn">⚠ Delta scan: ${s.validation_issue_count} field(s) in THIS CHECK's Added/Modified rows had issues.</div>` + fullValidationLine;
+      vBanner.innerHTML = refLine + `<div class="banner warn">⚠ Delta scan: ${s.validation_issue_count} field(s) in THIS CHECK's Added/Modified rows had issues.</div>` + duplicateLine + fullValidationLine;
       issuesLink.style.display = "inline-block";
     } else {
-      vBanner.innerHTML = refLine + `<div class="banner ok">This is the latest "${activeSheet}" version (${s.total_codes} total code(s)) — no issues detected in what changed.</div>` + fullValidationLine;
+      vBanner.innerHTML = refLine + `<div class="banner ok">This is the latest "${activeSheet}" version (${s.total_codes} total code(s)) — no issues detected in what changed.</div>` + duplicateLine + fullValidationLine;
       issuesLink.style.display = "none";
     }
   }
 
   if (activeTab === "history") {
     renderHistoryForSheet(historyData, activeSheet);
+  } else if (activeTab === "duplicates") {
+    renderTable(s.duplicates || [], {
+      rowClass: "dup-row",
+      emptyMessage: `No duplicate ${s.key_col} values in the current version.`,
+    });
   } else {
     renderTable(s[activeTab] || []);
   }
@@ -456,12 +473,13 @@ function renderSearchResults() {
   }
 
   const shown = matches.slice(0, SEARCH_RESULT_LIMIT);
+  const dupCodes = new Set((s && s.duplicates ? s.duplicates : []).map(d => d[keyCol]));
   const cols = [keyCol, ...compareCols];
   let html = "<table><thead><tr>";
   cols.forEach(c => { html += `<th>${c}</th>`; });
   html += "</tr></thead><tbody>";
   shown.forEach(row => {
-    html += "<tr>";
+    html += `<tr class="${dupCodes.has(row[keyCol]) ? "dup-row" : ""}">`;
     cols.forEach(c => { html += `<td>${(row[c] ?? "").toString().replace(/</g, "&lt;")}</td>`; });
     html += "</tr>";
   });
