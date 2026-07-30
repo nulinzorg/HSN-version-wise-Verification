@@ -1,5 +1,52 @@
 [
   {
+    "run_id": "20260730_114438",
+    "timestamp": "2026-07-30T11:44:46",
+    "compared_to_run_id": "20260730_105717",
+    "sheet_names": [
+      "HSN_MSTR",
+      "SAC_MSTR"
+    ],
+    "sheets": {
+      "HSN_MSTR": {
+        "key_col": "HSN_CD",
+        "compare_cols": [
+          "HSN_Description"
+        ],
+        "total_codes": 21935,
+        "unique_codes": 21935,
+        "duplicate_count": 0,
+        "is_baseline": false,
+        "counts": {
+          "added": 0,
+          "deleted": 0,
+          "modified": 0
+        },
+        "counts_vs_reference": null,
+        "validation_issue_count": 0,
+        "full_validation_issue_count": 1147
+      },
+      "SAC_MSTR": {
+        "key_col": "SAC_CD",
+        "compare_cols": [
+          "SAC_Description"
+        ],
+        "total_codes": 681,
+        "unique_codes": 681,
+        "duplicate_count": 0,
+        "is_baseline": false,
+        "counts": {
+          "added": 0,
+          "deleted": 0,
+          "modified": 0
+        },
+        "counts_vs_reference": null,
+        "validation_issue_count": 0,
+        "full_validation_issue_count": 12
+      }
+    }
+  },
+  {
     "run_id": "20260730_105717",
     "timestamp": "2026-07-30T10:57:22",
     "compared_to_run_id": "20260730_103742",

@@ -1,6 +1,6 @@
 {
   "run_id": "20260730_114438",
-  "ran_at": "2026-07-30T11:44:46",
+  "timestamp": "2026-07-30T11:44:46",
   "compared_to_run_id": "20260730_105717",
   "sheet_names": [
     "HSN_MSTR",
@@ -8,7 +8,6 @@
   ],
   "sheets": {
     "HSN_MSTR": {
-      "sheet_name": "HSN_MSTR",
       "key_col": "HSN_CD",
       "compare_cols": [
         "HSN_Description"
@@ -23,25 +22,10 @@
         "modified": 0
       },
       "counts_vs_reference": null,
-      "added": [],
-      "deleted": [],
-      "modified": [],
-      "duplicates": [],
       "validation_issue_count": 0,
-      "full_validation_issue_count": 1147,
-      "has_files": {
-        "current": true,
-        "excel": true,
-        "xml": true,
-        "issues_csv": false,
-        "issues_xlsx": false,
-        "full_issues_csv": true,
-        "full_issues_xlsx": true,
-        "search_data": true
-      }
+      "full_validation_issue_count": 1147
     },
     "SAC_MSTR": {
-      "sheet_name": "SAC_MSTR",
       "key_col": "SAC_CD",
       "compare_cols": [
         "SAC_Description"
@@ -56,22 +40,8 @@
         "modified": 0
       },
       "counts_vs_reference": null,
-      "added": [],
-      "deleted": [],
-      "modified": [],
-      "duplicates": [],
       "validation_issue_count": 0,
-      "full_validation_issue_count": 12,
-      "has_files": {
-        "current": true,
-        "excel": true,
-        "xml": true,
-        "issues_csv": false,
-        "issues_xlsx": false,
-        "full_issues_csv": true,
-        "full_issues_xlsx": true,
-        "search_data": true
-      }
+      "full_validation_issue_count": 12
     }
   }
 }
