@@ -65,6 +65,10 @@ def _current_version_path(sheet_name: str) -> Path:
     return BASE_DIR / f"hsn_current_version__{_safe_name(sheet_name)}.xlsx"
 
 
+def _current_data_json_path(sheet_name: str) -> Path:
+    return BASE_DIR / f"hsn_current_data__{_safe_name(sheet_name)}.json"
+
+
 def _delta_xlsx_path(sheet_name: str) -> Path:
     return BASE_DIR / f"hsn_delta__{_safe_name(sheet_name)}.xlsx"
 
@@ -231,7 +235,6 @@ def run_hsn_check(hsn_config: dict) -> dict:
     sheet_summaries = {}
     for sheet_name, src_df in sheets.items():
         safe = _safe_name(sheet_name)
-        total_codes = len(src_df)
 
         # Each sheet gets its OWN key_col/compare_cols - they are not
         # assumed to share the same column names.
@@ -240,6 +243,15 @@ def run_hsn_check(hsn_config: dict) -> dict:
         # Catch a bad key_col/compare_cols config immediately, even on a
         # baseline run, instead of waiting for a comparison to fail.
         _validate_columns(src_df, key_col, compare_cols, f"'{sheet_name}' sheet (downloaded source)")
+
+        # total_codes = every row in the sheet. unique_codes = distinct
+        # values in the key column - if the portal's file has the same
+        # code listed more than once, total_codes and unique_codes will
+        # differ, and duplicate_count tells you by how much.
+        total_codes = len(src_df)
+        normalized_codes = [core.normalize_for_compare(v) for v in src_df[key_col]]
+        unique_codes = len({c for c in normalized_codes if c != ""})
+        duplicate_count = max(total_codes - unique_codes, 0)
 
         # Archive this sheet's snapshot, permanently, on its own.
         snap_buf = BytesIO()
@@ -250,6 +262,16 @@ def run_hsn_check(hsn_config: dict) -> dict:
         # Always keep the current version of THIS sheet downloadable on
         # its own, regardless of whether there's a previous version yet.
         _current_version_path(sheet_name).write_bytes(snap_bytes)
+
+        # Lightweight JSON of every code+description in this sheet, used
+        # by the dashboard's search box to look up codes from the latest
+        # version without needing to open the Excel file. Kept minimal
+        # (just key_col + compare_cols, no other columns) to stay small.
+        search_cols = [key_col] + list(compare_cols)
+        search_records = src_df[search_cols].where(src_df[search_cols].notna(), "").to_dict(orient="records")
+        _current_data_json_path(sheet_name).write_text(
+            json.dumps(search_records, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
 
         # FULL-DATASET description validation - scans every row currently
         # in this sheet (not just what changed) for invisible/special
@@ -343,6 +365,8 @@ def run_hsn_check(hsn_config: dict) -> dict:
             "key_col": key_col,
             "compare_cols": compare_cols,
             "total_codes": total_codes,
+            "unique_codes": unique_codes,
+            "duplicate_count": duplicate_count,
             "is_baseline": is_baseline_for_sheet,
             "counts": counts_vs_previous or {"added": 0, "deleted": 0, "modified": 0},
             "counts_vs_reference": counts_vs_reference,
@@ -359,6 +383,7 @@ def run_hsn_check(hsn_config: dict) -> dict:
                 "issues_xlsx": _issues_xlsx_path(sheet_name).exists(),
                 "full_issues_csv": _full_validation_csv_path(sheet_name).exists(),
                 "full_issues_xlsx": _full_validation_xlsx_path(sheet_name).exists(),
+                "search_data": _current_data_json_path(sheet_name).exists(),
             },
         }
 
@@ -372,6 +397,8 @@ def run_hsn_check(hsn_config: dict) -> dict:
                 "key_col": s["key_col"],
                 "compare_cols": s["compare_cols"],
                 "total_codes": s["total_codes"],
+                "unique_codes": s["unique_codes"],
+                "duplicate_count": s["duplicate_count"],
                 "is_baseline": s["is_baseline"],
                 "counts": s["counts"],
                 "counts_vs_reference": s["counts_vs_reference"],
