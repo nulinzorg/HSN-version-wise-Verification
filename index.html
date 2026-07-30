@@ -149,7 +149,7 @@
     <a class="dl-btn" id="issues-xlsx-link" href="#" style="display:none;">⬇ Validation issues, delta only, highlighted (Excel)</a>
     <a class="dl-btn" id="full-issues-link" href="#" style="display:none;">⬇ Description issues, full list (CSV)</a>
     <a class="dl-btn" id="full-issues-xlsx-link" href="#" style="display:none;">⬇ Description issues, full list, highlighted (Excel)</a>
-    <a class="dl-btn" id="zip-all-link" href="data/hsn_all_versions.zip">⬇ Download ALL versions, all sheets (ZIP)</a>
+    <a class="dl-btn" id="zip-all-link" href="docs/data/hsn_all_versions.zip">⬇ Download ALL versions, all sheets (ZIP)</a>
   </div>
 
   <div id="validation-banner"></div>
@@ -260,7 +260,7 @@ function historyFileLink(runId, sheetName, kind) {
     full_issues: `${safe}_full_validation.csv`,
     excel_vs_reference: `${safe}_delta_vs_reference.xlsx`,
   };
-  return `data/hsn_versions/${runId}/${names[kind]}`;
+  return `docs/data/hsn_versions/${runId}/${names[kind]}`;
 }
 
 function renderHistoryForSheet(history, sheetName) {
@@ -326,13 +326,13 @@ function renderCurrentSheet() {
   const fullIssuesLink = document.getElementById("full-issues-link");
   const fullIssuesXlsxLink = document.getElementById("full-issues-xlsx-link");
 
-  currentLink.href = `data/hsn_current_version__${safe}.xlsx`;
-  excelLink.href = `data/hsn_delta__${safe}.xlsx`;
-  xmlLink.href = `data/hsn_delta__${safe}.xml`;
-  issuesLink.href = `data/hsn_validation_issues__${safe}.csv`;
-  issuesXlsxLink.href = `data/hsn_validation_issues__${safe}.xlsx`;
-  fullIssuesLink.href = `data/hsn_full_validation__${safe}.csv`;
-  fullIssuesXlsxLink.href = `data/hsn_full_validation__${safe}.xlsx`;
+  currentLink.href = `docs/data/hsn_current_version__${safe}.xlsx`;
+  excelLink.href = `docs/data/hsn_delta__${safe}.xlsx`;
+  xmlLink.href = `docs/data/hsn_delta__${safe}.xml`;
+  issuesLink.href = `docs/data/hsn_validation_issues__${safe}.csv`;
+  issuesXlsxLink.href = `docs/data/hsn_validation_issues__${safe}.xlsx`;
+  fullIssuesLink.href = `docs/data/hsn_full_validation__${safe}.csv`;
+  fullIssuesXlsxLink.href = `docs/data/hsn_full_validation__${safe}.xlsx`;
 
   currentLink.style.display = hasFiles.current ? "inline-block" : "none";
   excelLink.style.display = hasFiles.excel ? "inline-block" : "none";
@@ -399,7 +399,7 @@ function loadSearchData(sheetName) {
   if (searchDataPromises[sheetName]) return searchDataPromises[sheetName];
 
   const safe = safeName(sheetName);
-  searchDataPromises[sheetName] = fetch(`data/hsn_current_data__${safe}.json`, { cache: "no-store" })
+  searchDataPromises[sheetName] = fetch(`docs/data/hsn_current_data__${safe}.json`, { cache: "no-store" })
     .then(res => { if (!res.ok) throw new Error("no search data"); return res.json(); })
     .then(data => { searchDataCache[sheetName] = data; return data; })
     .catch(() => { searchDataCache[sheetName] = null; return null; });
@@ -483,7 +483,7 @@ document.querySelectorAll(".tab").forEach(tab => {
 
 async function loadHistory() {
   try {
-    const res = await fetch("data/hsn_history.json", { cache: "no-store" });
+    const res = await fetch("docs/data/hsn_history.json", { cache: "no-store" });
     historyData = await res.json();
     if (activeTab === "history") renderCurrentSheet();
   } catch (e) { /* history is supplementary — fail quietly */ }
@@ -491,7 +491,7 @@ async function loadHistory() {
 
 async function loadData() {
   try {
-    const res = await fetch("data/hsn_delta.json", { cache: "no-store" });
+    const res = await fetch("docs/data/hsn_delta.json", { cache: "no-store" });
     const data = await res.json();
     lastData = data;
     renderSheetSelector(data);
@@ -499,7 +499,7 @@ async function loadData() {
   } catch (e) {
     document.getElementById("config-error").style.display = "block";
     document.getElementById("config-error").textContent =
-      "Could not load data/hsn_delta.json yet — the GitHub Action likely hasn't run for the first time. Click \"Run a check now\" above.";
+      "Could not load docs/data/hsn_delta.json yet — the GitHub Action likely hasn't run for the first time. Click \"Run a check now\" above.";
     document.getElementById("last-updated").textContent = "No data yet.";
   }
   loadHistory();
