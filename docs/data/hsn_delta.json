@@ -1,0 +1,75 @@
+{
+  "run_id": "20260730_103742",
+  "ran_at": "2026-07-30T10:37:51",
+  "compared_to_run_id": null,
+  "sheet_names": [
+    "HSN_MSTR",
+    "SAC_MSTR"
+  ],
+  "sheets": {
+    "HSN_MSTR": {
+      "sheet_name": "HSN_MSTR",
+      "key_col": "HSN_CD",
+      "compare_cols": [
+        "HSN_Description"
+      ],
+      "total_codes": 21935,
+      "unique_codes": 21935,
+      "duplicate_count": 0,
+      "is_baseline": true,
+      "counts": {
+        "added": 0,
+        "deleted": 0,
+        "modified": 0
+      },
+      "counts_vs_reference": null,
+      "added": [],
+      "deleted": [],
+      "modified": [],
+      "validation_issue_count": 0,
+      "full_validation_issue_count": 1147,
+      "has_files": {
+        "current": true,
+        "excel": false,
+        "xml": false,
+        "issues_csv": false,
+        "issues_xlsx": false,
+        "full_issues_csv": true,
+        "full_issues_xlsx": true,
+        "search_data": true
+      }
+    },
+    "SAC_MSTR": {
+      "sheet_name": "SAC_MSTR",
+      "key_col": "SAC_CD",
+      "compare_cols": [
+        "SAC_Description"
+      ],
+      "total_codes": 681,
+      "unique_codes": 681,
+      "duplicate_count": 0,
+      "is_baseline": true,
+      "counts": {
+        "added": 0,
+        "deleted": 0,
+        "modified": 0
+      },
+      "counts_vs_reference": null,
+      "added": [],
+      "deleted": [],
+      "modified": [],
+      "validation_issue_count": 0,
+      "full_validation_issue_count": 12,
+      "has_files": {
+        "current": true,
+        "excel": false,
+        "xml": false,
+        "issues_csv": false,
+        "issues_xlsx": false,
+        "full_issues_csv": true,
+        "full_issues_xlsx": true,
+        "search_data": true
+      }
+    }
+  }
+}
