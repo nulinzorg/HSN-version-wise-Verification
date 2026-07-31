@@ -249,23 +249,31 @@ def run_hsn_check(hsn_config: dict) -> dict:
         # values in the key column - if the portal's file has the same
         # code listed more than once, total_codes and unique_codes will
         # differ, and duplicate_count tells you by how much.
+        #
+        # For duplicate purposes specifically, a leading-zero variant of
+        # the same code (e.g. "030559" vs "30559") is the same code, not
+        # a different one - the portal's own file has been observed to
+        # list both forms. Strip leading zeros before comparing, but
+        # never collapse an all-zero code (e.g. "000") down to nothing.
         total_codes = len(src_df)
         normalized_codes = [core.normalize_for_compare(v) for v in src_df[key_col]]
-        unique_codes = len({c for c in normalized_codes if c != ""})
+        dup_keys = [c.lstrip("0") or c for c in normalized_codes]
+        unique_codes = len({c for c in dup_keys if c != ""})
         duplicate_count = max(total_codes - unique_codes, 0)
 
-        # Every row whose code appears more than once, so the dashboard can
-        # list and highlight them rather than just showing a count. Sorted
-        # by code so repeated occurrences of the same code sit next to
+        # Every row whose code appears more than once (leading-zero
+        # variants included), so the dashboard can list and highlight
+        # them rather than just showing a count. Sorted by the
+        # leading-zero-stripped code so "030559" and "30559" sit next to
         # each other. Not tied to the delta - this reflects the CURRENT
         # version only, regardless of whether anything changed this run.
-        code_counts = Counter(normalized_codes)
-        duplicate_code_set = {c for c, n in code_counts.items() if n > 1 and c != ""}
+        code_counts = Counter(dup_keys)
+        duplicate_key_set = {c for c, n in code_counts.items() if n > 1 and c != ""}
         duplicate_cols = [key_col] + list(compare_cols)
-        if duplicate_code_set:
-            dup_mask = [c in duplicate_code_set for c in normalized_codes]
+        if duplicate_key_set:
+            dup_mask = [c in duplicate_key_set for c in dup_keys]
             dup_df = src_df.loc[dup_mask].copy()
-            dup_df["_sort_key"] = [core.normalize_for_compare(v) for v in dup_df[key_col]]
+            dup_df["_sort_key"] = [dk for dk, m in zip(dup_keys, dup_mask) if m]
             dup_df = dup_df.sort_values("_sort_key")
             duplicate_records = dup_df[duplicate_cols].where(dup_df[duplicate_cols].notna(), "").to_dict(orient="records")
         else:
