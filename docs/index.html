@@ -49,6 +49,8 @@
   .card-label { font-size: 12px; font-weight: 500; color: var(--text-secondary); }
   .card-value { font-size: 26px; font-weight: 600; margin: 10px 0 2px; }
   .card-sub { font-size: 11px; color: var(--text-muted); }
+  .card-sub .dup-drilldown { color: var(--purple-text); font-weight: 600; text-decoration: none; }
+  .card-sub .dup-drilldown:hover { text-decoration: underline; }
   .card.total .card-value { color: var(--navy); }
   .card.added .card-value { color: var(--green-text); }
   .card.deleted .card-value { color: var(--red-text); }
@@ -316,9 +318,9 @@ function renderCurrentSheet() {
 
   document.getElementById("last-updated").innerHTML = fmtTime(lastData.ran_at);
   document.getElementById("count-total").textContent = s.total_codes ?? "–";
-  document.getElementById("count-total-sub").textContent =
+  document.getElementById("count-total-sub").innerHTML =
     (s.duplicate_count || 0) > 0
-      ? `${s.unique_codes} unique, ${s.duplicate_count} duplicate code(s)`
+      ? `${s.unique_codes} unique, <a href="#" class="dup-drilldown" onclick="switchTab('duplicates'); return false;">${s.duplicate_count} duplicate code(s) &rarr;</a>`
       : "";
   document.getElementById("count-added").textContent = s.counts.added;
   document.getElementById("count-deleted").textContent = s.counts.deleted;
@@ -361,7 +363,7 @@ function renderCurrentSheet() {
       : `<div class="banner ok">✓ Full-list scan: no invisible or special characters found across all ${s.total_codes} "${activeSheet}" codes.</div>`;
   }
   const duplicateLine = (s.duplicate_count || 0) > 0
-    ? `<div class="banner dup">⚠ ${s.duplicate_count} duplicate ${s.key_col} row(s) found in the current version — see the "Duplicates" tab below.</div>`
+    ? `<div class="banner dup" style="cursor:pointer;" onclick="switchTab('duplicates')">⚠ ${s.duplicate_count} duplicate ${s.key_col} row(s) found in the current version — click to view in the "Duplicates" tab.</div>`
     : "";
 
   if (!lastData.ran_at) {
@@ -490,13 +492,14 @@ function renderSearchResults() {
 
 document.getElementById("hsn-search-input").addEventListener("input", renderSearchResults);
 
+function switchTab(tabName) {
+  document.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t.dataset.tab === tabName));
+  activeTab = tabName;
+  renderCurrentSheet();
+}
+
 document.querySelectorAll(".tab").forEach(tab => {
-  tab.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
-    tab.classList.add("active");
-    activeTab = tab.dataset.tab;
-    renderCurrentSheet();
-  });
+  tab.addEventListener("click", () => switchTab(tab.dataset.tab));
 });
 
 async function loadHistory() {
