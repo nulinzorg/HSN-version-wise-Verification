@@ -1,0 +1,13 @@
+source,row_index,column,value_repr,issues
+SAC_MSTR,165,SAC_Description,'Other goods transport services ',leading/trailing whitespace
+SAC_MSTR,187,SAC_Description,'Investment banking services ',leading/trailing whitespace
+SAC_MSTR,204,SAC_Description,'Other non-life reinsurance services ',leading/trailing whitespace
+SAC_MSTR,218,SAC_Description,'Other services auxiliary to insurance and pensions ',leading/trailing whitespace
+SAC_MSTR,241,SAC_Description,'Leasing or rental services concerning other machinery and equipment without operator ',leading/trailing whitespace
+SAC_MSTR,291,SAC_Description,'Other tax consultancy and preparation services ',leading/trailing whitespace
+SAC_MSTR,495,SAC_Description,"'Petroleum, chemical and pharmaceutical products manufacturing services other than services by way of job work specified above '",leading/trailing whitespace
+SAC_MSTR,549,SAC_Description,"""Administrative services related to government employee pension schemes; old-age disability or survivors' benefit schemes, other than for government employees""","XML-reserved character (&, <, >, "", ')"
+SAC_MSTR,563,SAC_Description,'Specialised education services ',leading/trailing whitespace
+SAC_MSTR,605,SAC_Description,'Other waste treatment and disposal services ',leading/trailing whitespace
+SAC_MSTR,652,SAC_Description,'Amusement park and similar attraction services ',leading/trailing whitespace
+SAC_MSTR,655,SAC_Description,'Services by way of admission to casinos or race clubs or any place having casinos or race clubs ',leading/trailing whitespace
