@@ -1,0 +1,1148 @@
+source,row_index,column,value_repr,issues
+HSN_MSTR,111,HSN_Description,' CARCASES AND HALF-CARCASES',leading/trailing whitespace
+HSN_MSTR,112,HSN_Description,"'OTHER CUTS, WITH BONE IN '",leading/trailing whitespace
+HSN_MSTR,113,HSN_Description,"'OTHER CUTS, WITH BONE IN '",leading/trailing whitespace
+HSN_MSTR,118,HSN_Description,'CARCASES AND HALF-CARCASES ',leading/trailing whitespace
+HSN_MSTR,119,HSN_Description,'CARCASES AND HALF-CARCASES ',leading/trailing whitespace
+HSN_MSTR,124,HSN_Description,'CARCASES AND HALF-CARCASES ',leading/trailing whitespace
+HSN_MSTR,125,HSN_Description,'CARCASES AND HALF-CARCASES ',leading/trailing whitespace
+HSN_MSTR,713,HSN_Description,'OTHER SHRIMPS AND PRAWNS: ',leading/trailing whitespace
+HSN_MSTR,733,HSN_Description,'LOBSTERS (HOMARUS SPP.) ',leading/trailing whitespace
+HSN_MSTR,735,HSN_Description,'CRABS ',leading/trailing whitespace
+HSN_MSTR,737,HSN_Description,'NORWAY LOBSTERS (NEPHROPS NORVEGICUS) ',leading/trailing whitespace
+HSN_MSTR,739,HSN_Description,'COLD WATER SHRIMPS AND PRAWNS (PANDALUS SPP. CRANGON CRANGON) ',leading/trailing whitespace
+HSN_MSTR,743,HSN_Description,'SCAMPI (MACROBACHIUM SPP.) ',leading/trailing whitespace
+HSN_MSTR,758,HSN_Description,'NORWAY LOBSTERS (NEPHROPS NORVEGICUS) ',leading/trailing whitespace
+HSN_MSTR,767,HSN_Description,' FROZEN',leading/trailing whitespace
+HSN_MSTR,773,HSN_Description,' FROZEN',leading/trailing whitespace
+HSN_MSTR,779,HSN_Description,"' LIVE, FRESH OR CHILLED'",leading/trailing whitespace
+HSN_MSTR,883,HSN_Description,"""Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,894,HSN_Description,"""DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PRODUCTS _x000D_\nOF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED~_x000D_\nMilk and cream, concentrated or containing added sugar or other sweetening matter~In powder, granules or other solid forms, of a fat content, by weight not exceeding 1.5% :""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,948,HSN_Description,"""BIRDS' EGGS, IN SHELL, FRESH, PRESERVED OR COOKED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,962,HSN_Description,"""BIRDS' EGGS, NOT IN SHELL, AND EGG YOLKS, FRESH, DRIED, COOKED BY STEAMING OR BY BOILING IN WATER, MOULDED, FROZEN OR OTHERWISE PRESERVED, WHETHER OR NOT CONTAINING ADDED SUGAR OR OTHER SWEETENING MATTER""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,985,HSN_Description,"'TURTLE EGGS AND SALANGANES\' NESTS (""BIRDS\' NESTS"")'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,992,HSN_Description,"""PIGS', HOGS' OR BOARS' BRISTLES AND HAIR; BADGER HAIR AND OTHER BRUSH MAKING HAIR; WASTE OF SUCH BRISTLES OR HAIR""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,993,HSN_Description,"""PIGS', HOGS' OR BOARS' BRISTLES AND HAIR AND WASTE THEREOF:""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,994,HSN_Description,"""PIGS', HOGS' OR BOARS' BRISTLES AND HAIR""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,995,HSN_Description,"""WASTE OF PIGS', HOGS' OR BOARS' BRISTLES AND HAIR""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,1025,HSN_Description,'OSSEIN AND BONES TREATED WITH ACID : ',leading/trailing whitespace
+HSN_MSTR,1034,HSN_Description,'OTHER : ',leading/trailing whitespace
+HSN_MSTR,1313,HSN_Description,'COW PEAS (VIGNA UNGUICULATA) ',leading/trailing whitespace
+HSN_MSTR,1314,HSN_Description,'COW PEAS (VIGNA UNGUICULATA) ',leading/trailing whitespace
+HSN_MSTR,1378,HSN_Description,'SHELLED ',leading/trailing whitespace
+HSN_MSTR,1379,HSN_Description,'SHELLED ',leading/trailing whitespace
+HSN_MSTR,1419,HSN_Description,'PINEAPPLES ',leading/trailing whitespace
+HSN_MSTR,1421,HSN_Description,'AVOCADOS ',leading/trailing whitespace
+HSN_MSTR,1439,HSN_Description,'ORANGES ',leading/trailing whitespace
+HSN_MSTR,1442,HSN_Description,'MANDARINS (INCLUDING TANGERINES AND SATSUMAS) ',leading/trailing whitespace
+HSN_MSTR,1444,HSN_Description,'CLEMENTINES ',leading/trailing whitespace
+HSN_MSTR,1446,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,1448,HSN_Description,'GRAPEFRUIT AND POMELOS ',leading/trailing whitespace
+HSN_MSTR,1550,HSN_Description,'A GRADE ',leading/trailing whitespace
+HSN_MSTR,1584,HSN_Description,'CONTENT NOT EXCEEDING 25 G ',leading/trailing whitespace
+HSN_MSTR,1590,HSN_Description,'GREEN TEA IN BULK ',leading/trailing whitespace
+HSN_MSTR,1592,HSN_Description,'GREEN TEA WASTE ',leading/trailing whitespace
+HSN_MSTR,1593,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,1601,HSN_Description,"'BLACK TEA, LEAF IN BULK '",leading/trailing whitespace
+HSN_MSTR,1602,HSN_Description,"'BLACK TEA, DUST IN BULK '",leading/trailing whitespace
+HSN_MSTR,1603,HSN_Description,'TEA BAGS ',leading/trailing whitespace
+HSN_MSTR,1605,HSN_Description,"'BLACK TEA, WASTE '",leading/trailing whitespace
+HSN_MSTR,1606,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,1612,HSN_Description,"'PEPPER, LONG '",leading/trailing whitespace
+HSN_MSTR,1613,HSN_Description,'LIGHT BLACK PEPPER ',leading/trailing whitespace
+HSN_MSTR,1614,HSN_Description,"'BLACK PEPPER, GARBLED '",leading/trailing whitespace
+HSN_MSTR,1615,HSN_Description,'BLACK PEPPER UNGARBLED ',leading/trailing whitespace
+HSN_MSTR,1616,HSN_Description,"'GREEN PEPPER, DEHYDRATED '",leading/trailing whitespace
+HSN_MSTR,1617,HSN_Description,'PEPPER PINHEADS ',leading/trailing whitespace
+HSN_MSTR,1619,HSN_Description,"'PEPPER OTHER THAN GREEN, FROZEN '",leading/trailing whitespace
+HSN_MSTR,1620,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,1621,HSN_Description,'CRUSHED OR GROUND ',leading/trailing whitespace
+HSN_MSTR,1622,HSN_Description,'CRUSHED OR GROUND ',leading/trailing whitespace
+HSN_MSTR,1626,HSN_Description,'OF GENUS PIMENTA ',leading/trailing whitespace
+HSN_MSTR,1627,HSN_Description,'CRUSHED OR GROUND : ',leading/trailing whitespace
+HSN_MSTR,1628,HSN_Description,'CHILLY POWER ',leading/trailing whitespace
+HSN_MSTR,1670,HSN_Description,'CRUSHED OR GROUND ',leading/trailing whitespace
+HSN_MSTR,1853,HSN_Description,'BARNYARD (ECHINOCHLOA ESCULENTA (L.)) ',leading/trailing whitespace
+HSN_MSTR,1854,HSN_Description,'PROSO (PANICUM MILIACEUM (L.)) ',leading/trailing whitespace
+HSN_MSTR,1855,HSN_Description,'FOXTAIL (SETARIA ITALICA (L.)) ',leading/trailing whitespace
+HSN_MSTR,1857,HSN_Description,'LITTLE (PANICUM SUMATRENSE (L.)) ',leading/trailing whitespace
+HSN_MSTR,1859,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,1864,HSN_Description,'BARNYARD (ECHINOCHLOA ESCULENTA (L.)) ',leading/trailing whitespace
+HSN_MSTR,1865,HSN_Description,'PROSO (PANICUM MILIACEUM (L.)) ',leading/trailing whitespace
+HSN_MSTR,1866,HSN_Description,'FOXTAIL (SETARIA ITALICA (L.)) ',leading/trailing whitespace
+HSN_MSTR,1868,HSN_Description,'LITTLE (PANICUM SUMATRENSE (L.)) ',leading/trailing whitespace
+HSN_MSTR,1870,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,2013,HSN_Description,'PALM KERNELS ',leading/trailing whitespace
+HSN_MSTR,2103,HSN_Description,'GARCINIA ',leading/trailing whitespace
+HSN_MSTR,2115,HSN_Description,'ASHOKA (SARACA ASOCA.) ',leading/trailing whitespace
+HSN_MSTR,2116,HSN_Description,'ARJUNA (TERMINALIA ARJUNA) ',leading/trailing whitespace
+HSN_MSTR,2128,HSN_Description,'SANDALWOOD CHIPS AND DUST ',leading/trailing whitespace
+HSN_MSTR,2134,HSN_Description,'ASHWAGANDHA (WITHANIA SOMNIFERA) ',leading/trailing whitespace
+HSN_MSTR,2204,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,2205,HSN_Description,' COPAL',leading/trailing whitespace
+HSN_MSTR,2219,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,2220,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,2251,HSN_Description,'CHEMICALLY TREATED ',leading/trailing whitespace
+HSN_MSTR,2327,HSN_Description,"'FATS AND OILS AND THEIR FRACTIONS, OF MARINE MAMMALS '",leading/trailing whitespace
+HSN_MSTR,2328,HSN_Description,"'FATS AND OILS AND THEIR FRACTIONS, OF MARINE MAMMALS '",leading/trailing whitespace
+HSN_MSTR,2357,HSN_Description,'OTHER VIRGIN OLIVE OIL ',leading/trailing whitespace
+HSN_MSTR,2358,HSN_Description,'OTHER VIRGIN OLIVE OIL ',leading/trailing whitespace
+HSN_MSTR,2369,HSN_Description,' OTHER:',leading/trailing whitespace
+HSN_MSTR,2370,HSN_Description,'REFINED OLIVE POMACE OIL ',leading/trailing whitespace
+HSN_MSTR,2417,HSN_Description,' CRUDE OIL :',leading/trailing whitespace
+HSN_MSTR,2457,HSN_Description,'VEGETABLE FATS AND OILS AND THEIR FRACTIONS: ',leading/trailing whitespace
+HSN_MSTR,2469,HSN_Description,"' MARGARINE, EXCLUDING LIQUID MARGARINE:'",leading/trailing whitespace
+HSN_MSTR,2483,HSN_Description,' EDIBLE GRADE',leading/trailing whitespace
+HSN_MSTR,2484,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,2493,HSN_Description,'VEGETABLE WAXES : ',leading/trailing whitespace
+HSN_MSTR,2699,HSN_Description,"""Preparations of cereals, flour, starch or milk; pastrycooks' products""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,2704,HSN_Description,"""MIXES AND DOUGHS FOR THE PREPARATION OF BAKERS' WARES OF HEADING 1904""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,2705,HSN_Description,"""MIXES AND DOUGHS FOR THE PREPARATION OF BAKERS' WARES OF HEADING 1904""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,2740,HSN_Description,"""BREAD, PASTRY, CAKES, BISCUITS AND OTHER BAKERS' WARES, WHETHER OR NOT CONTAINING COCOA, COMMUNION WAFERS, EMPTY CACHETS OF A KIND SUITABLE FOR PHARMACEUTICAL USE, SEALING WAFERS, RICE PAPER AND SIMILAR PRODUCTS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,2850,HSN_Description,"' CRANBERRIES (VACCINIUM MACROCARPON, VACCINIUM OXYCOCCOS), LINGONBERRIES (VACCINIUM VITIS-IDAEA) '",leading/trailing whitespace
+HSN_MSTR,2851,HSN_Description,"' CRANBERRIES (VACCINIUM MACROCARPON, VACCINIUM OXYCOCCOS), LINGONBERRIES (VACCINIUM VITIS-IDAEA) '",leading/trailing whitespace
+HSN_MSTR,2854,HSN_Description,'OTHER: ',leading/trailing whitespace
+HSN_MSTR,2865,HSN_Description,"'FRUIT OR NUT JUICES (INCLUDING GRAPE MUST AND COCONUT WATER) AND VEGETABLE JUICES, UNFERMENTED AND NOT CONTAINING ADDED SPIRIT, WHETHER OR NOT CONTAINING ADDED SUGAR OR OTHER SWEETENING MATTER\t'",leading/trailing whitespace
+HSN_MSTR,2897,HSN_Description,' OTHER:',leading/trailing whitespace
+HSN_MSTR,2933,HSN_Description,"""BAKER'S YEAST""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,2968,HSN_Description,"'BETEL NUT PRODUCT KNOWN AS ""SUPARI""'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,3246,HSN_Description,"'OTHER MANUFACTURED TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES, ""HOMOGENISED"" OR ""RECONSTITUTED"" TOBACCO, TOBACCO EXTRACTS ANDESSENCES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,3253,HSN_Description,"'OTHER THAN PAPER ROLLED BIRIS, MANUFACTURED WITHOUT THE AID OF MACHINE '",leading/trailing whitespace
+HSN_MSTR,3256,HSN_Description,"'""HOMOGENISED"" OR ""RECONSTITUTED"" TOBACCO'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,3257,HSN_Description,"'""HOMOGENISED"" OR ""RECONSTITUTED"" TOBACCO'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,3291,HSN_Description,'SULPHUR RECOVERED AS BY-PRODUCT IN REFINING OF CRUDE OIL ',leading/trailing whitespace
+HSN_MSTR,3543,HSN_Description,'NATURAL BORIC ACID CONTAINING NOT MORE THAN 85% OF H3BO3 ( CALCULATED ON THE DRY WEIGHT ) ',leading/trailing whitespace
+HSN_MSTR,3635,HSN_Description,'CHROME ORE FRIABLE AND CONCENTRATES FIXES CONTAINING 47% CR2O3 AND ABOVE ',leading/trailing whitespace
+HSN_MSTR,3686,HSN_Description,' ZINC DROSS',leading/trailing whitespace
+HSN_MSTR,3702,HSN_Description,"'CONTAINING ANTIMONY, BERYLLIUM, CADMIUM, CHROMIUM OR THEIR MIXTURES '",leading/trailing whitespace
+HSN_MSTR,3703,HSN_Description,"'CONTAINING ANTIMONY , BERYLLIUM, CADMIUM, CHROMIUM OR THEIR MIXTURES '",leading/trailing whitespace
+HSN_MSTR,3707,HSN_Description,'ASH AND RESIDUES FROM THE INCINERATION OF MUNICIPAL WASTE ',leading/trailing whitespace
+HSN_MSTR,3708,HSN_Description,'ASH AND RESIDUES FROM THE INCINERATION OF MUNICIPAL WASTE ',leading/trailing whitespace
+HSN_MSTR,3727,HSN_Description,"'LIGNITE, WHETHER OR NOT PULVERISED, BUT NOT AGGLOMERATED '",leading/trailing whitespace
+HSN_MSTR,3728,HSN_Description,"'LIGNITE, WHETHER OR NOT PULVERISED, BUT NOT AGGLOMERATED '",leading/trailing whitespace
+HSN_MSTR,3733,HSN_Description,"'PEAT WHETHER OR NOT COMPRESSED INTO BALES, BUT NOT AGGLOMERATED '",leading/trailing whitespace
+HSN_MSTR,3772,HSN_Description,"'PETROLEUM OILS AND OILS OBTAINED FROM BITUMINOUS MINERALS, CRUDE '",leading/trailing whitespace
+HSN_MSTR,3846,HSN_Description,"'CONTAINING POLYCHLORINATED BIPHENYLS (PCBS), POLYCHLORINATED TERPHENYLS (PCTS) OR POLYBROMINATED BIPHENYLS (PBBS) '",leading/trailing whitespace
+HSN_MSTR,3847,HSN_Description,"'CONTAINING POLYCHLORINATED BIPHENYLS (PCBS), POLYCHLORINATED TERPHENYLS (PCTS) OR POLYBROMINATED BIPHENYLS (PBBS) '",leading/trailing whitespace
+HSN_MSTR,3967,HSN_Description,"'RARE-EARTH METALS, SCANDIUM AND YTTRIUM, WHETHER OR NOT INTERMIXED OR INTERALLOYED '",leading/trailing whitespace
+HSN_MSTR,3968,HSN_Description,"'RARE-EARTH METALS, SCANDIUM AND YTTRIUM, WHETHER OR NOT INTERMIXED OR INTERALLOYED '",leading/trailing whitespace
+HSN_MSTR,4018,HSN_Description,'HALIDES AND HALIDE OXIDES OF NON-METALS ',leading/trailing whitespace
+HSN_MSTR,4175,HSN_Description,"'CHLORIDES, CHLORIDE OXIDES AND CHLORIDE HYDROXIDES, BROMIDES AND BROMIDE OXIDES, IODIDES AND IODIDE OXIDES '",leading/trailing whitespace
+HSN_MSTR,4310,HSN_Description,'PHOSPHINATES (HYPOPHOSPHITES) AND PHOSPHONATES (PHOSPHITES) : ',leading/trailing whitespace
+HSN_MSTR,4470,HSN_Description,' BORON ENRICHED IN BORON-10 AND ITS COMPOUNDS',leading/trailing whitespace
+HSN_MSTR,4471,HSN_Description,' BORON ENRICHED IN BORON-10 AND ITS COMPOUNDS',leading/trailing whitespace
+HSN_MSTR,4472,HSN_Description,' LITHIUM ENRICHED IN LITHIUM-6 AND ITS COMPOUNDS',leading/trailing whitespace
+HSN_MSTR,4473,HSN_Description,' LITHIUM ENRICHED IN LITHIUM-6 AND ITS COMPOUNDS',leading/trailing whitespace
+HSN_MSTR,4637,HSN_Description,'TRIFLUOROMETHANE (HFC-23) ',leading/trailing whitespace
+HSN_MSTR,4638,HSN_Description,'TRIFLUOROMETHANE (HFC-23) ',leading/trailing whitespace
+HSN_MSTR,4641,HSN_Description,"'FLUOROMETHANE (HFC-41), 1,2-DIFLUOROETHANE (HFC-152) AND 1,1-DIFLUOROETHANE (HFC-152A) '",leading/trailing whitespace
+HSN_MSTR,4642,HSN_Description,"'FLUOROMETHANE (HFC-41), 1,2-DIFLUOROETHANE (HFC-152) AND 1,1-DIFLUOROETHANE (HFC- 152A) '",leading/trailing whitespace
+HSN_MSTR,4739,HSN_Description,"""1,5 NAPTHELENE DISULPHONIC ACID (ARMSTRONG'S ACID)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5036,HSN_Description,' CYCLOHEXANONE AND METHYL-CYCLOHEXANONES',leading/trailing whitespace
+HSN_MSTR,5037,HSN_Description,' CYCLOHEXANONE AND METHYL-CYCLOHEXANONES',leading/trailing whitespace
+HSN_MSTR,5214,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,5268,HSN_Description,'TARTARIC ACID ',leading/trailing whitespace
+HSN_MSTR,5269,HSN_Description,'TARTARIC ACID ',leading/trailing whitespace
+HSN_MSTR,5271,HSN_Description,'POTASSIUM BITARTRATE ',leading/trailing whitespace
+HSN_MSTR,5272,HSN_Description,'METROPROLOL TARTRATE ',leading/trailing whitespace
+HSN_MSTR,5273,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5274,HSN_Description,'CITRIC ACID ',leading/trailing whitespace
+HSN_MSTR,5275,HSN_Description,'CITRIC ACID ',leading/trailing whitespace
+HSN_MSTR,5278,HSN_Description,'SODIUM CITRATE ',leading/trailing whitespace
+HSN_MSTR,5279,HSN_Description,'BISMUTH CITRATE ',leading/trailing whitespace
+HSN_MSTR,5282,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5285,HSN_Description,'FERROUS GLUCONATE ',leading/trailing whitespace
+HSN_MSTR,5287,HSN_Description,"'2, 2-DIPHENYL-2-HYDROXYACETIC ACID (BENZILIC ACID) '",leading/trailing whitespace
+HSN_MSTR,5296,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5300,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5301,HSN_Description,"'O-ACETYLSALICYLIC ACID, ITS SALTS AND ESTERS '",leading/trailing whitespace
+HSN_MSTR,5302,HSN_Description,"'O-ACETYLSALICYLIC ACID, ITS SALTS AND ESTERS '",leading/trailing whitespace
+HSN_MSTR,5304,HSN_Description,'METHYL SALICYLATE ',leading/trailing whitespace
+HSN_MSTR,5305,HSN_Description,'AMINO SALICYLATE ',leading/trailing whitespace
+HSN_MSTR,5306,HSN_Description,'SALICYLAMIDE ',leading/trailing whitespace
+HSN_MSTR,5308,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5310,HSN_Description,'GALLIC ACID ',leading/trailing whitespace
+HSN_MSTR,5312,HSN_Description,'PROPYL GALLATE ',leading/trailing whitespace
+HSN_MSTR,5313,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5338,HSN_Description,"'TRIS(2,3-DIBROMOPROPYL) PHOSPHATE '",leading/trailing whitespace
+HSN_MSTR,5339,HSN_Description,"'TRIS(2,3-DIBROMOPROPYL) PHOSPHATE '",leading/trailing whitespace
+HSN_MSTR,5342,HSN_Description,'CALCIUM GLYCEROPHOSPHATE ',leading/trailing whitespace
+HSN_MSTR,5343,HSN_Description,'IRON GLYCEROPHOSPHATE ',leading/trailing whitespace
+HSN_MSTR,5344,HSN_Description,'SODIUM GLYCEROPHOSPHATE ',leading/trailing whitespace
+HSN_MSTR,5345,HSN_Description,'TRICRESYL PHOSPHATE ',leading/trailing whitespace
+HSN_MSTR,5346,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5463,HSN_Description,"""BRONNER'S ACID (2-NAPHTHYLAMINE-6-SULPHONIC ACID)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5464,HSN_Description,"""CLEVE'S ACID (1-NAPHTHYLAMINE-6-SULPHONIC ACID)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5466,HSN_Description,"""KOCH'S ACID (1-NAPHTHYLAMINE-3,6,8-TRISULPHONIC ACID)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5467,HSN_Description,"""LAURENT'S ACID (1-NAPHTHYLAMINE-5-SULPHONIC ACID)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5468,HSN_Description,'TOBIAS ACID (2-NAPHTHYLAMINE-1-SULPHONIC ACID) ',leading/trailing whitespace
+HSN_MSTR,5597,HSN_Description,'DIDECYLDIMETHYLAMMONIUM PERFLUOROOCTANE SULPHONATE ',leading/trailing whitespace
+HSN_MSTR,5627,HSN_Description,'PHENYL ACETAMIDE ',leading/trailing whitespace
+HSN_MSTR,5632,HSN_Description,'SACCHARIN AND ITS SALTS ',leading/trailing whitespace
+HSN_MSTR,5633,HSN_Description,'SACCHARIN AND ITS SALTS ',leading/trailing whitespace
+HSN_MSTR,5634,HSN_Description,'GLUTETHIMIDE (INN) ',leading/trailing whitespace
+HSN_MSTR,5635,HSN_Description,'GLUTETHIMIDE (INN) ',leading/trailing whitespace
+HSN_MSTR,5636,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5637,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5640,HSN_Description,'CHLORDIMEFORM (ISO) ',leading/trailing whitespace
+HSN_MSTR,5641,HSN_Description,'CHLORDIMEFORM (ISO) ',leading/trailing whitespace
+HSN_MSTR,5643,HSN_Description,'GUANIDINE NITRATE ',leading/trailing whitespace
+HSN_MSTR,5645,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5649,HSN_Description,'1-CYANOGUANIDINE (DICYANDIAMIDE) ',leading/trailing whitespace
+HSN_MSTR,5650,HSN_Description,'1-CYANOGUANIDINE (DICYANDIAMIDE) ',leading/trailing whitespace
+HSN_MSTR,5665,HSN_Description,'ISONIAZID ',leading/trailing whitespace
+HSN_MSTR,5667,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5669,HSN_Description,' ISOCYANATES :',leading/trailing whitespace
+HSN_MSTR,5670,HSN_Description,'PHENYL ISOCYANATE ',leading/trailing whitespace
+HSN_MSTR,5671,HSN_Description,'TOLUENE DI-ISOCYANATE ',leading/trailing whitespace
+HSN_MSTR,5673,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,5687,HSN_Description,"'N-(1-(Dialkyl (<=C10, incl. cycloalkyl) amino))alkylidene (H or <=C10, incl. cycloalkyl) phosphonamidic fluorides and corresponding alkylated or protonated salts'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5688,HSN_Description,"'O-Alkyl (H or <= C10, incl. cycloalkyl) N-(1-(dialkyl (<=C10, incl. cycloalkyl) amino))alkylidene (H or <= C10, incl. cycloalkyl) phosphoramidofluoridates and corresponding alkylated or protonated salts'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5811,HSN_Description,"'P-Alkyl (<=C10, incl. cycloalkyl) N-(1-(dialkyl (<=C10, incl. cycloalkyl) amino))alkylidene (H or <=C10, incl. cycloalkyl) phosphonamidic fluorides and corresponding alkylated or protonated salts'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5910,HSN_Description,' PENTAZOCINE (INN) AND ITS SALT',leading/trailing whitespace
+HSN_MSTR,5911,HSN_Description,' PETHIDINE (INN) AND ITS SALT',leading/trailing whitespace
+HSN_MSTR,5912,HSN_Description,' PETHIDINE (INN) INTERMEDIATE A AND ITS SALT',leading/trailing whitespace
+HSN_MSTR,5913,HSN_Description,' PHENCYCLIDINE (INN) (PCP) AND ITS SALT',leading/trailing whitespace
+HSN_MSTR,5914,HSN_Description,' PHENOPERIDINE (INN) AND ITS SALT',leading/trailing whitespace
+HSN_MSTR,5940,HSN_Description,'IMAZETHAPYR (ISO) ',leading/trailing whitespace
+HSN_MSTR,5945,HSN_Description,"'1 -[N,N -Dialkyl (<=C10) - N -(n -(hydroxyl, cyano, acetoxy)alkyl (<=C10)) ammonio] - n -[N -(3 - dimethylcarbamoxy - a -picolinyl) -N,N -dialkyl (<=C10) ammonio]decane dibromide (n=1 -8)'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,5946,HSN_Description,"'1,n -Bis[N -(3 -dimethylcarbamoxy - a -picolyl) -N,N - dialkyl (<=C10) ammonio] -alkane -(2,(n -1) -dione) dibromide (n=2 -12)'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,6044,HSN_Description,'FLUBENDIAMIDE (ISO) ',leading/trailing whitespace
+HSN_MSTR,6046,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6092,HSN_Description,'INSULIN AND ITS SALTS ',leading/trailing whitespace
+HSN_MSTR,6093,HSN_Description,'INSULIN AND ITS SALTS ',leading/trailing whitespace
+HSN_MSTR,6094,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6095,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6141,HSN_Description,'EPHEDRINE AND ITS SALTS ',leading/trailing whitespace
+HSN_MSTR,6142,HSN_Description,'EPHEDRINE AND ITS SALTS ',leading/trailing whitespace
+HSN_MSTR,6223,HSN_Description,"""D(-) PARA HYDROXY DANE'S SALTS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,6305,HSN_Description,'TYPHOID-PARATYPHOID (TAB) ',leading/trailing whitespace
+HSN_MSTR,6355,HSN_Description,'ANAESTHETIC AGENTS USED IN HUMAN OR VETERINARY MEDICINE OR SURGERY ',leading/trailing whitespace
+HSN_MSTR,6360,HSN_Description,"'CONTAINING PENICILLINS OR DERIVATIVES THEREOF, WITH A PENICILLANIC ACID STRUCTURE, OR STREPTOMYCINS OR THEIR DERIVATIVES :\t'",leading/trailing whitespace
+HSN_MSTR,6637,HSN_Description,'CONTAINING BY WEIGHT 35 % OR MORE OF DIPHOSPHORUS PENTAOXIDE (P2O5) ',leading/trailing whitespace
+HSN_MSTR,6887,HSN_Description,'AZOIC COUPLING COMPONENT 13 (NAPHTHOL ASSG) ',leading/trailing whitespace
+HSN_MSTR,6901,HSN_Description,'AZOIC DIAZO COMPONENT 11 (FAST RED TR BASE) ',leading/trailing whitespace
+HSN_MSTR,6957,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6958,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6959,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6963,HSN_Description,'UTRAMARINE AND PREPARATIONS BASED THEREON ',leading/trailing whitespace
+HSN_MSTR,6964,HSN_Description,'UTRAMARINE AND PREPARATIONS BASED THEREON ',leading/trailing whitespace
+HSN_MSTR,6969,HSN_Description,'RED OXIDE ',leading/trailing whitespace
+HSN_MSTR,6970,HSN_Description,'PERSIAN RED ',leading/trailing whitespace
+HSN_MSTR,6971,HSN_Description,'YELLOW OCHRE ',leading/trailing whitespace
+HSN_MSTR,6972,HSN_Description,'BRONZE POWDER ',leading/trailing whitespace
+HSN_MSTR,6973,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,6974,HSN_Description,'INORGANIC PRODUCTS OF A KIND USED AS LUMINOPHORES ',leading/trailing whitespace
+HSN_MSTR,6975,HSN_Description,'INORGANIC PRODUCTS OF A KIND USED AS LUMINOPHORES ',leading/trailing whitespace
+HSN_MSTR,7018,HSN_Description,'EMULSION PAINTS NOT ELSEWHERE SPECIFIED OR INCLUDED ',leading/trailing whitespace
+HSN_MSTR,7027,HSN_Description,'POLY TETRA FLUORO ETHYLENE (PTFE) OR SILICON RESIN BASED COATING MATERIALS ',leading/trailing whitespace
+HSN_MSTR,7037,HSN_Description,'DYES AND OTHER COLOURING MATTER PUT UP IN FORMS OR PACKINGS FOR RETAIL SALE ',leading/trailing whitespace
+HSN_MSTR,7040,HSN_Description,"""ARTISTS', STUDENTS' OR SIGNBOARD PAINTERS' COLOURS, MODIFIYING TINTS, AMUSEMENT COLOURS AND THE LIKE, IN TABLETS, TUBES, JARS, BOTTLES, PANS OR IN SIMILAR FORMS OR PACKINGS.""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7045,HSN_Description,"""GLAZIERS' PUTTY, GRAFTING PUTTY, RESIN CEMENTS, CAULKING COMPOUNDS AND OTHER MASTICS, PAINTERS' FILLINGS, NON-REFRACTORY SURFACING PREPARTIONS FOR FACADES, INDOOR WALLS, FLOORS, CEILINGS OR THE LIKE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7046,HSN_Description,"""GLAZIERS' PUTTY, GRAFTING PUTTY, RESIN CEMENTS, CAULKING COMPOUNDS AND OTHER MASTICS, PAINTERS' FILLINGS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7047,HSN_Description,"""GLAZIERS' PUTTY, GRAFTING PUTTY, RESIN CEMENTS, CAULKING COMPOUNDS AND OTHER MASTICS, PAINTERS' FILLINGS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7129,HSN_Description,"""SPICES' OILS NOT ELSEWHERE SPECIFIED OR INCLUDED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7205,HSN_Description,'OTHER : ',leading/trailing whitespace
+HSN_MSTR,7217,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,7224,HSN_Description,'SHAVING CREAM ',leading/trailing whitespace
+HSN_MSTR,7225,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,7231,HSN_Description,"'""AGARBATTI"" AND OTHER ODORIFEROUS PREPARATIONS WHICH OPERATE BY BURNING'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7232,HSN_Description,"'""AGARBATTI"" AND OTHER ODORIFEROUS PREPARATIONS WHICH OPERATE BY BURNING'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7239,HSN_Description,"'SOAP, ORGANIC SURFACE-ACTIVE AGENTS, WASHING PREPARATIONS, LUBRICATING PREPARATIONS, ARTIFICIAL WAXES, PREPARED WAXES, POLISHING OR SCOURING PREPARATIONS, CANDLES AND SIMILAR ARTICLES, MODELLING PASTES, ""DENTAL WAXES"" AND DENTAL PREPARATIONS WITH A BASIS OF PLASTER'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7255,HSN_Description,"'ORGANIC SURFACE-ACTIVE PRODUCTS AND PREPARATIONS FOR WASHING THE SKIN, IN THE FORM OF LIQUID OR CREAM AND PUT UP FOR RETAIL SALE,WHETHER OR NOT CONTAINING SOAP :\t'",leading/trailing whitespace
+HSN_MSTR,7303,HSN_Description,"'PREPARATIONS FOR THE TREATMENT OF TEXTILE MATERIALS, LEATHER, FURSKINS OR OTHER MATERIALS '",leading/trailing whitespace
+HSN_MSTR,7304,HSN_Description,"'PREPARATIONS FOR THE TREATMENT OF TEXTILE MATERIALS, LEATHER, FURSKINS OR OTHER MATERIALS '",leading/trailing whitespace
+HSN_MSTR,7330,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,7333,HSN_Description,'CANDLES ',leading/trailing whitespace
+HSN_MSTR,7335,HSN_Description,"'MODELLING PASTES, INCLUDING THOSE PUT UP FOR CHILDREN\'S AMUSEMENT, PREPARATIONS KNOWN AS ""DENTAL WAX"" OR AS ""DENTAL IMPRESSION COMPOUNDS"", PUT UP IN SETS, IN PACKINGS FOR RETAIL SALE OR IN PLATES, HORSESHOE SHAPES, STICKS OR SIMILAR FORMS, OTHER PREPARATIONS FOR USE IN DENTISTRY, WITH A BASIS OF PLASTER (OF CALCINED GYPSUM OR CALCIUM SULPHATE)'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7336,HSN_Description,"'MODELLING PASTES, INCLUDING THOSE PUT UP FOR CHILDREN\'S AMUSEMENT, PREPARATIONS KNOWN AS ""DENTAL WAX"" OR AS ""DENTAL IMPRESSION COMPOUNDS"", PUT UP IN SETS, IN PACKINGS FOR RETAIL SALE OR IN PLATES, HORSESHOE SHAPES, STICKS OR SIMILAR FORMS, OTHER PREPARATIONS FOR USE IN DENTISTRY, WITH A BASIS OF PLASTER (OF CALCINED GYPSUM OR CALCIUM SULPHATE):'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7337,HSN_Description,"""MODELLING PASTES, INCLUDING THOSE PUT UP FOR CHILDREN'S AMUSEMENT""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7350,HSN_Description,"'MILK ALBUMIN, INCLUDING CONCENTRATES OF TWO OR MORE WHEY PROTEINS '",leading/trailing whitespace
+HSN_MSTR,7351,HSN_Description,"'MILK ALBUMIN, INCLUDING CONCENTRATES OF TWO OR MORE WHEY PROTEINS '",leading/trailing whitespace
+HSN_MSTR,7359,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,7372,HSN_Description,"'PRODUCTS SUITABLE FOR USE AS GLUES OR ADHESIVES, PUT UP FOR RETAIL SALE AS GLUES OR ADHESIVES, NOT EXCEEDING A NET WEIGHT OF '",leading/trailing whitespace
+HSN_MSTR,7373,HSN_Description,"'PRODUCTS SUITABLE FOR USE AS GLUES OR ADHESIVES, PUT UP FOR RETAIL SALE AS GLUES OR ADHESIVES, NOT EXCEEDING A NET WEIGHT OF '",leading/trailing whitespace
+HSN_MSTR,7382,HSN_Description,'RENNET AND CONCENTRATES THEREOF: ',leading/trailing whitespace
+HSN_MSTR,7451,HSN_Description,' OTHERS',leading/trailing whitespace
+HSN_MSTR,7457,HSN_Description,'INSTANT PRINT FILM ',leading/trailing whitespace
+HSN_MSTR,7458,HSN_Description,'INSTANT PRINT FILM ',leading/trailing whitespace
+HSN_MSTR,7465,HSN_Description,'CINEMATOGRAPHIC FILM ',leading/trailing whitespace
+HSN_MSTR,7466,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,7468,HSN_Description,'FOR X-RAY ',leading/trailing whitespace
+HSN_MSTR,7469,HSN_Description,'FOR X-RAY ',leading/trailing whitespace
+HSN_MSTR,7550,HSN_Description,'OF A WIDTH OF 35 MM OR MORE : ',leading/trailing whitespace
+HSN_MSTR,7555,HSN_Description,"'CHILDREN\'S FILMS CERTIFIED BY THE CENTRAL BOARD OF FILM CERTIFICATION TO BE ""CHILDREN\'S FILM""'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7561,HSN_Description,"'CHILDREN\'S FILM CERTIFIED BY THE CENTRAL BOARD OF FILMS CERTIFICATION TO BE ""CHILDREN\'S FILM""'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7576,HSN_Description,"'CHILDREN\'S FILMS CERTIFIED BY THE CENTRAL BOARD OF FILM CERTIFICATION TO BE ""CHILDREN\'S FILM""'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7582,HSN_Description,"'CHILDREN\'S FILM CERTIFIED BY THE CENTRAL BOARD OF FILMS CERTIFICATION TO BE ""CHILDREN\'S FILM""'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7647,HSN_Description,"""WOOD TAR, WOOD TAR OILS, WOOD CREOSOTE, WOOD NAPHTHA, VEGETABLE PITCH, BREWERS' PITCH AND SIMILAR PREPARATIONS BASED ON ROSIN, RESIN ACIDS OR ON VEGETABLE PITCH""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7648,HSN_Description,"""WOOD TAR, WOOD TAR OILS, WOOD CREOSOTE, WOOD NAPHTHA, VEGETABLE PITCH, BREWERS' PITCH AND SIMILAR PREPARATIONS BASED ON ROSIN, RESIN ACIDS OR ON VEGETABLE PITCH:""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7651,HSN_Description,"""VEGETABLE PITCH, BREWERS' PITCH AND SIMILAR PREPARATIONS BASED ON ROSIN, RESIN ACIDS OR VEGETABLE PITCH""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,7705,HSN_Description,'ALUMINIUM PHOSPHATE (FOR EXAMPLE PHOSTOXIN) ',leading/trailing whitespace
+HSN_MSTR,7718,HSN_Description,'SYNTHETIC PYRETHRUM ',leading/trailing whitespace
+HSN_MSTR,7744,HSN_Description,'Alphanaphthyl\xa0 Acetic Acid conforming to IS 13070; Chlormequat Chloride (CCC) conforming to IS 8961; Ethephon conforming to IS 14408; Mepiquate Chloride conforming to IS 16340',invisible/unicode-space character
+HSN_MSTR,7793,HSN_Description,'PREPARATIONS OF A KIND USED AS CORES OR COATINGS FOR WELDING ELECTRODES AND RODS ',leading/trailing whitespace
+HSN_MSTR,7842,HSN_Description,"' Containing carbon tetrachloride, \n bromochloromethane or 1,1,1-trichloroethane \n (methyl chloroform)'",leading/trailing whitespace
+HSN_MSTR,7891,HSN_Description,' OTHER:',leading/trailing whitespace
+HSN_MSTR,7892,HSN_Description,' CERTIFIED REFERENCE MATERIALS',leading/trailing whitespace
+HSN_MSTR,7893,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,7925,HSN_Description,"'CONCRETES READY TO USE KNOWN AS ""READY- MIX CONCRETE (RMC)""'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,8089,HSN_Description,"'BROMINATED POLYSTYRENE, CONTAINING BY WEIGHT 58% OR MORE BUT NOT MORE THAN 71% OF BROMINE, IN ONE OF THE FORMS MENTIONED IN NOTE 6(B) TO THIS CHAPTER '",leading/trailing whitespace
+HSN_MSTR,8381,HSN_Description,' OF ADDITION POLYMERISATION PRODUCTS',leading/trailing whitespace
+HSN_MSTR,8397,HSN_Description,"'WALL OR CEILING COVERINGS COMBINED WITH KNITTED OR WOVEN FABRICS, NONWOVENS OR FELTS '",leading/trailing whitespace
+HSN_MSTR,8407,HSN_Description,'OF POLYMERS OF EHTYLENE : ',leading/trailing whitespace
+HSN_MSTR,8487,HSN_Description,'OF OTHER CELLULOSE DERIVATIVES : ',leading/trailing whitespace
+HSN_MSTR,8610,HSN_Description,"""BUILDERS' WARE OF PLASTICS, NOT ELSEWHERE SPECIFIED OR INCLUDED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,8743,HSN_Description,"'""CAMEL-BACK"" STRIPS FOR RETREADING RUBBER TYRES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,8744,HSN_Description,"'""CAMEL-BACK"" STRIPS FOR RETREADING RUBBER TYRES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,8846,HSN_Description,"'OF A KIND USED ON CONSTRUCTION, MINING OR INDUSTRIAL HANDLING VEHICLES AND MACHINES '",leading/trailing whitespace
+HSN_MSTR,8889,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,8945,HSN_Description,"""PRINTERS' ROLLERS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9061,HSN_Description,"'TRUNKS, SUIT-CASES, VANITY-CASES, EXECUTIVE- CASES, BRIEF-CASES, SCHOOL SATCHELS, SPECTACLE CASES, BINOCULAR CASES, CAMERA CASES, MUSICAL INSTRUMENT CASES, GUN CASES, HOLSTERS AND SIMILAR CONTAINERS, TRAVELLING-BAGS , INSULATED FOOD OR BEVERAGES BAGS, TOILET BAGS, RUCKSACKS, HANDBAGS, SHOPPING-BAGS, WALLETS, PURSES, MAP-CASES, CIGARETTE-CASES, TOBACCO-POUCHES, TOOL BAGS, SPORTS BAGS, BOTTLE- CASES, JEWELLERY BOXES, POWDER-BOXES , CUTLERY CASES AND SIMILAR CONTAINERS, OF LEATHER OR OF COMPOSITION LEATHER, OF SHEETING OF PLASTICS, OF TEXTILE MATERIALS, OF VULCANISED FIBRE OR OF PAPERBOARD, OR WHOLLY OR MAINLY COVERED WITH SUCH MATERIALS OR WITH PAPER\t'",leading/trailing whitespace
+HSN_MSTR,9077,HSN_Description,' BRIEF CASES',leading/trailing whitespace
+HSN_MSTR,9081,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,9099,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,9106,HSN_Description,'WITH OUTER SURFACE OF SHEETING OF PLASTICS OR OF TEXTILE MATERIALS: ',leading/trailing whitespace
+HSN_MSTR,9150,HSN_Description,"""ARTICLES OF GUT (OTHER THAN SILK-WORM GUT), OF GOLDBEATER'S SKIN, OF BLADDERS OR OF TENDONS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9158,HSN_Description,"""RAW FURSKINS (INCLUDING HEADS, TAILS, PAWS AND OTHER PIECES OR CUTTINGS, SUITABLE FOR FURRIERS' USE), OTHER THAN RAW HIDES AND SKINS OF HEADING 4101, 4102 OR 4102""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9168,HSN_Description,"""HEADS, TAILS, PAWS AND OTHER PIECES OR CUTTINGS, SUITABLE FOR FURRIERS' USE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9169,HSN_Description,"""HEADS, TAILS, PAWS AND OTHER PIECES OR CUTTINGS, SUITABLE FOR FURRIERS' USE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9237,HSN_Description,"'WOOD IN THE ROUGH, WHETHER OR NOT STRIPPED OF BARK OR SAPWOOD, OR ROUGHLY SQUARED '",leading/trailing whitespace
+HSN_MSTR,9273,HSN_Description,'TEAK ',leading/trailing whitespace
+HSN_MSTR,9274,HSN_Description,'TEAK ',leading/trailing whitespace
+HSN_MSTR,9275,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,9276,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,9303,HSN_Description,' ROSE WOOD (DALBERGEA LATIFOLIO)',leading/trailing whitespace
+HSN_MSTR,9318,HSN_Description,"'WOODEN STICKS, ROUGHLY TRIMMED BUT NOT TURNED, BENT OR OTHERWISE WORKED, SUITABLE FOR THE MANUFACTURE OF WALKING STICKS, TOOL HANDLES, SPLIT POLES, PILES, PICKETS, STAKES AND THE LIKE '",leading/trailing whitespace
+HSN_MSTR,9340,HSN_Description,'OF PINE (PINUS SPP.) ',leading/trailing whitespace
+HSN_MSTR,9353,HSN_Description,"'VIROLA, IMBUIA AND BALSA '",leading/trailing whitespace
+HSN_MSTR,9354,HSN_Description,"'VIROLA, IMBUIA AND BALSA '",leading/trailing whitespace
+HSN_MSTR,9355,HSN_Description,'TEAK ',leading/trailing whitespace
+HSN_MSTR,9356,HSN_Description,'TEAK ',leading/trailing whitespace
+HSN_MSTR,9362,HSN_Description,'SAPELLI ',leading/trailing whitespace
+HSN_MSTR,9363,HSN_Description,'SAPELLI ',leading/trailing whitespace
+HSN_MSTR,9364,HSN_Description,'IROKO ',leading/trailing whitespace
+HSN_MSTR,9365,HSN_Description,'IROKO ',leading/trailing whitespace
+HSN_MSTR,9366,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,9367,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,9388,HSN_Description,"'SHEETS FOR VENEERING (INCLUDING THOSE OBTAINED BY SLICING LAMINATED WOOD), FOR PLYWOOD OR FOR SIMILAR LAMINATED WOOD AND OTHER WOOD, SAWN LENGTHWISE, SLICED OR PEELED, WHETHER OR NOT PLANED, SANDED, SPLICED OR END-JOINTED, OF A THICKNESS NOT EXCEEDING 6 MM '",leading/trailing whitespace
+HSN_MSTR,9493,HSN_Description,'HARDBOARD ',leading/trailing whitespace
+HSN_MSTR,9494,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,9608,HSN_Description,'DECORATIVE PLYWOOD ',leading/trailing whitespace
+HSN_MSTR,9609,HSN_Description,"'TEA CHEST PANELS, SHOOKS WHETHER OR NOT PACKED IN SETS '",leading/trailing whitespace
+HSN_MSTR,9613,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,9619,HSN_Description,' OF TROPIC WOOD',leading/trailing whitespace
+HSN_MSTR,9620,HSN_Description,' OF TROPIC WOOD',leading/trailing whitespace
+HSN_MSTR,9621,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,9622,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,9628,HSN_Description,"""CASKS, BARRELS, VATS, TUBS AND OTHER COOPERS' PRODUCTS AND PARTS THEREOF, OF WOOD, INCLUDING STAVES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9629,HSN_Description,"""CASKS, BARRELS, VATS, TUBS AND OTHER COOPERS' PRODUCTS AND PARTS THEREOF, OF WOOD, INCLUDING STAVES:""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9631,HSN_Description,"""OTHER COOPERS' PRODUCTS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9637,HSN_Description,"""BUILDERS' JOINERY AND CARPENTRY OF WOOD, INCLUDING CELLULAR WOOD PANELS, ASSEMBLED FLOORING PANELS, SHINGLES AND SHAKES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,9647,HSN_Description,' OF TROPICAL WOOD:',leading/trailing whitespace
+HSN_MSTR,9648,HSN_Description,' FLUSH DOORS',leading/trailing whitespace
+HSN_MSTR,9649,HSN_Description,' FRAMES AND THRESHOLDS OF FLUSH DOORS',leading/trailing whitespace
+HSN_MSTR,9650,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9651,HSN_Description,' OTHER:',leading/trailing whitespace
+HSN_MSTR,9652,HSN_Description,' FLUSH DOORS',leading/trailing whitespace
+HSN_MSTR,9653,HSN_Description,' FRAMES AND THRESHOLDS OF FLUSH DOORS',leading/trailing whitespace
+HSN_MSTR,9654,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9656,HSN_Description,' POSTS AND BEAMS OTHER THAN PRODUCTS OF SUBHEADING 4418 81 TO 4418 88',leading/trailing whitespace
+HSN_MSTR,9657,HSN_Description,' SHUTTERING FOR CONCERETE CONSTRUCTIONAL WORK',leading/trailing whitespace
+HSN_MSTR,9658,HSN_Description,' SHUTTERING FOR CONCERETE CONSTRUCTIONAL WORK',leading/trailing whitespace
+HSN_MSTR,9659,HSN_Description,' SHINGLES AND SHAKES',leading/trailing whitespace
+HSN_MSTR,9660,HSN_Description,' SHINGLES AND SHAKES',leading/trailing whitespace
+HSN_MSTR,9666,HSN_Description,"' OTHER, FOR MOSAIC FLOORS'",leading/trailing whitespace
+HSN_MSTR,9668,HSN_Description,"' OTHER, MULTILAYER'",leading/trailing whitespace
+HSN_MSTR,9670,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9671,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9672,HSN_Description,' GLUELAMINATED TIMBER (GLULAM)',leading/trailing whitespace
+HSN_MSTR,9673,HSN_Description,' GLUELAMINATED TIMBER (GLULAM)',leading/trailing whitespace
+HSN_MSTR,9674,HSN_Description,' CROSSLAMINATED TIMBER (CLT OR XLAM)',leading/trailing whitespace
+HSN_MSTR,9675,HSN_Description,' CROSSLAMINATED TIMBER (CLT OR XLAM)',leading/trailing whitespace
+HSN_MSTR,9676,HSN_Description,' I BEAMS',leading/trailing whitespace
+HSN_MSTR,9677,HSN_Description,' I BEAMS',leading/trailing whitespace
+HSN_MSTR,9678,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9679,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9681,HSN_Description,' OF BAMBOO',leading/trailing whitespace
+HSN_MSTR,9683,HSN_Description,' CELLULAR WOOD PANELS',leading/trailing whitespace
+HSN_MSTR,9684,HSN_Description,' CELLULAR WOOD PANELS',leading/trailing whitespace
+HSN_MSTR,9685,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9705,HSN_Description,' OF TROPICAL WOOD',leading/trailing whitespace
+HSN_MSTR,9706,HSN_Description,' OF TROPICAL WOOD',leading/trailing whitespace
+HSN_MSTR,9707,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9708,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9868,HSN_Description,' GLAZED',leading/trailing whitespace
+HSN_MSTR,9869,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9872,HSN_Description,' PAPER',leading/trailing whitespace
+HSN_MSTR,9873,HSN_Description,' PAPERBOARD',leading/trailing whitespace
+HSN_MSTR,9874,HSN_Description,"' PAPER AND PAPERBOARD OF A KIND USED AS A BASE FOR PHOTOSENSITIVE, HEATSENSITIVE OR ELECTROSENSITIVE PAPER OR PAPERBOARD :'",leading/trailing whitespace
+HSN_MSTR,9875,HSN_Description,"' PHOTOGRAPHIC BASE PAPER, UNCOATED'",leading/trailing whitespace
+HSN_MSTR,9876,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,9943,HSN_Description,"'PAPER FOR SECURITY PRINTING, CURRENCY PAPER, STAMP PAPER '",leading/trailing whitespace
+HSN_MSTR,9991,HSN_Description,'WEIGHING 150 G/M OR LESS ',leading/trailing whitespace
+HSN_MSTR,9992,HSN_Description,'WEIGHING 150 G/M OR LESS ',leading/trailing whitespace
+HSN_MSTR,9997,HSN_Description,"'VEGETABLE PARCHMENT, GREASEPROOF PAPERS, TRACING PAPERS AND GLASSINE AND OTHER GLAZED TRANSPARENT OR TRANSLUCENT PAPERS, IN ROLLS OR SHEETS\t'",leading/trailing whitespace
+HSN_MSTR,10007,HSN_Description,"'COMPOSITE PAPER AND PAPERBOARD (MADE BY STICKING FLAT LAYERS OF PAPER OR PAPERBOARD TOGETHER WITH AN ADHESIVE), NOT SURFACE-COATED OR IMPREGNATED, WHETHER OR NOT INTERNALLY REINFORCED, IN ROLLS OR SHEETS\t'",leading/trailing whitespace
+HSN_MSTR,10066,HSN_Description,' BLEACHED WEIGHING MORE THAN 150 G/:',leading/trailing whitespace
+HSN_MSTR,10118,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,10149,HSN_Description,"'  OTHER SACKS AND BAGS, INCLUDING CONES'",leading/trailing whitespace
+HSN_MSTR,10211,HSN_Description,"'PRODUCTS CONSISTING OF SHEETS OF PAPER OR\tPAPERBOARD, IMPREGNATED, COATED OR COVERED WITH PLASTICS (INCLUDING THERMOSET RESINS OR MIXTURES THEREOF OR CHEMICAL FORMULATIONS CONTAINING MELAMINE, PHENOL OR UREA FORMALDEHYDE WITH OR WITHOUT CURING AGENTS OR CATALYSTS), COMPRESSED TOGETHER IN ONE OR MORE OPERATIONS '",leading/trailing whitespace
+HSN_MSTR,10223,HSN_Description,"'DICTIONARIES AND ENCYCLOPAEDIAS, AND SERIAL INSTALMENTS THEREOF '",leading/trailing whitespace
+HSN_MSTR,10224,HSN_Description,"'DICTIONARIES AND ENCYCLOPAEDIAS, AND SERIAL INSTALMENTS THEREOF '",leading/trailing whitespace
+HSN_MSTR,10234,HSN_Description,"""CHILDREN'S PICTURE, DRAWING OR COLOURING BOOKS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,10261,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,10273,HSN_Description,'ADVERTISING CALENDAR ',leading/trailing whitespace
+HSN_MSTR,10316,HSN_Description,"'YARN SPUN FROM SILK WASTE, NOT PUT UP FOR RETAIL SALE : '",leading/trailing whitespace
+HSN_MSTR,10414,HSN_Description,'WORSTED HOSIERY YARN ',leading/trailing whitespace
+HSN_MSTR,10415,HSN_Description,'WORSTED KNITTED YARN ',leading/trailing whitespace
+HSN_MSTR,10420,HSN_Description,'WORSTED HOSIERY YARN ',leading/trailing whitespace
+HSN_MSTR,10421,HSN_Description,'WORSTED KNITTED YARN ',leading/trailing whitespace
+HSN_MSTR,10422,HSN_Description,'WORSTED WEAVING YARN ',leading/trailing whitespace
+HSN_MSTR,10424,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10432,HSN_Description,'HOISERY WOOL ',leading/trailing whitespace
+HSN_MSTR,10433,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10434,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,10435,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,10491,HSN_Description,'UNBLEACHED ',leading/trailing whitespace
+HSN_MSTR,10492,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,10493,HSN_Description,'DYED ',leading/trailing whitespace
+HSN_MSTR,10494,HSN_Description,'PRINTED ',leading/trailing whitespace
+HSN_MSTR,10495,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10497,HSN_Description,'UNBLEACHED ',leading/trailing whitespace
+HSN_MSTR,10498,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,10499,HSN_Description,'DYED ',leading/trailing whitespace
+HSN_MSTR,10500,HSN_Description,'PRINTED ',leading/trailing whitespace
+HSN_MSTR,10502,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10505,HSN_Description,'UNBLEACHED ',leading/trailing whitespace
+HSN_MSTR,10506,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,10507,HSN_Description,'DYED ',leading/trailing whitespace
+HSN_MSTR,10508,HSN_Description,'PRINTED ',leading/trailing whitespace
+HSN_MSTR,10509,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10517,HSN_Description,'BENGAL DESHI ',leading/trailing whitespace
+HSN_MSTR,10520,HSN_Description,"'INDIAN COTTON OF STAPLE LENGTH OVER 24.5 MM (31/32"") TO 28 MM'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,10521,HSN_Description,"'INDIAN COTTON OF STAPLE LENGTH 28.5 MM (14/32"") AND ABOVE BUT BELOW 34.5 MM'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,10522,HSN_Description,"'INDIAN COTTON OF ALL STAPLE LENGTH 34.5 MM AND ABOVE (112/32"")'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,10526,HSN_Description,'OF STAPLE LENGTH EXCEEDING 24.5 MM BUT NOT EXCEEDING 27.0 MM ',leading/trailing whitespace
+HSN_MSTR,10530,HSN_Description,'YARN WASTE (INCLUDING THREAD WASTE) ',leading/trailing whitespace
+HSN_MSTR,10531,HSN_Description,'YARN WASTE (INCLUDING THREAD WASTE) ',leading/trailing whitespace
+HSN_MSTR,10623,HSN_Description,'MEASURING PER SINGLE YARN LESS THAN 192.31 DECITEX BUT NOT LESS THAN 125 DECITEX (EXCEEDING 52 METRIC NUMBER BUT NOT EXCEEDING 80 METRIC NUMBER PER SINGLE YARN) : ',leading/trailing whitespace
+HSN_MSTR,10715,HSN_Description,"' PLAIN WEAVE, WEIGHING MORE THAN 100 G/M2:'",leading/trailing whitespace
+HSN_MSTR,10750,HSN_Description,"' 3-THREAD OR 4-THREAD TWILL, INCLUDING CROSS TWILL :'",leading/trailing whitespace
+HSN_MSTR,10755,HSN_Description,' OTHER FABRICS :',leading/trailing whitespace
+HSN_MSTR,10768,HSN_Description,'VOILS (EXCLUDING LENO FABRICS) ',leading/trailing whitespace
+HSN_MSTR,10814,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10816,HSN_Description,"'PLAIN WEAVE, WEIGHING NOT MORE THAN 100 G/M2 :       '",leading/trailing whitespace
+HSN_MSTR,10817,HSN_Description,' LUNGI',leading/trailing whitespace
+HSN_MSTR,10819,HSN_Description,'SHIRTING FABRICS ',leading/trailing whitespace
+HSN_MSTR,10823,HSN_Description,' MUSLIN (INCLUDING LAWN MULMUL AND ORGANDI)  OF CARDED OR COMBED YARN',leading/trailing whitespace
+HSN_MSTR,10826,HSN_Description,"'PLAIN WEAVE, WEIGHING MOREW THAN 100 G/M2 :    '",leading/trailing whitespace
+HSN_MSTR,10827,HSN_Description,'LUNGI ',leading/trailing whitespace
+HSN_MSTR,10828,HSN_Description,'SAARI ',leading/trailing whitespace
+HSN_MSTR,10835,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10842,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10894,HSN_Description,'DRILL ',leading/trailing whitespace
+HSN_MSTR,10910,HSN_Description,"'OTHER FABRICS OF 3-THREAD OR 4-THREAD TWILL, INCLUDING CROSS TWILL : '",leading/trailing whitespace
+HSN_MSTR,10918,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10922,HSN_Description,'SAREE ',leading/trailing whitespace
+HSN_MSTR,10923,HSN_Description,'SHIRTING FABRICS ',leading/trailing whitespace
+HSN_MSTR,10924,HSN_Description,'FURNISHING FABRICS (EXCLUDING PILE AND CHENILLE FABRICS) ',leading/trailing whitespace
+HSN_MSTR,10925,HSN_Description,'SEERSUCKER ',leading/trailing whitespace
+HSN_MSTR,10926,HSN_Description,"'BEDTICKING, DOMESTIC '",leading/trailing whitespace
+HSN_MSTR,10927,HSN_Description,'FLANNELETTE ',leading/trailing whitespace
+HSN_MSTR,10928,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10930,HSN_Description,'SHIRTING FABRICS ',leading/trailing whitespace
+HSN_MSTR,10932,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10935,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,10937,HSN_Description,' PLAIN WEAVE :',leading/trailing whitespace
+HSN_MSTR,10938,HSN_Description,' SHIRTING FABRICS',leading/trailing whitespace
+HSN_MSTR,10939,HSN_Description,'   SAREE',leading/trailing whitespace
+HSN_MSTR,10940,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,10943,HSN_Description,'   OTHER FABRICS',leading/trailing whitespace
+HSN_MSTR,10944,HSN_Description,'   OTHER FABRICS',leading/trailing whitespace
+HSN_MSTR,10945,HSN_Description,' PLAIN WEAVE :',leading/trailing whitespace
+HSN_MSTR,10946,HSN_Description,' SHIRTING FABRICS',leading/trailing whitespace
+HSN_MSTR,10947,HSN_Description,'   POPLIN AND BROAD FABRICS',leading/trailing whitespace
+HSN_MSTR,10948,HSN_Description,'   SAREE',leading/trailing whitespace
+HSN_MSTR,10949,HSN_Description,' SHIRTING (INCLUDING MAZRI)',leading/trailing whitespace
+HSN_MSTR,10950,HSN_Description,' VOILE',leading/trailing whitespace
+HSN_MSTR,10951,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,10957,HSN_Description,' OTHER FABRICS :',leading/trailing whitespace
+HSN_MSTR,10958,HSN_Description,"'   DHOTI AND SAREE, ZARI BORDERED'",leading/trailing whitespace
+HSN_MSTR,10959,HSN_Description,"'   DEDSUTI, DOSUTI, CERETONNES AND OSAMBURGE'",leading/trailing whitespace
+HSN_MSTR,10960,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,10961,HSN_Description,' PLAIN WEAVE :',leading/trailing whitespace
+HSN_MSTR,10962,HSN_Description,' SHIRTING FABRICS',leading/trailing whitespace
+HSN_MSTR,10963,HSN_Description,' COATING (INCLUDING SUITINGS)',leading/trailing whitespace
+HSN_MSTR,10965,HSN_Description,'   POPLIN AND BROAD FABRICS',leading/trailing whitespace
+HSN_MSTR,10966,HSN_Description,'   SAREE',leading/trailing whitespace
+HSN_MSTR,10967,HSN_Description,' VOILS',leading/trailing whitespace
+HSN_MSTR,10968,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,10969,HSN_Description,"'   3THREAD OR 4THREAD TWILL, INCLUDING CROSS TWILL :'",leading/trailing whitespace
+HSN_MSTR,10970,HSN_Description,'   CREPE FABRICS INCLUDING CREPE CHECKS',leading/trailing whitespace
+HSN_MSTR,10971,HSN_Description,' SHIRTING FABRICS',leading/trailing whitespace
+HSN_MSTR,10972,HSN_Description,"' BEDTICKING, DAMASK'",leading/trailing whitespace
+HSN_MSTR,10975,HSN_Description,' OTHER FABRICS :',leading/trailing whitespace
+HSN_MSTR,10976,HSN_Description,'   ZARI BORDERED SAREE',leading/trailing whitespace
+HSN_MSTR,10977,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,10981,HSN_Description,'SHIRTING FABRICS       ',leading/trailing whitespace
+HSN_MSTR,10982,HSN_Description,'SUITINGS       ',leading/trailing whitespace
+HSN_MSTR,10983,HSN_Description,'POPLIN AND BROAD FABRICS       ',leading/trailing whitespace
+HSN_MSTR,10984,HSN_Description,'SAREE       ',leading/trailing whitespace
+HSN_MSTR,10985,HSN_Description,'VOILS       ',leading/trailing whitespace
+HSN_MSTR,10986,HSN_Description,'OTHER       ',leading/trailing whitespace
+HSN_MSTR,10995,HSN_Description,' ZARI BORDERED SAREE',leading/trailing whitespace
+HSN_MSTR,10998,HSN_Description,' SHIRTING FABRICS',leading/trailing whitespace
+HSN_MSTR,10999,HSN_Description,'   CASEMENT',leading/trailing whitespace
+HSN_MSTR,11000,HSN_Description,'   SAREE',leading/trailing whitespace
+HSN_MSTR,11001,HSN_Description,'   POPLIN AND BROAD FABRICS',leading/trailing whitespace
+HSN_MSTR,11002,HSN_Description,' VOILS',leading/trailing whitespace
+HSN_MSTR,11003,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,11013,HSN_Description,'SAREE        ',leading/trailing whitespace
+HSN_MSTR,11014,HSN_Description,'OTHER        ',leading/trailing whitespace
+HSN_MSTR,11016,HSN_Description,'SHIRTING FABRICS        ',leading/trailing whitespace
+HSN_MSTR,11017,HSN_Description,"'TWILL, NOT ELSEWHERE SPECIFIED (INCLUDING GABERDINE) '",leading/trailing whitespace
+HSN_MSTR,11018,HSN_Description,'DAMASK        ',leading/trailing whitespace
+HSN_MSTR,11019,HSN_Description,'OTHER        ',leading/trailing whitespace
+HSN_MSTR,11020,HSN_Description,'OTHER FABRICS        ',leading/trailing whitespace
+HSN_MSTR,11030,HSN_Description,"'DEDSUTI, DOSUTI, CERETONNES AND OSAMBURGE   '",leading/trailing whitespace
+HSN_MSTR,11046,HSN_Description,'SHIRTING FABRICS         ',leading/trailing whitespace
+HSN_MSTR,11047,HSN_Description,'CANVAS (INCLUDING DUCK) OF CARDED OR COMBED YARN ',leading/trailing whitespace
+HSN_MSTR,11048,HSN_Description,'COATING (INCLUDING SUITINGS)      ',leading/trailing whitespace
+HSN_MSTR,11049,HSN_Description,'FLANNELLETTE        ',leading/trailing whitespace
+HSN_MSTR,11050,HSN_Description,'SAREE   ',leading/trailing whitespace
+HSN_MSTR,11051,HSN_Description,'OTHER   ',leading/trailing whitespace
+HSN_MSTR,11053,HSN_Description,'CREPE FABRICS INCLUDING CREPE CHECKS  ',leading/trailing whitespace
+HSN_MSTR,11054,HSN_Description,'SHIRTING FABRICS    ',leading/trailing whitespace
+HSN_MSTR,11055,HSN_Description,"'TWILL, NOT ELSEWHERE SPECIFIED (INCLUDING GABERDINE) '",leading/trailing whitespace
+HSN_MSTR,11056,HSN_Description,'TROUSERS OR PANT FABRICS (EXCLUDING JEANS AND CREPE)  ',leading/trailing whitespace
+HSN_MSTR,11057,HSN_Description,'OTHER     ',leading/trailing whitespace
+HSN_MSTR,11059,HSN_Description,'ZARI BORDERED SAREES     ',leading/trailing whitespace
+HSN_MSTR,11060,HSN_Description,'OTHER     ',leading/trailing whitespace
+HSN_MSTR,11062,HSN_Description,'BLEEDING MADRAS ',leading/trailing whitespace
+HSN_MSTR,11063,HSN_Description,'CHECK SHIRTING (EXCLUDING CREPE CHECKS) ',leading/trailing whitespace
+HSN_MSTR,11064,HSN_Description,'SHIRTING       ',leading/trailing whitespace
+HSN_MSTR,11065,HSN_Description,'SUITINGS       ',leading/trailing whitespace
+HSN_MSTR,11066,HSN_Description,'FLANNELETTE       ',leading/trailing whitespace
+HSN_MSTR,11067,HSN_Description,'SAREE       ',leading/trailing whitespace
+HSN_MSTR,11068,HSN_Description,'PARACHUTE FABRICS       ',leading/trailing whitespace
+HSN_MSTR,11069,HSN_Description,'OTHER       ',leading/trailing whitespace
+HSN_MSTR,11070,HSN_Description,'DENIM       ',leading/trailing whitespace
+HSN_MSTR,11072,HSN_Description,'BLEEDING MADRAS       ',leading/trailing whitespace
+HSN_MSTR,11073,HSN_Description,'CREPE FABRICS       ',leading/trailing whitespace
+HSN_MSTR,11074,HSN_Description,'SHIRTING FABRICS       ',leading/trailing whitespace
+HSN_MSTR,11075,HSN_Description,'SUITINGS       ',leading/trailing whitespace
+HSN_MSTR,11076,HSN_Description,'OTHER       ',leading/trailing whitespace
+HSN_MSTR,11081,HSN_Description,'SHIRTING FABRICS       ',leading/trailing whitespace
+HSN_MSTR,11082,HSN_Description,'FURNISHING FABRICS (EXCLUDING PILE AND CHENILLE FABRICS) ',leading/trailing whitespace
+HSN_MSTR,11083,HSN_Description,'FLANNELETTE       ',leading/trailing whitespace
+HSN_MSTR,11084,HSN_Description,'LONG CLOTH (CHINTZ)       ',leading/trailing whitespace
+HSN_MSTR,11085,HSN_Description,'SAREE       ',leading/trailing whitespace
+HSN_MSTR,11086,HSN_Description,'OTHER       ',leading/trailing whitespace
+HSN_MSTR,11088,HSN_Description,'CREPE FABRICS INCLUDING CREPE CHECKS       ',leading/trailing whitespace
+HSN_MSTR,11089,HSN_Description,'SHIRTING FABRICS       ',leading/trailing whitespace
+HSN_MSTR,11090,HSN_Description,"'TWILL, NOT ELSEWHERE SPECIFIED (INCLUDING GABERDINE)  '",leading/trailing whitespace
+HSN_MSTR,11091,HSN_Description,'OTHER       ',leading/trailing whitespace
+HSN_MSTR,11093,HSN_Description,'ZARI BORDERED SAREE       ',leading/trailing whitespace
+HSN_MSTR,11094,HSN_Description,'OTHER       ',leading/trailing whitespace
+HSN_MSTR,11116,HSN_Description,' SAARI ',leading/trailing whitespace
+HSN_MSTR,11133,HSN_Description,"' JUTE AND OTHER TEXTILE BAST FIBRES, RAW OR RETTED :'",leading/trailing whitespace
+HSN_MSTR,11134,HSN_Description,"' JUTE, RAW OR RETTED'",leading/trailing whitespace
+HSN_MSTR,11135,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,11137,HSN_Description,' JUTE CUTTING',leading/trailing whitespace
+HSN_MSTR,11138,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,11146,HSN_Description,"'COIR BRISTLES FIBRE, COIR MATTRESS FIBRE, COIR SHORT FIBRE, COIR BIT FIBRE, DECORTICATED COIR FIBRE '",leading/trailing whitespace
+HSN_MSTR,11193,HSN_Description,'UNBLEACHED ',leading/trailing whitespace
+HSN_MSTR,11194,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,11196,HSN_Description,'DYED ',leading/trailing whitespace
+HSN_MSTR,11197,HSN_Description,'PRINTED ',leading/trailing whitespace
+HSN_MSTR,11198,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,11201,HSN_Description,'CARPET BACKING FABRICS ',leading/trailing whitespace
+HSN_MSTR,11202,HSN_Description,'SACKING FABRICS ',leading/trailing whitespace
+HSN_MSTR,11203,HSN_Description,'HESSIAN FABRICS ',leading/trailing whitespace
+HSN_MSTR,11204,HSN_Description,'JUTE CANVAS ',leading/trailing whitespace
+HSN_MSTR,11205,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,11208,HSN_Description,'JUTE SWIM FABRICS ',leading/trailing whitespace
+HSN_MSTR,11209,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,11211,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,11212,HSN_Description,'DECORATIVE FABRICS ',leading/trailing whitespace
+HSN_MSTR,11213,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,11214,HSN_Description,'DYED ',leading/trailing whitespace
+HSN_MSTR,11215,HSN_Description,'PRINTED ',leading/trailing whitespace
+HSN_MSTR,11216,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,11232,HSN_Description,' OF SYNTHETIC FILAMENTS',leading/trailing whitespace
+HSN_MSTR,11233,HSN_Description,' OF SYNTHETIC FILAMENTS',leading/trailing whitespace
+HSN_MSTR,11234,HSN_Description,' OF ARTIFICIAL FILAMENTS',leading/trailing whitespace
+HSN_MSTR,11235,HSN_Description,' OF ARTIFICIAL FILAMENTS',leading/trailing whitespace
+HSN_MSTR,11359,HSN_Description,"'MAN-MADE FILAMENT YARN (OTHER THAN SEWING THREAD), PUT UP FOR RETAIL SALE '",leading/trailing whitespace
+HSN_MSTR,11367,HSN_Description,'PARACHUTE FABRICS ',leading/trailing whitespace
+HSN_MSTR,11368,HSN_Description,'TENT FABRICS ',leading/trailing whitespace
+HSN_MSTR,11369,HSN_Description,'NYLON FURNISHING FABRICS ',leading/trailing whitespace
+HSN_MSTR,11370,HSN_Description,'UMBRELLA CLOTH PANEL FABRICS ',leading/trailing whitespace
+HSN_MSTR,11371,HSN_Description,'OTHER NYLON AND POLYAMIDE FABRICS (FILAMENT) ',leading/trailing whitespace
+HSN_MSTR,11372,HSN_Description,'POLYESTER SUITINGS ',leading/trailing whitespace
+HSN_MSTR,11373,HSN_Description,'OTHER POLYESTER FABRICS ',leading/trailing whitespace
+HSN_MSTR,11374,HSN_Description,'PARACHUTE FABRICS  ',leading/trailing whitespace
+HSN_MSTR,11375,HSN_Description,'TENT FABRICS ',leading/trailing whitespace
+HSN_MSTR,11376,HSN_Description,'NYLON FURNISHING FABRICS ',leading/trailing whitespace
+HSN_MSTR,11377,HSN_Description,'UMBRELLA CLOTH PANEL FABRICS ',leading/trailing whitespace
+HSN_MSTR,11379,HSN_Description,'POLYESTER SUITINGS  ',leading/trailing whitespace
+HSN_MSTR,11380,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,11381,HSN_Description,'PARACHUTE FABRICS ',leading/trailing whitespace
+HSN_MSTR,11382,HSN_Description,'TENT FABRICS  ',leading/trailing whitespace
+HSN_MSTR,11383,HSN_Description,'NYLON FURNISHING FABRICS ',leading/trailing whitespace
+HSN_MSTR,11384,HSN_Description,'UMBRELLA CLOTH PANEL FABRICS ',leading/trailing whitespace
+HSN_MSTR,11385,HSN_Description,'OTHER NYLON AND POLYAMIDE FABRICS (FILAMENT)                                                                   ',leading/trailing whitespace
+HSN_MSTR,11386,HSN_Description,'POLYESTER SUITINGS ',leading/trailing whitespace
+HSN_MSTR,11399,HSN_Description,'OTHER NYLON AND POLYAMIDE FABRICS OF FILAMENT YARN ',leading/trailing whitespace
+HSN_MSTR,11412,HSN_Description,'PRINTED ',leading/trailing whitespace
+HSN_MSTR,11413,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,11472,HSN_Description,' UNBLEACHED OR BLEACHED   : ',leading/trailing whitespace
+HSN_MSTR,11574,HSN_Description,' OF ARAMIDES',leading/trailing whitespace
+HSN_MSTR,11575,HSN_Description,' OF ARAMIDES',leading/trailing whitespace
+HSN_MSTR,11576,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,11577,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,11617,HSN_Description,'OF POLYPROPYLENE ',leading/trailing whitespace
+HSN_MSTR,11618,HSN_Description,'OF POLYPROPYLENE ',leading/trailing whitespace
+HSN_MSTR,11708,HSN_Description,'MIXED MAINLY OR SOLELY WITH COTTON ',leading/trailing whitespace
+HSN_MSTR,11709,HSN_Description,'MIXED MAINLY OR SOLELY WITH COTTON ',leading/trailing whitespace
+HSN_MSTR,11740,HSN_Description,"' OF SYNTHETIC STAPLE FIBRES, CONTAINING LESS THAN 85% BY WEIGHT OF SUCH FIBRES'",leading/trailing whitespace
+HSN_MSTR,11756,HSN_Description,' DYED',leading/trailing whitespace
+HSN_MSTR,11757,HSN_Description,' PRINTED',leading/trailing whitespace
+HSN_MSTR,11758,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,11779,HSN_Description,"'OF POLYESTER STAPLE FIBRES, PLAIN WEAVE '",leading/trailing whitespace
+HSN_MSTR,11780,HSN_Description,"'OF POLYESTER STAPLE FIBRES, PLAIN WEAVE '",leading/trailing whitespace
+HSN_MSTR,11786,HSN_Description,"'OF POLYESTER STAPLE FIBRES, PLAIN WEAVE '",leading/trailing whitespace
+HSN_MSTR,11787,HSN_Description,"'OF POLYESTER STAPLE FIBRES,PLAIN WEAVE '",leading/trailing whitespace
+HSN_MSTR,11790,HSN_Description,'OTHER WOVEN FABRICS ',leading/trailing whitespace
+HSN_MSTR,11791,HSN_Description,'OTHER WOVEN FABRICS ',leading/trailing whitespace
+HSN_MSTR,11801,HSN_Description,'BLEACHED ',leading/trailing whitespace
+HSN_MSTR,11803,HSN_Description,'UNBLEACHED ',leading/trailing whitespace
+HSN_MSTR,11808,HSN_Description,'UNBLEACHED ',leading/trailing whitespace
+HSN_MSTR,11814,HSN_Description,'OTHER WOVEN FABRICS OF  POLYESTER STAPLE FIBRES ',leading/trailing whitespace
+HSN_MSTR,11815,HSN_Description,'OTHER WOVEN FABRICS OF  POLYESTER STAPLE FIBRES ',leading/trailing whitespace
+HSN_MSTR,11816,HSN_Description,'OTHER WOVEN FABRICS ',leading/trailing whitespace
+HSN_MSTR,11821,HSN_Description,'OTHER WOVEN FABRICS OF POLYESTER STAPLE FIBRES ',leading/trailing whitespace
+HSN_MSTR,11822,HSN_Description,'OTHER WOVEN FABRICS ',leading/trailing whitespace
+HSN_MSTR,11831,HSN_Description,'OTHER WOVEN FABRICS OF POLYESTER STAPLE FIBRES ',leading/trailing whitespace
+HSN_MSTR,11832,HSN_Description,'OTHER WOVEN FABRICS OF POLYESTER STAPLE FIBRES ',leading/trailing whitespace
+HSN_MSTR,11898,HSN_Description,'   UNBLEACHED',leading/trailing whitespace
+HSN_MSTR,11899,HSN_Description,'   BLEACHED',leading/trailing whitespace
+HSN_MSTR,11905,HSN_Description,'   SPUN RAYON PRINTED SHANTUNG',leading/trailing whitespace
+HSN_MSTR,11906,HSN_Description,'   SPUN RAYON PRINTED LINEN',leading/trailing whitespace
+HSN_MSTR,11969,HSN_Description,'WEIGHING NOT MORE THAN 25 G/M2: ',leading/trailing whitespace
+HSN_MSTR,11987,HSN_Description,' WEIGHING MORE THAN 150 G/M2:',leading/trailing whitespace
+HSN_MSTR,12058,HSN_Description,'OF COIR INCLUDING GEO TEXTILE ',leading/trailing whitespace
+HSN_MSTR,12061,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12062,HSN_Description,"'CARPETS AND OTHER TEXTILE FLOOR COVERINGS,WOVEN, NOT TUFTED OR FLOCKED, WHETHER OR NOT MADE UP, INCLUDING ""KELEM"", ""SCHUMACKS"", ""KARAMANIE"" AND SIMILAR HAND-WOVEN RUGS'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12063,HSN_Description,"'""KELEM"", ""SCHUMACKS"", ""KARAMANIE"" AND SIMILAR HAND-WOVEN RUGS '","leading/trailing whitespace; XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12064,HSN_Description,"'""KELEM"", ""SCHUMACKS"", ""KARAMANIE"" AND SIMILAR HAND-WOVEN RUGS '","leading/trailing whitespace; XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12067,HSN_Description,'COIR CARPETS AND OTHER RUGS ',leading/trailing whitespace
+HSN_MSTR,12096,HSN_Description,"'CARPETS AND OTHER FLOOR COVERINGS, OF SILK  '",leading/trailing whitespace
+HSN_MSTR,12097,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12133,HSN_Description,'CARPETS ',leading/trailing whitespace
+HSN_MSTR,12140,HSN_Description,' TURF',leading/trailing whitespace
+HSN_MSTR,12141,HSN_Description,' TURF',leading/trailing whitespace
+HSN_MSTR,12144,HSN_Description,"' 100% POLYAMIDE TUFTED VELOUR, CUT PILE OR LOOP PILE CARPET MATS WITH JUTE, RUBBER LATEX OR PU FOAM BACKING'",leading/trailing whitespace
+HSN_MSTR,12150,HSN_Description,' TURF',leading/trailing whitespace
+HSN_MSTR,12151,HSN_Description,' TURF',leading/trailing whitespace
+HSN_MSTR,12153,HSN_Description,"' CARPETS, CARPETING AND RUGS'",leading/trailing whitespace
+HSN_MSTR,12170,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12173,HSN_Description,' OF SILK',leading/trailing whitespace
+HSN_MSTR,12174,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12185,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,12186,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,12189,HSN_Description,'OF WOOL OR FINE ANIMAL HAIR ',leading/trailing whitespace
+HSN_MSTR,12190,HSN_Description,'OF WOOL OR FINE ANIMAL HAIR ',leading/trailing whitespace
+HSN_MSTR,12191,HSN_Description,'UNCUT WEFT PILE FABRICS ',leading/trailing whitespace
+HSN_MSTR,12192,HSN_Description,'UNCUT WEFT PILE FABRICS ',leading/trailing whitespace
+HSN_MSTR,12198,HSN_Description,'CHENILLE FABRICS                    ',leading/trailing whitespace
+HSN_MSTR,12199,HSN_Description,'CHENILLE FABRICS                    ',leading/trailing whitespace
+HSN_MSTR,12316,HSN_Description,"'SAREE FALLS, BORDERS (OTHER THAN ZARI), FRINGS OF MAN-MADE FIBRE '",leading/trailing whitespace
+HSN_MSTR,12319,HSN_Description,"'WOVEN FABRICS OF METAL THREAD AND WOVEN FABRICS OF METALLISED YARN OF HEADING 5605, OF A KIND USED IN APPAREL, AS FURNISHING FABRICS OR FOR SIMILAR PURPOSES, NOT ELSEWHERE SPECIFIED OR INCLUDED : '",leading/trailing whitespace
+HSN_MSTR,12330,HSN_Description,"'EMBROIDERED BADGES, MOTIFS AND THE LIKE '",leading/trailing whitespace
+HSN_MSTR,12354,HSN_Description,'IMPREGNATED WITH RUBBER ',leading/trailing whitespace
+HSN_MSTR,12366,HSN_Description,'IMITATION LEATHER FABRICS OF COTTON ',leading/trailing whitespace
+HSN_MSTR,12367,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12370,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12372,HSN_Description,'OF COTTON ',leading/trailing whitespace
+HSN_MSTR,12373,HSN_Description,'POLYETHYLENE LAMINATED JUTE FABRICS ',leading/trailing whitespace
+HSN_MSTR,12374,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12376,HSN_Description,'LINOLEUM ',leading/trailing whitespace
+HSN_MSTR,12377,HSN_Description,'LINOLEUM ',leading/trailing whitespace
+HSN_MSTR,12379,HSN_Description,'FLOOR COVERINGS WITH JUTE BASE ',leading/trailing whitespace
+HSN_MSTR,12380,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12401,HSN_Description,'ON BASE FABRICS OF OTHER TEXTILE MATERIALS ',leading/trailing whitespace
+HSN_MSTR,12404,HSN_Description,'JUTE FABRICS OTHERWISE IMPREGNATED OR COATED ',leading/trailing whitespace
+HSN_MSTR,12405,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12406,HSN_Description,"'TEXTILE WICKS, WOVEN, PLAITED OR KNITTED, FOR LAMPS, STOVES, LIGHTERS, CANDLES OR THE LIKE, INCANDESCENT GAS MANTLES AND TUBULAR KNITTED GAS MANTLE FABRIC THEREFOR, WHETHER OR NOT IMPREGNATED '",leading/trailing whitespace
+HSN_MSTR,12408,HSN_Description,"'WICKS AND GAS MANTLE FABRICS, OF COTTON '",leading/trailing whitespace
+HSN_MSTR,12410,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12447,HSN_Description,"""PAPER MAKER'S FELT, WOVEN""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12455,HSN_Description,"'PILE FABRICS, INCLUDING ""LONG PILE"" FABRICS AND TERRY FABRICS, KNITTED OR CROCHETED'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12456,HSN_Description,"'""LONG PILE"" FABRICS :'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12563,HSN_Description,"""MEN'S OR BOYS' OVERCOATS, CARCOATS, CAPES, CLOAKS, ANORAKS (INCLUDING SKI-JACKETS), WIND-CHEATERS, WIND-JACKETS AND SIMILAR ARTICLES, KNITTED OR CROCHETED, OTHER THAN THOSE OF HEADING 6102""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12575,HSN_Description,"""WOMEN'S OR GIRLS' OVERCOATS, CAR-COATS, CAPES, CLOAKS, ANORAKS (INCLUDING SKI-JACKETS), WIND-CHEATERS, WIND-JACKETS AND SIMILAR ARTICLES, KNITTED OR CROCHETED, OTHER THAN THOSE OF HEADING 6103""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12591,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,12627,HSN_Description,"""WOMEN'S OR GIRLS' SUITS, ENSEMBLES, JACKETS, BLAZERS, DRESSES, SKIRTS, DIVIDED SKIRTS, TROUSERS, BIB AND BRACE OVERALLS, BREECHES AND SHORTS (OTHER THAN SWIM WEAR), KNITTED OR CROCHETED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12686,HSN_Description,"""MEN'S OR BOYS' SHIRTS, KNITTED OR CROCHETED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12697,HSN_Description,"""WOMEN'S OR GIRLS' BLOUSES, SHIRTS AND SHIRT BLOUSES, KNITTED OR CROCHETED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12707,HSN_Description,"""MEN'S OR BOYS' UNDERPANTS, BRIEFS, NIGHTSHIRTS, PYJAMAS, BATHROBES, DRESSING GOWNS AND SIMILAR ARTICLES, KNITTED OR CROCHETED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12734,HSN_Description,"""WOMEN'S OR GIRLS' SLIPS, PETTICOATS, BRIEFS, PANTIES, NIGHT DRESSES, PYJAMAS, NEGLIGEES, BATHROBES, DRESSING GOWNS AND SIMILAR ARTICLES, KNITTED OR CROCHETED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12792,HSN_Description,"""BABIES' GARMENTS AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12911,HSN_Description,"""MEN'S OR BOYS' OVERCOATS, CAR-COATS, CLOAKS, ANORAKS (INCLUDING SKI-JACKETS), WIND-CHEATERS, WIND-JACKETS AND SIMILAR ARTICLES OTHER THAN THOSE OF HEADING 6202""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12923,HSN_Description,"'OVERCOATS, RAINCOATS, CAR- COATS, CAPES, CLOAKS AND SIMILAR ARTICLES '",leading/trailing whitespace
+HSN_MSTR,12924,HSN_Description,'  OTHER',leading/trailing whitespace
+HSN_MSTR,12926,HSN_Description,"'OVERCOATS, RAINCOATS, CAR- COATS, CAPES, CLOAKS AND SIMILAR ARTICLES '",leading/trailing whitespace
+HSN_MSTR,12929,HSN_Description,"'OVERCOATS, RAINCOATS, CAR- COATS, CAPES, CLOAKS AND SIMILAR ARTICLES '",leading/trailing whitespace
+HSN_MSTR,12932,HSN_Description,"'OVERCOATS, RAINCOATS, CAR- COATS, CAPES, CLOAKS AND SIMILAR ARTICLES '",leading/trailing whitespace
+HSN_MSTR,12940,HSN_Description,"""WOMEN'S OR GIRLS' OVERCOATS, CAR-COATS, CAPES, CLOAKS, ANORAKS (INCLUDING SKI-JACKETS), WIND-CHEATERS, WIND-JACKETS AND SIMILAR ARTICLES, OTHER THAN THOSE OF HEADING 6203""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,12951,HSN_Description,"' OVERCOATS, RAINCOATS, CAR- COATS, CAPES, CLOAKS AND SIMILAR ARTICLES'",leading/trailing whitespace
+HSN_MSTR,12975,HSN_Description,"""MEN'S OR BOYS' SUITS, ENSEMBLES, JACKETS, BLAZERS, TROUSERS, BIB AND BRACE OVEB RALLS, BREECHES AND SHORTS (OTHER THAN SWIMWEAR)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13017,HSN_Description,"""WOMEN'S OR GIRLS' SUITS, ENSEMBLES, JACKETS, BLAZERS, DRESSES, SKIRTS, DIVIDED SKIRTS, TROUSERS, BIB AND BRACE OVERALLS, BREECHES AND SHORTS (OTHER THAN SWIMWEAR)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13029,HSN_Description,'SEQUINNED OR BEADED WITH CHATTONS ',leading/trailing whitespace
+HSN_MSTR,13052,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,13128,HSN_Description,"""MEN'S OR BOYS' SHIRTS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13142,HSN_Description,' EMBROIDERED WITH LUCKNOW CHIKAN CRAFT',leading/trailing whitespace
+HSN_MSTR,13145,HSN_Description,"""WOMEN'S OR GIRLS' BLOUSES, SHIRTS AND SHIRT BLOUSES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13160,HSN_Description,"""MEN'S OR BOYS' SINGLETS AND OTHER VESTS, UNDERPANTS, BRIEFS, NIGHTSHIRTS, PYJAMAS, BATHROBES, DRESSING GOWNS AND SIMILAR ARTICLES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13180,HSN_Description,'OF OTHER TEXTILE MATERIALS : ',leading/trailing whitespace
+HSN_MSTR,13186,HSN_Description,"""WOMEN'S OR GIRLS' SINGLETS AND OTHER VESTS, SLIPS, PETTICOATS, BRIEFS, PANTIES, NIGHTDRESSES, PYJAMAS, NEGLIGES, BATHROBES, DRESSING GOWNS AND SIMILAR ARTICLES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13210,HSN_Description,'DRESSING GOWNS AND BATHROBES OF SILK ',leading/trailing whitespace
+HSN_MSTR,13212,HSN_Description,"""BABIES' GARMENTS AND CLOTHING ACCESSORIES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13232,HSN_Description,"'OUTER GARMENTS, OF FABRICS OTHERWISE IMPREGNATED OR COATED '",leading/trailing whitespace
+HSN_MSTR,13239,HSN_Description,"""Other men's or boys' garments :""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13249,HSN_Description,"""OTHER WOMEN'S OR GIRLS' GARMENTS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13250,HSN_Description,"""OTHER WOMEN'S OR GIRLS' GARMENTS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13252,HSN_Description,"""MEN'S OR BOYS'                                      ""","leading/trailing whitespace; XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13253,HSN_Description,"""MEN'S OR BOYS'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13254,HSN_Description,"""WOMEN'S OR GIRLS'             ""","leading/trailing whitespace; XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13255,HSN_Description,"""WOMEN'S OR GIRLS'             ""","leading/trailing whitespace; XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,13256,HSN_Description,'SKI SUITS             ',leading/trailing whitespace
+HSN_MSTR,13257,HSN_Description,'SKI SUITS             ',leading/trailing whitespace
+HSN_MSTR,13259,HSN_Description,'OF COTTON             ',leading/trailing whitespace
+HSN_MSTR,13260,HSN_Description,'OF COTTON             ',leading/trailing whitespace
+HSN_MSTR,13261,HSN_Description,'OF MAN-MADE FIBRES             ',leading/trailing whitespace
+HSN_MSTR,13262,HSN_Description,'OF MAN-MADE FIBRES             ',leading/trailing whitespace
+HSN_MSTR,13268,HSN_Description,'OF COTTON: ',leading/trailing whitespace
+HSN_MSTR,13472,HSN_Description,'MOSQUITO NETS ',leading/trailing whitespace
+HSN_MSTR,13765,HSN_Description,"'SETTS, CURBSTONES AND FLAGSTONES, OF NATURAL STONE (EXCEPT SLATE)      '",leading/trailing whitespace
+HSN_MSTR,13768,HSN_Description,"'TILES, CUBES AND SIMILAR ARTICLES, WHETHER OR NOT RECTANGULAR (INCLUDING SQUARE), THE LARGEST FACE OF WHICH IS CAPABLE OF BEING ENCLOSED IN A SQUARE THE SIDE OF WHICH IS LESS THAN 7 CM, ARTIFICIALLY COLOURED GRANULES,CHIPPINGS AND POWDER '",leading/trailing whitespace
+HSN_MSTR,13769,HSN_Description,"'TILES, CUBES AND SIMILAR ARTICLES, WHETHER OR NOT RECTANGULAR (INCLUDING SQUARE), THE LARGEST FACE OF WHICH IS CAPABLE OF BEING ENCLOSED IN A SQUARE THE SIDE OF WHICH IS LESS THAN 7 CM, ARTIFICIALLY COLOURED GRANULES,CHIPPINGS AND POWDER '",leading/trailing whitespace
+HSN_MSTR,13956,HSN_Description,"'CONTAINING BY WEIGHT, SINGLY OR TOGETHER, MORE THAN 50% OF THE ELEMENTS MG, CA OR CR, EXPRESSED AS MGO, CAO OR CR2O3 : '",leading/trailing whitespace
+HSN_MSTR,13988,HSN_Description,"'MONOLITHICS OR CASTABLES (FIRE-CLAY, BASIC, SILICA, HIGH ALUMINA, INSULATING) '",leading/trailing whitespace
+HSN_MSTR,13998,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,13999,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,14016,HSN_Description,' FINISHING CERAMICS:',leading/trailing whitespace
+HSN_MSTR,14045,HSN_Description,'TABLEWARE AND KITCHENWARE: ',leading/trailing whitespace
+HSN_MSTR,14047,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,14055,HSN_Description,"'CERAMIC TABLEWARE, KITCHENWARE, OTHER HOUSEHOLD ARTICLES AND TOILET ARTICLES, OTHER THAN OF PORCELAIN OR CHINA : '",leading/trailing whitespace
+HSN_MSTR,14072,HSN_Description,"'CULLET AND OTHER WASTE AND SCRAP OF GLASS, EXCLUDING GLASS FROM CATHODE-RAY TUBES OR OTHER ACTIVATED GLASS OF HEADING 8549, GLASS IN THE MASS '",leading/trailing whitespace
+HSN_MSTR,14073,HSN_Description,"'CULLET AND OTHER WASTE AND SCRAP OF GLASS, EXCLUDING GLASS FROM CATHODE-RAY TUBES OR OTHER ACTIVATED GLASS OF HEADING 8549, GLASS IN THE MASS '",leading/trailing whitespace
+HSN_MSTR,14085,HSN_Description,'OF OTHER GLASS HAVING A LINEAR COEFFICIENT OF EXPANSION NOT EXCEEDING 5 X 10-6 PER KELVIN WITHIN A TEMPERATURE RANGE OF 00C TO 3000C ',leading/trailing whitespace
+HSN_MSTR,14103,HSN_Description,"'GLASS, COLOURED THROUGHOUT THE MASS (BODY TINTED), OPACIFIED, FLASHED OR HAVING AN ABSORBENT, REFLECTING OR NON-REFLECTING LAYER : '",leading/trailing whitespace
+HSN_MSTR,14104,HSN_Description,'TINTED ',leading/trailing whitespace
+HSN_MSTR,14105,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,14106,HSN_Description,'TINTED ',leading/trailing whitespace
+HSN_MSTR,14107,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,14109,HSN_Description,'TINTED ',leading/trailing whitespace
+HSN_MSTR,14110,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,14118,HSN_Description,'TINTED ',leading/trailing whitespace
+HSN_MSTR,14152,HSN_Description,"'CARBOYS, BOTTLES, FLASKS, JARS, POTS, PHIALS, AMPOULES AND OTHER CONTAINERS, OF GLASS, OF A KIND USED FOR THE CONVEYANCE OR PACKING OF GOODS, PRESERVING JARS OF GLASS, STOPPERS, LIDS AND OTHER CLOSURES, OF GLASS '",leading/trailing whitespace
+HSN_MSTR,14267,HSN_Description,'OPEN WOVEN FABRICS OF A WIDTH NOT EXCEEDING 30CM ',leading/trailing whitespace
+HSN_MSTR,14268,HSN_Description,'OPEN WOVEN FABRICS OF A WIDTH NOT EXCEEDING 30CM ',leading/trailing whitespace
+HSN_MSTR,14317,HSN_Description,"'DIAMOND, CUT OR OTHERWISE WORKED BUT NOT MOUNTED OR SET '",leading/trailing whitespace
+HSN_MSTR,14320,HSN_Description,'UNWORKED OR SIMPLY SAWN OR ROUGHLY SHAPED: ',leading/trailing whitespace
+HSN_MSTR,14331,HSN_Description,"""CHRYSOBERYL (INCLUDING CHRYSOBERYL CAT'S EYE)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14332,HSN_Description,"""ALEXANDRITE (INCLUDING ALEXANDRITE CAT'S EYE)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14358,HSN_Description,"""CHRYSOBERYL (INCLUDING CHRYSOBERYL CAT'S EYE)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14359,HSN_Description,"""ALEXANDRITE (INCLUDING ALEXANDRITE CAT'S EYE)""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14387,HSN_Description,'INDUSTRIAL ',leading/trailing whitespace
+HSN_MSTR,14395,HSN_Description,'INDUSTRIAL ',leading/trailing whitespace
+HSN_MSTR,14402,HSN_Description,'OF HEADING 7102 ',leading/trailing whitespace
+HSN_MSTR,14424,HSN_Description,'POWDER ',leading/trailing whitespace
+HSN_MSTR,14425,HSN_Description,'POWDER ',leading/trailing whitespace
+HSN_MSTR,14491,HSN_Description,'UNSTUDDED ',leading/trailing whitespace
+HSN_MSTR,14494,HSN_Description,'STUDDED WITH DIAMONDS OF HEADING 7104 ',leading/trailing whitespace
+HSN_MSTR,14498,HSN_Description,'UNSTUDDED ',leading/trailing whitespace
+HSN_MSTR,14501,HSN_Description,'STUDDED WITH DIAMONDS OF HEADING 7104 ',leading/trailing whitespace
+HSN_MSTR,14511,HSN_Description,"""ARTICLES OF GOLDSMITHS' OR SILVERSMITHS' WARES AND PARTS THEREOF, OF PRECIOUS METAL OR OF METAL CLAD WITH PRECIOUS METAL""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14528,HSN_Description,"""SPINNERET'S MADE MAINLY OF GOLD""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14546,HSN_Description,"'COIN (OTHER THAN GOLD COIN), NOT BEING LEGAL TENDER '",leading/trailing whitespace
+HSN_MSTR,14547,HSN_Description,"'COIN (OTHER THAN GOLD COIN), NOT BEING LEGAL TENDER '",leading/trailing whitespace
+HSN_MSTR,14606,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,14607,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,14971,HSN_Description,"""OF CROSS SECTION – 'Z' SHAPED""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,14976,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,14986,HSN_Description,'OF A THICKNESS EXCEEDING 10 MM : ',leading/trailing whitespace
+HSN_MSTR,15017,HSN_Description,'OF A THICKNESS OF LESS THAN 3 MM : ',leading/trailing whitespace
+HSN_MSTR,15103,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,15107,HSN_Description,'OTHER BARS AND RODS : ',leading/trailing whitespace
+HSN_MSTR,15147,HSN_Description,"'OTHER, NOT FURTHER WORKED THAN HOT-ROLLED, NOT IN COILS : '",leading/trailing whitespace
+HSN_MSTR,15148,HSN_Description,'BOILER QUALITY ',leading/trailing whitespace
+HSN_MSTR,15162,HSN_Description,'OTHERWISE PLATED OR COATED WITH ZINC: ',leading/trailing whitespace
+HSN_MSTR,15166,HSN_Description,'OTHER: ',leading/trailing whitespace
+HSN_MSTR,15207,HSN_Description,'GALVANNEALED ',leading/trailing whitespace
+HSN_MSTR,15284,HSN_Description,"""L' SHAPE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15285,HSN_Description,"""Z' SHAPE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15485,HSN_Description,'TUBULAR STEEL POLES FOR ELECTRIC TRANSMISSION AND DISTRIBUTION LINES ',leading/trailing whitespace
+HSN_MSTR,15489,HSN_Description,' GALVANIZED IRON TANKS',leading/trailing whitespace
+HSN_MSTR,15510,HSN_Description,'HIGH PRESSURE CYLINDER (WORKING PRESSURE EXCEEDING 35.2 KG/SQ.CM) ',leading/trailing whitespace
+HSN_MSTR,15596,HSN_Description,"'OTHER SCREWS AND BOLTS, WHETHER OR NOT WITH THEIR NUTS OR WASHERS '",leading/trailing whitespace
+HSN_MSTR,15597,HSN_Description,"'OTHER SCREWS AND BOLTS, WHETHER OR NOT WITH THEIR NUTS OR WASHERS '",leading/trailing whitespace
+HSN_MSTR,15623,HSN_Description,'LEAF-SPRINGS AND LEAVES THEREFOR : ',leading/trailing whitespace
+HSN_MSTR,15763,HSN_Description,"""EMPTY OR DISCHARGED CARTRIDGES OF ALL BORES AND SIZES, INCLUDING THE FOLLOWING: CLEAN FIRED 70/30 BRASS SHELLS FREE OF BULLETS, IRON AND ANY OTHER FOREIGN MATERIAL COVERED BY ISRI CODE WORD 'LAKE', CLEAN MUFFLED (POPPED) 70/30 BRASS SHELLS FREE OF BULLETS, IRON AND ANY OTHER FOREIGN MATERIAL COVERED BY ISRI CODE WORD 'LAMB'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15765,HSN_Description,"""NICKEL SILVER SCRAP NAMELY THE FOLLOWING:MIXED NEW NICKEL SILVER CLIPPINGS COVERED BY ISRI CODE WORD 'MAIZE', NEW NICKEL SILVER CLIPPINGS COVERED BY ISRI CODE WORD 'MAJOR', NEW SEGREGATED NICKEL SILVER CLIPPINGS COVERED BY ISRI CODE WORD 'MALAR', OLD NICKEL SILVER CLIPPINGS COVERED BY ISRI CODE WORD 'MALIC', NICKEL SILVER CASTINGS COVERED BY ISRI CODE WORD 'NAGGY', NICKEL SILVER TURNINGS COVERED BY ISRI CODE WORD 'NIECE'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15766,HSN_Description,"""BRONZE SCRAP, INCLUDING THE FOLLOWING:MANGANESE BRONZE SOLIDS COVERED ISRI CODE WORD 'PARCH',HIGH LEAD BRONZE SOLIDS AND BORINGS COVERED BY ISRI CODE WORD 'ELIAS'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15767,HSN_Description,"""COPPER NICKEL SCRAP, INCLUDING THE FOLLOWING: NEW CUPRO NICKEL CLIPS AND SOLIDS COVERED BY ISRI CODE WORD 'DANDY', CUPRO NICKEL SOLIDS COVERED BY ISRI CODE WORD 'DAUNT', SOLDERED CUPRO-NICKEL SOLIDS COVERED BY ISRI CODE WORD 'DELTA', CUPRO NICKEL SPINNINGS, TURNINGS, BORINGS COVERED BY ISRI CODE WORD 'DECOY',""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15786,HSN_Description,' OF COPPERZINC BASE ALLOYS (BRASS) :',leading/trailing whitespace
+HSN_MSTR,15793,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,15916,HSN_Description,'COPPER WORKED ARTICLES ',leading/trailing whitespace
+HSN_MSTR,15937,HSN_Description,"""MONEL METAL INCLUDING 'K' MONEL""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15943,HSN_Description,"""NICKEL SCRAP, NAMELY THE FOLLOWING :NEW NICKEL SCRAP COVERED BY ISRI CODE WORD 'AROMA', OLD NICKEL SCRAP COVERED BY ISRI CODE WORD 'BURLY', NEW R-MONEL CLIPPINGS SOLIDS COVERED BY ISRI CODE WORD 'HITCH', NEW MIXED MONEL SOLIDS AND CLIPPINGS COVERED BY ISRI CODE WORD 'HOUSE', OLD MONEL SHEET AND SOLIDS COVERED BY ISRI CODE WORD 'IDEAL', K-MONEL SOLIDS COV-ERED BY ISRI CODE WORD 'INDIAN', SOLDERED MONEL SHEET AND SOLIDS COVERED BY ISRI CODE WORD 'JUNTO', MONEL CASTINGS COVERED BY ISRI CODE 'LEMON', MONEL TURNINGS COVERED BY ISRI CODE WORD 'LEMUR', NICKEL SCRAP OBTAINED BY BREAKING UP OF SHIPS, BOATS AND OTHER FLOATING STRUCTURES, NICKEL-IRON BATTERIES TO BE SOLD FREE OF CRATES, COPPER TERMINAL CONNECTORS AND EXCESS LIQUID, MUST BE FREE OF NICKEL CADMIUM BATTERIES COVERED BY ISRI CODE WORD VAUNT.""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,15961,HSN_Description,"' OF NICKEL, NOT ALLOYED'",leading/trailing whitespace
+HSN_MSTR,15963,HSN_Description,' OF NICKEL ALLOYS',leading/trailing whitespace
+HSN_MSTR,15996,HSN_Description,"""ALUMINIUM SCRAP, NAMELY THE FOLLOWING : CLEAN ALUMINIUM LITHOGRAPHIC SHEETS COVERED BY ISRI CODE WORD 'TABLET', NEW, CLEAN ALUMINIUM LITHOGRAPHICN SHEETS COVERED BY ISRI CODE WORD 'TABLOID', MIXED LOW COPPER ALUMINIUM CLIPPINGS AND SOLIDS COVERED BY ISRI CODE WORD 'TABOO', CLEAN MIXED OLD ALLOY SHEET ALUMINIUM COVERED BY ISRI CODE WORD 'TAINT'/'TABOR', NEW ALUMINIUM CAN STOCK COVERED BY ISRI CODE WORD 'TAKE', OLD CAN STOCK COVERED BY ISRI CODEWORD 'TALC', SHREDDED ALUMINIUM USED BEVERAGES CAN (U) SCRAP COVERED BY ISRI CODE WORD 'TALCRED', DENSIFIED ALUMINIUM USED BEVERAGES CAN (UBC) SCRAP COVERED BY ISRI CODE WORD 'TALDACK', BALED ALUMINIUM USED BEVERAGE CAN (UBC) SCRAP COVERED BY ISRI CODE WORD 'TALDON', BRIQUETTED ALUMINIUM USED BEVERAGE CAN (UBC) SCRAP COVERED BY ISRI CODE WORD 'TALDORK', PAINTED SIDING COVERED BY ISRI CODE WORD 'TALE', COATED SCRAP COVERED BY ISRI CODE WORD 'TALENT', ALUMINIUM SCRAP RADIATORS COVERED BY ISRI CODE WORD 'TALK', E.C. ALUMINIUM NODULES COVERED BY ISRI CODE WORD 'TALL', NEW PURE ALUMINIUM WIRE AND CABLE COVERED BY ISRI CODE WORD 'TALON', NEW MIXED ALUMINIUM WIRE AND CABLE COVERED BY ISRI CODE WORD 'TANN', OLD PURE ALUMINIUM WIRE AND CABLE COVERED BY ISRI CODE WORD 'TASTE', OLD MIXED ALUMINIUM WIRE AND CABLE COVERED BY ISRI CODE WORD 'TASSEL', ALUMINIUM PISTONS COVERED BY ISRI CODE WORD 'TARRY', SEGREGATED ALUMINIUM BORINGS AND TURNINGS COVERED BY ISRI CODE WORD 'TEENS', MIXED ALUMINIUM CASTINGS COVERED BY ISRI CODE WORD 'TELIC', MIXED ALUMINIUM CASTINGS COVERED BY ISRI CODE WORD 'TENSE', WRECKED AIRPLANE SHEET ALUMINIUM COVERED BY ISRI CODE WORD 'TEPID', NEW ALUMINIUM FOIL COVERED BY ISRI CODE WORD 'TERSE', NEW ALUMINIUM FOIL COVERED BY ISRI CODE WORD TETRA, OLD ALUMINIUM FOIL COVERED BY ISRI CODE WORD TESLA, ALUMINIUM GRINDINGS COVERED BY ISRI CODE WORD 'THIGH', SEGREGATED NEW ALUMINIUM ALLOY CLIPPINGS AND SOLIDS COVERED BY ISRI CODE WORD 'TOOTH', MIXED NEW ALUMINIUM ALLOY CLIPPINGS AND SOLIDS COVERED BY ISRI CODE WORD 'TOUGH'...""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16072,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,16107,HSN_Description,"'TABLE, KITCHEN OR OTHER HOUSEHOLD ARTICLES AND PARTS THEREOF, POT SCOURERS AND SCOURING OR POLISHING PADS, GLOVES AND THE LIKE: '",leading/trailing whitespace
+HSN_MSTR,16145,HSN_Description,"""LEAD SCRAP, NAMELY THE FOLLOWING:SCRAP LEAD-SOFT COVERED BY ISRI CODE WORD 'RACKS', MIXED HARD OR SOFT SCRAP LEAD COVERED BY ISRI CODE WORD 'RADIO', WHEEL WEIGHTS COVERED BY ISRI CODE WORD 'ROPES', MIXED COMMON BABBIT COVERED BY ISRI CODE WORD 'ROSES', SCRAP WET WHOLE INTACT LEAD BATTERIES CONSISTING OF SLI (STARTING, LIGHTING AN IGNITION), AUTOMOTIVE, TRUCK, 8-D AND COMMERCIAL GOLF CART AND MARINE TYPE BATTERIES COVERED BY ISRI CODE WORD RINK, SCRAP INDUSTRIAL INTACT LEAD CELLS CONSISTING OF PLATES ENCLOSED BY SOME FORM OF COMPLETE PLASTIC CASE COVERED BY ISRI CODE WORDN RONO, SCRAP WHOLE INTACT INDUSTRIAL LEAD BATTERIES CONSISTING OF BUS, DIESEL, LOCOMOTIVE, TELEPHONE OR STEEL CASED BATTERIES COVERED BY ISRI CODE WORD ROPER,""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16182,HSN_Description,"""ZINC SCRAP, NAMELY THE FOLLOWING :OLD ZINC DIE CAST SCRAP COVERED BY ISRI CODE WORD 'SAVES', NEW ZINC DIE CAST SCRAP COVERED BY ISRI CODE WORD 'SCABS', NEW PLATED ZINC DIE CAST SCRAP COVERED BY ISRI CODE WORD 'SCOPE', ZINC DIE CAST AUTOMOTIVE GRILLS COVERED BY ISRI CODE WORD 'SCOOT', OLD SCRAP ZINC COVERED BY ISRI CODE WORD 'SCORE', NEW ZINC CLIPPINGS COVERED BY ISRI CODE WORD 'SCREEN', CRUSHED CLEAN SORTED FRAGMENTIZERS DIE CAST SCRAP, AS PRODUCED FROM AUTOMOBILE FRAGMENTIZERS COVERED BY ISRI CODE WORD 'SCRIBE', UNSORTED ZINC DIE CAST SCRAP PRODUCED FROM AUTOMOBILE FRAGMENTIZERS CONTAINING ABOUT 55% ZINC-BEARING SCRAP COVERED BY ISRI CODE WORD SCROLL""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16200,HSN_Description,'CALOTS  ',leading/trailing whitespace
+HSN_MSTR,16201,HSN_Description,'PLATES  ',leading/trailing whitespace
+HSN_MSTR,16202,HSN_Description,"'SHEETS, STRIP AND CIRCLES  '",leading/trailing whitespace
+HSN_MSTR,16203,HSN_Description,'FOIL  ',leading/trailing whitespace
+HSN_MSTR,16219,HSN_Description,"""TIN SCRAP, NAMELY THE FOLLOWING: BLOCK TIN COVERED BY ISRI CODE WORD 'RANCH' HIGH TIN BASE BABBIT COVERED BY ISRI CODE WORD 'RAVES', PEWTER COVERED BY ISRI CODE WORD 'RANKS'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16293,HSN_Description,"""MAGNESIUM SCRAP, NAMELY THE FOLLOWING : MAGNESIUM CLIPS COVERED BY ISRI CODE WORD 'WAFER', MAGNESIUM SCRAP COVERED BY ISRI CODE WORD 'WALNUT', MAGNESIUM ENGRAVER PLATES COVERED BY ISRI CODE WORD 'WINE', MAGNESIUM DOCK BOARDS COVERED BY ISRI CODE WORD 'WOOD', MAGNESIUM TURNINGS COVERED BY ISRI CODE WORD 'WORLD'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16308,HSN_Description,'   WASTE AND SCRAP ',leading/trailing whitespace
+HSN_MSTR,16309,HSN_Description,'WASTE AND SCRAP ',leading/trailing whitespace
+HSN_MSTR,16310,HSN_Description,'   OTHER ',leading/trailing whitespace
+HSN_MSTR,16311,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,16320,HSN_Description,'ARTICLES OF BISMUTH ',leading/trailing whitespace
+HSN_MSTR,16322,HSN_Description,'      OTHER:',leading/trailing whitespace
+HSN_MSTR,16323,HSN_Description,'WASTE AND SCRAP OF BISMUTH AND BISMUTH ALLOYS ',leading/trailing whitespace
+HSN_MSTR,16324,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,16332,HSN_Description,"'   UNWROUGHT TITANIUM, POWDERS '",leading/trailing whitespace
+HSN_MSTR,16333,HSN_Description,"'UNWROUGHT TITANIUM, POWDERS '",leading/trailing whitespace
+HSN_MSTR,16334,HSN_Description,'   WASTE AND SCRAP ',leading/trailing whitespace
+HSN_MSTR,16335,HSN_Description,'WASTE AND SCRAP ',leading/trailing whitespace
+HSN_MSTR,16336,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,16337,HSN_Description,"'TITANIUM, WROUGHT '",leading/trailing whitespace
+HSN_MSTR,16338,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,16341,HSN_Description,'CONTAINING LESS THAN 1 PART HAFNIUM TO 500 PARTS  ZIRCONIUM BY WEIGHT  ',leading/trailing whitespace
+HSN_MSTR,16342,HSN_Description,'CONTAINING LESS THAN 1 PART HAFNIUM TO 500 PARTS  ZIRCONIUM BY WEIGHT  ',leading/trailing whitespace
+HSN_MSTR,16343,HSN_Description,'      OTHER ',leading/trailing whitespace
+HSN_MSTR,16344,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,16346,HSN_Description,'CONTAINING LESS THAN 1 PART HAFNIUM TO 500 PARTS  ZIRCONIUM BY WEIGHT  ',leading/trailing whitespace
+HSN_MSTR,16347,HSN_Description,'CONTAINING LESS THAN 1 PART HAFNIUM TO 500 PARTS  ZIRCONIUM BY WEIGHT  ',leading/trailing whitespace
+HSN_MSTR,16348,HSN_Description,'           OTHER                                                                         ',leading/trailing whitespace
+HSN_MSTR,16351,HSN_Description,'CONTAINING LESS THAN 1 PART HAFNIUM TO 500 PARTS ZIRCONIUM BY WEIGHT                  ',leading/trailing whitespace
+HSN_MSTR,16352,HSN_Description,'CONTAINING LESS THAN 1 PART HAFNIUM TO 500 PARTS ZIRCONIUM BY WEIGHT                  ',leading/trailing whitespace
+HSN_MSTR,16353,HSN_Description,'           OTHER                                                                         ',leading/trailing whitespace
+HSN_MSTR,16354,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,16358,HSN_Description,'   WASTE AND SCRAP',leading/trailing whitespace
+HSN_MSTR,16360,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,16363,HSN_Description,"' MANGANESE AND ARTICLES THEREOF, INCLUDING WASTE AND SCRAP'",leading/trailing whitespace
+HSN_MSTR,16364,HSN_Description,'UNWROUGHT MANGANESE AND MANGANESE BASE ALLOYS ',leading/trailing whitespace
+HSN_MSTR,16425,HSN_Description,' SPADES AND SHOVELS',leading/trailing whitespace
+HSN_MSTR,16426,HSN_Description,' SPADES AND SHOVELS',leading/trailing whitespace
+HSN_MSTR,16427,HSN_Description,"' MATTOCKS, PICKS, HOES AND RAKES'",leading/trailing whitespace
+HSN_MSTR,16428,HSN_Description,"' MATTOCKS, PICKS, HOES AND RAKES'",leading/trailing whitespace
+HSN_MSTR,16429,HSN_Description,"' AXES, BILL HOOKS AND SIMILAR HEWING TOOLS'",leading/trailing whitespace
+HSN_MSTR,16430,HSN_Description,"' AXES, BILL HOOKS AND SIMILAR HEWING TOOLS'",leading/trailing whitespace
+HSN_MSTR,16432,HSN_Description,'    SECATEURS AND SIMILAR ONEHANDED PRUNERS AND SHEARS (INCLUDING POULTRY SHEARS)',leading/trailing whitespace
+HSN_MSTR,16434,HSN_Description,"'    HEDGE SHEARS, TWOHANDED PRUNING SHEARS AND SIMILAR TWO-HANDED SHEARS'",leading/trailing whitespace
+HSN_MSTR,16475,HSN_Description,"""HAND TOOLS (INCLUDING GLAZIERS' DIAMONDS), NOT ELSEWHERE SPECIFIED OR INCLUDED, BLOW LAMPS, VICES, CLAMPS AND THE LIKE, OTHER THAN ACCESSORIES FOR AND PARTS OF, MACHINE-TOOLS OR WATER-JET CUTTING MACHINES, ANVILS , PORTABLE FORGES, HAND-OR PEDAL-OPERATED GRINDING WHEELS WITH FRAMEWORKS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16580,HSN_Description,"""SCISSORS, TAILORS' SHEARS AND SIMILAR SHEARS, AND BLADES THEREFOR""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16581,HSN_Description,"""SCISSORS, TAILORS' SHEARS AND SIMILAR SHEARS, AND BLADES THEREFOR""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16582,HSN_Description,"""SCISSORS, TAILORS' SHEARS AND SIMILAR SHEARS, AND BLADES THEREFOR""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16583,HSN_Description,"""OTHER ARTICLES OF CUTLERY (FOR EXAMPLE, HAIR CLIPPERS, BUTCHERS' OR KITCHEN CLEAVERS, CHOPPERS AND MINCING KNIVES, PAPER KNIVES), MANICURE OR PEDICURE SETS AND INSTRUMENTS (INCLUDING NAIL FILES)\t""","leading/trailing whitespace; XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,16657,HSN_Description,"'BELLS, GONGS AND THE LIKE '",leading/trailing whitespace
+HSN_MSTR,16658,HSN_Description,"'BELLS, GONGS AND THE LIKE '",leading/trailing whitespace
+HSN_MSTR,16681,HSN_Description,"'OTHER, INCLUDING PARTS: '",leading/trailing whitespace
+HSN_MSTR,16715,HSN_Description,' NUCLEAR REACTORS',leading/trailing whitespace
+HSN_MSTR,16716,HSN_Description,' NUCLEAR REACTORS',leading/trailing whitespace
+HSN_MSTR,16718,HSN_Description,"' MACHINERY AND APPARATUS FOR ISOTOPIC SEPARATION, AND PARTS THEREOF'",leading/trailing whitespace
+HSN_MSTR,16719,HSN_Description,"'   FUEL ELEMENTS (CARTRIDGES), NONIRRADIATED'",leading/trailing whitespace
+HSN_MSTR,16720,HSN_Description,"'   FUEL ELEMENTS (CARTRIDGES), NONIRRADIATED'",leading/trailing whitespace
+HSN_MSTR,16721,HSN_Description,' PARTS OF NUCLEAR REACTORS',leading/trailing whitespace
+HSN_MSTR,16722,HSN_Description,' PARTS OF NUCLEAR REACTORS',leading/trailing whitespace
+HSN_MSTR,16748,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,16749,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,16832,HSN_Description,"'OF POWER EXCEEDING 5,000 KW BUT NOT EXCEEDING 10,000 KW '",leading/trailing whitespace
+HSN_MSTR,16851,HSN_Description,"'OF POWER EXCEEDING 5,000 KW BUT NOT EXCEEDING 15,000 KW '",leading/trailing whitespace
+HSN_MSTR,16862,HSN_Description,'REACTION ENGINES OTHER THAN TURBO-JETS ',leading/trailing whitespace
+HSN_MSTR,16863,HSN_Description,'REACTION ENGINES OTHER THAN TURBO-JETS ',leading/trailing whitespace
+HSN_MSTR,16939,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,16982,HSN_Description,"'OF A KIND DESIGNED TO BE FIXED TO A WINDOW, WALL, CEILING OR FLOOR, SELF-CONTAINED OR SPLIT-SYSTEM, '",leading/trailing whitespace
+HSN_MSTR,17006,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,17007,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,17009,HSN_Description,"'FURNACES AND OVENS FOR THE ROASTING, MELTING OR OTHER HEAT-TREATMENT OF ORES, PYRITES OR OF METALS '",leading/trailing whitespace
+HSN_MSTR,17010,HSN_Description,"'FURNACES AND OVENS FOR THE ROASTING, MELTING OR OTHER HEAT-TREATMENT OF ORES, PYRITES OR OF METALS '",leading/trailing whitespace
+HSN_MSTR,17016,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,17017,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,17044,HSN_Description,'FURNITURE DESIGNED TO RECEIVE REFRIGERATING OR FREEZING EQUIPMENT ',leading/trailing whitespace
+HSN_MSTR,17045,HSN_Description,'FURNITURE DESIGNED TO RECEIVE REFRIGERATING OR FREEZING EQUIPMENT ',leading/trailing whitespace
+HSN_MSTR,17099,HSN_Description,'OTHER DISTILLATION OR ABSORPTION COLUMNS ',leading/trailing whitespace
+HSN_MSTR,17112,HSN_Description,'PARTS OF INSTANTANEOUS OR STORAGE WATER HEATERS (DOMESTIC TYPE) ',leading/trailing whitespace
+HSN_MSTR,17228,HSN_Description,"""SHIP'S DERRICKS, CRANES INCLUDING CABLE CRANES, MOBILE LIFTING FRAMES, STRADDLE CARRIERS AND WORKS TRUCKS FITTED WITH A CRANE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,17260,HSN_Description,'PNEUMATIC ELEVATORS AND CONVEYORS: ',leading/trailing whitespace
+HSN_MSTR,17431,HSN_Description,'OF POULTRY-KEEPING MACHINERY OR POULTRY INCUBATORS AND BROODERS ',leading/trailing whitespace
+HSN_MSTR,17432,HSN_Description,'OF POULTRY-KEEPING MACHINERY OR POULTRY INCUBATORS AND BROODERS ',leading/trailing whitespace
+HSN_MSTR,17477,HSN_Description,'OF MACHINERY FOR MAKING PULP OF FIBROUS CELLULOSIC MATERIAL ',leading/trailing whitespace
+HSN_MSTR,17478,HSN_Description,'OF MACHINERY FOR MAKING PULP OF FIBROUS CELLULOSIC MATERIAL ',leading/trailing whitespace
+HSN_MSTR,17507,HSN_Description,"'    MACHINERY, APPARATUS AND EQUIPMENT:'",leading/trailing whitespace
+HSN_MSTR,17508,HSN_Description,'   BRASS RULES',leading/trailing whitespace
+HSN_MSTR,17509,HSN_Description,'   CHASES',leading/trailing whitespace
+HSN_MSTR,17510,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,17518,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17669,HSN_Description,'WITH CYLINDER DIAMETER EXCEEDING 165 MM: ',leading/trailing whitespace
+HSN_MSTR,17686,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17687,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17688,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17691,HSN_Description,' CARD CLOTHING',leading/trailing whitespace
+HSN_MSTR,17692,HSN_Description,' CARD CLOTHING',leading/trailing whitespace
+HSN_MSTR,17694,HSN_Description,'    FOR COTTON PROCESSING MACHINES',leading/trailing whitespace
+HSN_MSTR,17695,HSN_Description,'    FOR JUTE PROCESSING MACHINES',leading/trailing whitespace
+HSN_MSTR,17696,HSN_Description,' FOR SILK AND MANMADE (REGENERATED AND SYNTHETIC FIBRES PROCESSING MACHINES)',leading/trailing whitespace
+HSN_MSTR,17697,HSN_Description,'    FOR WOOL PROCESSING MACHINES',leading/trailing whitespace
+HSN_MSTR,17698,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17700,HSN_Description,'    FOR COTTON SPINNING MACHINES',leading/trailing whitespace
+HSN_MSTR,17701,HSN_Description,' FOR JUTE SPINNING MACHINES',leading/trailing whitespace
+HSN_MSTR,17703,HSN_Description,' FOR WOOL SPINNING MACHINES',leading/trailing whitespace
+HSN_MSTR,17704,HSN_Description,'    FOR OTHER TEXTILE FIBRE SPINNING MACHINES',leading/trailing whitespace
+HSN_MSTR,17705,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,17706,HSN_Description,'    COMBS FOR COTTON TEXTILE MACHINERY',leading/trailing whitespace
+HSN_MSTR,17707,HSN_Description,' GILLS FOR GILL BOXES',leading/trailing whitespace
+HSN_MSTR,17708,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17716,HSN_Description,"'    REEDS FOR LOOMS, HEALDS AND HEALDFRAMES:'",leading/trailing whitespace
+HSN_MSTR,17718,HSN_Description,"' HEALDS, WIRE'",leading/trailing whitespace
+HSN_MSTR,17719,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17720,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,17721,HSN_Description,'    PARTS OF COTTON WEAVING MACHINERY',leading/trailing whitespace
+HSN_MSTR,17722,HSN_Description,'    PARTS OF JUTE WEAVING MACHINERY',leading/trailing whitespace
+HSN_MSTR,17724,HSN_Description,'   PARTS OF WOOL WEAVING MACHINERY',leading/trailing whitespace
+HSN_MSTR,17725,HSN_Description,'    PARTS OF OTHER TEXTILE WEAVING MACHINERY',leading/trailing whitespace
+HSN_MSTR,17726,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,17788,HSN_Description,"'INDUSTRIAL SEWING MACHINES HAVING A MOTOR OF 12.50 WATTS CAPACITY AND ABOVE AND HAVING A SPEED OF 1,500 STITCHES PER MINUTE OR MORE '",leading/trailing whitespace
+HSN_MSTR,17869,HSN_Description,'LATHES (INCLUDING TURNING CENTRES) FOR REMOVING METAL\t',leading/trailing whitespace
+HSN_MSTR,17974,HSN_Description,'HONING OR LAPPING MACHINES : ',leading/trailing whitespace
+HSN_MSTR,18016,HSN_Description,"'MACHINE-TOOLS (INCLUDING PRESSES) FOR WORKING METAL BY FORGING, HAMMERING OR DIE FORGING (EXCLUDING ROLLING MILLS), MACHINE-TOOLS (INCLUDING PRESSES, SLITTING LINES AND CUT-TO LENGTH LINES) FOR WORKING METAL BY BENDING, FOLDING, STRAIGHTENING, FLATTENING, SHEARING, PUNCHING, NOTCHING OR NIBBLING (EXCLUDING DRAW-BENCHES), PRESSES FOR WORKING METAL OR METAL CARBIDES, NOT SPECIFIED ABOVE '",leading/trailing whitespace
+HSN_MSTR,18051,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,18052,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,18067,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,18068,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,18213,HSN_Description,'   INCORPORATING A PRINTING DEVICE',leading/trailing whitespace
+HSN_MSTR,18215,HSN_Description,'   OTHER',leading/trailing whitespace
+HSN_MSTR,18217,HSN_Description,'    OTHER CALCULATING MACHINES',leading/trailing whitespace
+HSN_MSTR,18221,HSN_Description,'    ELECTRICALLY OPERATED',leading/trailing whitespace
+HSN_MSTR,18222,HSN_Description,'    MANUALLY OPERATED',leading/trailing whitespace
+HSN_MSTR,18224,HSN_Description,'    ELECTRICALLY OPERATED',leading/trailing whitespace
+HSN_MSTR,18225,HSN_Description,'    MANUALLY OPERATED',leading/trailing whitespace
+HSN_MSTR,18232,HSN_Description,'   MICRO COMPUTER',leading/trailing whitespace
+HSN_MSTR,18233,HSN_Description,'   LARGE OR MAIN FRAME COMPUTER',leading/trailing whitespace
+HSN_MSTR,18236,HSN_Description,' PRESENTED IN THE FORM OF SYSTEMS',leading/trailing whitespace
+HSN_MSTR,18238,HSN_Description,"' PROCESSING UNITS OTHER THAN THOSE OF SUB-HEADINGS 8471 41OR 8471 49, WHETHER OR NOT CONTAINING IN THE SAME HOUSING ONE OR TWO OF THE FOLLOWING TYPES OF UNIT: STORAGE UNITS, INPUT UNITS, OUTPUT UNITS'",leading/trailing whitespace
+HSN_MSTR,18240,HSN_Description,'   COMBINED INPUT OR OUTPUT UNITS',leading/trailing whitespace
+HSN_MSTR,18299,HSN_Description,'GRAPHIC AND INTELLIGENCE BASED SCRIPT TECHNOLOGY(GIST) CARDS FOR MULTILINGUAL COMPUTERS ',leading/trailing whitespace
+HSN_MSTR,18308,HSN_Description,' FOR COAL',leading/trailing whitespace
+HSN_MSTR,18309,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,18311,HSN_Description,' FOR STONE AND MINERAL',leading/trailing whitespace
+HSN_MSTR,18312,HSN_Description,' FOR COAL',leading/trailing whitespace
+HSN_MSTR,18313,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,18328,HSN_Description,"'MACHINES FOR ASSEMBLING ELECTRIC OR ELECTRONIC LAMPS, TUBES OR VALVES OR FLASH-BULBS, IN GLASS ENVELOPES, MACHINES OR MANUFACTURING OR HOT WORKING GLASS OR GLASSWARE\t'",leading/trailing whitespace
+HSN_MSTR,18401,HSN_Description,'COLD ISOSTATIC PRESSES     ',leading/trailing whitespace
+HSN_MSTR,18402,HSN_Description,'COLD ISOSTATIC PRESSES     ',leading/trailing whitespace
+HSN_MSTR,18530,HSN_Description,' BY METAL DEPOSIT ',leading/trailing whitespace
+HSN_MSTR,18531,HSN_Description,' BY METAL DEPOSIT ',leading/trailing whitespace
+HSN_MSTR,18532,HSN_Description,'BY PLASTICS OR RUBBER DEPOSIT  ',leading/trailing whitespace
+HSN_MSTR,18533,HSN_Description,'BY PLASTICS OR RUBBER DEPOSIT  ',leading/trailing whitespace
+HSN_MSTR,18534,HSN_Description,"'BY PLASTER, CEMENT, CERAMICS OR GLASS DEPOSIT  '",leading/trailing whitespace
+HSN_MSTR,18535,HSN_Description,"'BY PLASTER, CEMENT, CERAMICS OR GLASS DEPOSIT  '",leading/trailing whitespace
+HSN_MSTR,18536,HSN_Description,'OTHER     ',leading/trailing whitespace
+HSN_MSTR,18537,HSN_Description,'OTHER     ',leading/trailing whitespace
+HSN_MSTR,18538,HSN_Description,'PARTS                                                  ',leading/trailing whitespace
+HSN_MSTR,18539,HSN_Description,'PARTS                                                  ',leading/trailing whitespace
+HSN_MSTR,18548,HSN_Description,' MACHINES AND APPARATUS SPECIFIED IN NOTE 11(C)  TO THIS CHAPTER',leading/trailing whitespace
+HSN_MSTR,18549,HSN_Description,'    PARTS AND ACCESSORIES',leading/trailing whitespace
+HSN_MSTR,18550,HSN_Description,'    PARTS AND ACCESSORIES',leading/trailing whitespace
+HSN_MSTR,18552,HSN_Description,"""SHIPS' OR BOATS' PROPELLERS AND BLADES THEREFORE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,18553,HSN_Description,"""SHIPS' OR BOATS' PROPELLERS AND BLADES THEREFORE""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,18793,HSN_Description,"""MINERS' SAFETY LAMPS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,18815,HSN_Description,'OTHER EQUIPMENT FOR THE HEAT TREATMENT OF MATERIALS BY INDUCTION OR DIELECTRIC LOSS ',leading/trailing whitespace
+HSN_MSTR,18816,HSN_Description,'OTHER EQUIPMENT FOR THE HEAT TREATMENT OF MATERIALS BY INDUCTION OR DIELECTRIC LOSS ',leading/trailing whitespace
+HSN_MSTR,18881,HSN_Description,'SMARTPHONES ',leading/trailing whitespace
+HSN_MSTR,18882,HSN_Description,'SMARTPHONES ',leading/trailing whitespace
+HSN_MSTR,18932,HSN_Description,' OTHER:',leading/trailing whitespace
+HSN_MSTR,18934,HSN_Description,'  OTHER',leading/trailing whitespace
+HSN_MSTR,18942,HSN_Description,'MICROPHONES AND STANDS THEREFOR ',leading/trailing whitespace
+HSN_MSTR,18943,HSN_Description,'MICROPHONES AND STANDS THEREFOR ',leading/trailing whitespace
+HSN_MSTR,19007,HSN_Description,"'PROFESSIONAL VIDEO TAPE RECORDERS WITH 3/4"" OR 1"" TAPE'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19010,HSN_Description,"'PROFESSIONAL VIDEO TAPE RECORDERS WITH 3/4"" OR 1"" TAPE'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19013,HSN_Description,"'PROFESSIONAL VIDEO TAPE RECORDERS WITH 3/4"" OR 1"" TAPE SOLID STATE OR OTHERWISE'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19055,HSN_Description,"'3/4"" AND 1"" VIDEO CASSETTES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19056,HSN_Description,"'1/2"" VIDEO CASSETTES SUITABLE TO WORK WITH BETACAM, BETACAM SP/M II AND VHS TYPE VCR'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19057,HSN_Description,"'OTHER VIDEO CASSETTES AND TAPES 3/4"" AND 1"" VIDEO CASSETTES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19093,HSN_Description,"""CHILDREN'S VIDEO FILMS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19229,HSN_Description,"' OTHER, NIGHT VISION GOODS AS SPECIFIED IN SUB-HEADING NOTE 3 TO THIS CHAPTER'",leading/trailing whitespace
+HSN_MSTR,19264,HSN_Description,'NOT COMBINED WITH SOUND RECORDING OR REPRODUCING APPARATUS BUT COMBINED WITH A CLOCK ',leading/trailing whitespace
+HSN_MSTR,19265,HSN_Description,'NOT COMBINED WITH SOUND RECORDING OR REPRODUCING APPARATUS BUT COMBINED WITH A CLOCK ',leading/trailing whitespace
+HSN_MSTR,19360,HSN_Description,' TANTALUM',leading/trailing whitespace
+HSN_MSTR,19361,HSN_Description,' TANTALUM',leading/trailing whitespace
+HSN_MSTR,19364,HSN_Description,"' CERAMIC DIELECTRIC, SINGLE LAYER'",leading/trailing whitespace
+HSN_MSTR,19365,HSN_Description,"' CERAMIC DIELECTRIC, SINGLE LAYER'",leading/trailing whitespace
+HSN_MSTR,19366,HSN_Description,"' CERAMIC DIELECTRIC, MULTILAYER'",leading/trailing whitespace
+HSN_MSTR,19367,HSN_Description,"' CERAMIC DIELECTRIC, MULTILAYER'",leading/trailing whitespace
+HSN_MSTR,19368,HSN_Description,' DIELECTRIC OF PAPER OR PLASTICS',leading/trailing whitespace
+HSN_MSTR,19369,HSN_Description,' DIELECTRIC OF PAPER OR PLASTICS',leading/trailing whitespace
+HSN_MSTR,19370,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,19371,HSN_Description,' OF DIELECTRIC OF MICA',leading/trailing whitespace
+HSN_MSTR,19372,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19373,HSN_Description,' VARIABLE OR ADJUSTABLE (PRESET) CAPACITORS',leading/trailing whitespace
+HSN_MSTR,19374,HSN_Description,' VARIABLE OR ADJUSTABLE (PRESET) CAPACITORS',leading/trailing whitespace
+HSN_MSTR,19375,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,19376,HSN_Description,' PARTS',leading/trailing whitespace
+HSN_MSTR,19379,HSN_Description,"'    FIXED CARBON RESISTORS, COMPOSITION OR FILM TYPES'",leading/trailing whitespace
+HSN_MSTR,19381,HSN_Description,' OF NICHROME',leading/trailing whitespace
+HSN_MSTR,19382,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19383,HSN_Description,' OF NICHROME',leading/trailing whitespace
+HSN_MSTR,19384,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19385,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,19386,HSN_Description,' OF NICHROME',leading/trailing whitespace
+HSN_MSTR,19387,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19388,HSN_Description,' OF NICHROME',leading/trailing whitespace
+HSN_MSTR,19389,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19391,HSN_Description,'    POTENTIOMETERS',leading/trailing whitespace
+HSN_MSTR,19392,HSN_Description,'    RHEOSTATS',leading/trailing whitespace
+HSN_MSTR,19393,HSN_Description,'  OTHER',leading/trailing whitespace
+HSN_MSTR,19394,HSN_Description,'  OTHER :',leading/trailing whitespace
+HSN_MSTR,19395,HSN_Description,'    POTENTIOMETERS',leading/trailing whitespace
+HSN_MSTR,19396,HSN_Description,'    RHEOSTATS',leading/trailing whitespace
+HSN_MSTR,19397,HSN_Description,'  OTHER',leading/trailing whitespace
+HSN_MSTR,19466,HSN_Description,' FOR A VOLTAGE NOT EXCEEDING 60 V',leading/trailing whitespace
+HSN_MSTR,19467,HSN_Description,' FOR A VOLTAGE NOT EXCEEDING 60 V',leading/trailing whitespace
+HSN_MSTR,19468,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19469,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19470,HSN_Description,' OTHER SWITCHES :',leading/trailing whitespace
+HSN_MSTR,19473,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19474,HSN_Description,' LAMPHOLDERS :',leading/trailing whitespace
+HSN_MSTR,19475,HSN_Description,' OF PLASTIC',leading/trailing whitespace
+HSN_MSTR,19476,HSN_Description,' OF OTHER MATERIALS',leading/trailing whitespace
+HSN_MSTR,19477,HSN_Description,' OTHER :',leading/trailing whitespace
+HSN_MSTR,19478,HSN_Description,' OF PLASTIC',leading/trailing whitespace
+HSN_MSTR,19479,HSN_Description,' OF OTHER MATERIALS',leading/trailing whitespace
+HSN_MSTR,19483,HSN_Description,' MOTOR STARTERS FOR AC MOTORS',leading/trailing whitespace
+HSN_MSTR,19484,HSN_Description,' MOTOR STARTERS FOR DC MOTORS',leading/trailing whitespace
+HSN_MSTR,19485,HSN_Description,' JUNCTION BOXES',leading/trailing whitespace
+HSN_MSTR,19486,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19488,HSN_Description,"' FOR A VOLTAGE NOT EXCEEDING 1,000 V'",leading/trailing whitespace
+HSN_MSTR,19489,HSN_Description,"' FOR A VOLTAGE NOT EXCEEDING 1,000 V'",leading/trailing whitespace
+HSN_MSTR,19490,HSN_Description,'For use in goods of Chapter 88 or 89 or 93\xa0',invisible/unicode-space character; leading/trailing whitespace
+HSN_MSTR,19492,HSN_Description,"' FOR A VOLTAGE EXCEEDING 1,000 V'",leading/trailing whitespace
+HSN_MSTR,19493,HSN_Description,"' FOR A VOLTAGE EXCEEDING 1,000 V'",leading/trailing whitespace
+HSN_MSTR,19539,HSN_Description,"'TELEVISION PICTURE TUBES OF 20"" AND 21"" SIZE, EXCEPT 21"" FLAT AND FULL SQUARE (F AND FST) COLOUR TV PICTURE TUBES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19544,HSN_Description,"'TELEVISION CAMERA TUBES, IMAGE CONVERTERS AND INTENSIFIERS, OTHER PHOTOS-CATHODE TUBES '",leading/trailing whitespace
+HSN_MSTR,19545,HSN_Description,"'TELEVISION CAMERA TUBES, IMAGE CONVERTERS AND INTENSIFIERS, OTHER PHOTOS-CATHODE TUBES '",leading/trailing whitespace
+HSN_MSTR,19796,HSN_Description,"'ELECTRICAL CONDUIT TUBING AND JOINTS THEREFOR, OF BASE METAL LINED WITH INSULATING MATERIAL '",leading/trailing whitespace
+HSN_MSTR,19806,HSN_Description,'ELECTRICAL AND ELECTRONIC WASTE AND SCRAP         ',leading/trailing whitespace
+HSN_MSTR,19825,HSN_Description,"""CONTAINING PRIMARY CELLS, PRIMARY BATTERIES, ELECTRIC ACCUMULATORS, MERCURY-SWITCHES, GLASS FROM CATHODE-RAY TUBES OR OTHER ACTIVATED GLASS, OR ELECTRICAL OR ELECTRONIC COMPONENTS CONTAINING CADMIUM, MERCURY, LEAD OR POLYCHLORINATED BIPHENYLS (PCBS)'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19826,HSN_Description,"""CONTAINING PRIMARY CELLS, PRIMARY BATTERIES, ELECTRIC ACCUMULATORS, MERCURY-SWITCHES, GLASS FROM CATHODE-RAY TUBES OR OTHER ACTIVATED GLASS, OR ELECTRICAL OR ELECTRONIC COMPONENTS CONTAINING CADMIUM, MERCURY, LEAD OR POLYCHLORINATED BIPHENYLS (PCBS)'""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,19827,HSN_Description,'OTHER         ',leading/trailing whitespace
+HSN_MSTR,19828,HSN_Description,'OTHER         ',leading/trailing whitespace
+HSN_MSTR,19829,HSN_Description,"'RAILWAY OR TRAMWAY LOCOMOTIVES, ROLLING-STOCK AND PARTS THEREOF, RAILWAY OR TRAMWAY TRACK FIXTURES AND FITTINGS AND PARTS THEREOF, MECHANICAL (INCLUDING ELECTRO-MECHANICAL) TRAFFIC SIGNALLING EQUIPMENT OF ALL KIND '",leading/trailing whitespace
+HSN_MSTR,19844,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19845,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19866,HSN_Description,'BROAD GUAGE BOGIE EIGHT WHEELER WAGONS OF PAY-LOAD EXCEEDING 60 TONNES BUT NOT EXCEEDING 67 TONNES ',leading/trailing whitespace
+HSN_MSTR,19891,HSN_Description,"'PARTS OF TRAMWAY, LOCOMOTIVES AND RUNNING STOCK '",leading/trailing whitespace
+HSN_MSTR,19900,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,19940,HSN_Description,'WITH ONLY COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) ',leading/trailing whitespace
+HSN_MSTR,19994,HSN_Description,"'VEHICLES SPECIALLY DESIGNED FOR TRAVELLING ON SNOW, GOLF CARS AND SIMILAR VEHICLES : '",leading/trailing whitespace
+HSN_MSTR,20228,HSN_Description,"'  CARRIAGES FOR DISABLED PERSONS, WHETHER OR NOT MOTORISED OR OTHERWISE MECHANICALLY PROPELLED'",leading/trailing whitespace
+HSN_MSTR,20264,HSN_Description,'BABY CARRIAGES AND PARTS THEREOF ',leading/trailing whitespace
+HSN_MSTR,20268,HSN_Description,"'TRAILERS AND SEMI-TRAILERS, OTHER VEHICLES, NOT MECHANICALLY PROPELLED, PARTS THEREOF '",leading/trailing whitespace
+HSN_MSTR,20316,HSN_Description,"' ROTOCHUTES, PARTS AND ACCESSORIES THEREOF'",leading/trailing whitespace
+HSN_MSTR,20329,HSN_Description,'WITH MAXIMUM TAKE-OFF WEIGHT NOT MORE THAN 250 G ',leading/trailing whitespace
+HSN_MSTR,20330,HSN_Description,'WITH MAXIMUM TAKE-OFF WEIGHT NOT MORE THAN 250 G ',leading/trailing whitespace
+HSN_MSTR,20334,HSN_Description,' WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 7 KG BUT  NOT MORE THAN 25 KG',leading/trailing whitespace
+HSN_MSTR,20336,HSN_Description,' WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 25 KG BUT  NOT MORE THAN 150 KG',leading/trailing whitespace
+HSN_MSTR,20337,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,20338,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,20382,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,20383,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,20487,HSN_Description,' FOR ROLL FILM OF A WIDTH OF 35 MM:',leading/trailing whitespace
+HSN_MSTR,20559,HSN_Description,'ELECTRON MICROSCOPES FITTED WITH EQUIPMENT SPECIFICALLY DESIGNED FOR THE HANDLING AND TRANSPORT OF SEMICONDUCTOR WAFERS OR RETICLES ',leading/trailing whitespace
+HSN_MSTR,20595,HSN_Description,"""DUMPY LEVELS OR ENGINEERS LEVELS OR BUILDER'S LEVELS (NOT AUTOMATIC) AND QUICK SET LEVELS WITH OR WITHOUT HORIZONTAL CIRCLES""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,20704,HSN_Description,'ORTHOPEAEDIC OR FRACTURE APPLIANCES ',leading/trailing whitespace
+HSN_MSTR,20705,HSN_Description,'ORTHOPEAEDIC OR FRACTURE APPLIANCES ',leading/trailing whitespace
+HSN_MSTR,20742,HSN_Description,"'X-RAY EXAMINATION OR TREATMENT TABLE, CHAIRS AND THE LIKE '",leading/trailing whitespace
+HSN_MSTR,21052,HSN_Description,' UPRIGHT PIANOS',leading/trailing whitespace
+HSN_MSTR,21053,HSN_Description,' UPRIGHT PIANOS',leading/trailing whitespace
+HSN_MSTR,21054,HSN_Description,' GRAND PIANOS',leading/trailing whitespace
+HSN_MSTR,21055,HSN_Description,' GRAND PIANOS',leading/trailing whitespace
+HSN_MSTR,21056,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21057,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21059,HSN_Description,' PLAYED WITH A BOW',leading/trailing whitespace
+HSN_MSTR,21060,HSN_Description,' PLAYED WITH A BOW',leading/trailing whitespace
+HSN_MSTR,21061,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21062,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21112,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21113,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21130,HSN_Description,'  OF REVOLVERS OR PISTOLS',leading/trailing whitespace
+HSN_MSTR,21131,HSN_Description,'  OF REVOLVERS OR PISTOLS',leading/trailing whitespace
+HSN_MSTR,21132,HSN_Description,'  OF SHOTGUNS OR RIFLES OF HEADING 9303 :',leading/trailing whitespace
+HSN_MSTR,21159,HSN_Description,'OF WOOD ',leading/trailing whitespace
+HSN_MSTR,21160,HSN_Description,'OF WOOD ',leading/trailing whitespace
+HSN_MSTR,21166,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21167,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21228,HSN_Description,'OF WOOD ',leading/trailing whitespace
+HSN_MSTR,21229,HSN_Description,'OF WOOD ',leading/trailing whitespace
+HSN_MSTR,21250,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21251,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21262,HSN_Description,'  DESIGNED FOR USE SOLELY WITH LIGHT-EMITTING DIODE   (LED) LIGHT SOURCES',leading/trailing whitespace
+HSN_MSTR,21269,HSN_Description,' DESIGNED FOR USE SOLELY WITH LIGHT-EMITTING DIODE (LED) LIGHT SOURCES',leading/trailing whitespace
+HSN_MSTR,21270,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21271,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21274,HSN_Description,' DESIGNED FOR USE SOLELY WITH LIGHT-EMITTING DIODE  (LED) LIGHT SOURCES',leading/trailing whitespace
+HSN_MSTR,21282,HSN_Description,"' OTHER, DESIGNED FOR USE SOLELY WITH LIGHT-EMITTING  '",leading/trailing whitespace
+HSN_MSTR,21289,HSN_Description,"""LAMPS AND LIGHTING FITTINGS INCLUDING SEARCHLIGHTS AND SPOTLIGHTS AND PARTS THEREOF, NOT ELSEWHERE SPECIFIED OR INCLUDED; ILLUMINATED SIGNS, ILLUMINATED NAME-PLATES AND THE LIKE, HAVING A PERMANENTLY FIXED LIGHT SOURCE, AND PARTS THEREOF NOT ELSEWHERE SPECIFIED OR INCLUDED- Non-electrical lamps and lighting fittings: Miner's safety lamps""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21299,HSN_Description,' DESIGNED FOR USE SOLELY WITH LIGHT-EMITTING DIODE (LED) LIGHT SOURCES',leading/trailing whitespace
+HSN_MSTR,21300,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,21301,HSN_Description,' OTHER ',leading/trailing whitespace
+HSN_MSTR,21321,HSN_Description,"'MODULAR BUILDING UNITS, OF STEEL '",leading/trailing whitespace
+HSN_MSTR,21322,HSN_Description,"'MODULAR BUILDING UNITS, OF STEEL '",leading/trailing whitespace
+HSN_MSTR,21340,HSN_Description,"'Tricycles, scooters, pedal cars and similar wheeled toys; dolls\' carriages; dolls; other toys; reduced-size (""scale"") models and similar recreational models, working or not; puzzles of all kinds:'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21385,HSN_Description,"'ARTICLES AND EQUIPMENT FOR GENERAL PHYSICAL EXERCISE, GYMNASTICS, ATHLETICS, OTHER SPORTS (INCLUDING TABLE-TENNIS) OR OUT-DOOR GAMES, NOT SPECIFIED OR INCLUDED ELSEWHERE IN THIS CHAPTER, SWIMMING POOLS AND PADDLING POOLS '",leading/trailing whitespace
+HSN_MSTR,21426,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21437,HSN_Description,"'FISHING RODS, FISH-HOOKS AND OTHER LINE FISHING TACKLE, FISH LANDING NETS, BUTTERFLY NETS AND SIMILAR NETS, DECOY ""BIRDS"" (OTHER THAN THOSE OF HEADING 9208 OR 9705) AND SIMILAR HUNTING OR SHOOTING REQUISITES'","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21450,HSN_Description,'ROLLER COASTERS  ',leading/trailing whitespace
+HSN_MSTR,21451,HSN_Description,'ROLLER COASTERS  ',leading/trailing whitespace
+HSN_MSTR,21454,HSN_Description,"""DODGE'EM CARS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21455,HSN_Description,"""DODGE'EM CARS""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21477,HSN_Description,"'WORKED HORN, CORAL AND OTHER ANIMAL CARVING MATERIAL AND ARTICLES THEREOF '",leading/trailing whitespace
+HSN_MSTR,21572,HSN_Description,"'PENCILS (OTHER THAN PENCILS OF HEADING 9608), CRAYONS, PENCIL LEADS, PASTELS, DRAWING CHARCOALS, WRITING OR DRAWING CHALKS AND TAILORS CHALK '",leading/trailing whitespace
+HSN_MSTR,21581,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21646,HSN_Description,"""Works of art, collectors' pieces and antiques""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21653,HSN_Description,"' PAINTINGS, DRAWINGS AND PASTELS  '",leading/trailing whitespace
+HSN_MSTR,21654,HSN_Description,"'Paintings, drawings and pastels                 '",leading/trailing whitespace
+HSN_MSTR,21673,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21674,HSN_Description,'OTHER ',leading/trailing whitespace
+HSN_MSTR,21682,HSN_Description,'OF STONE ',leading/trailing whitespace
+HSN_MSTR,21693,HSN_Description,"""COLLECTIONS AND COLLECTORS' PIECES OF ARCHAEOLOGICAL, ETHNOGRAPHIC, HISTORICAL, ZOOLOGICAL, BOTANICAL, MINERALOGICAL, ANATOMICAL, PALEONTOLOGICAL OR NUMISMATIC INTEREST""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21694,HSN_Description,"""Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest""","XML-reserved character (&, <, >, "", ')"
+HSN_MSTR,21699,HSN_Description,'HUMAN SPECIMENS AND PARTS THEREOF ',leading/trailing whitespace
+HSN_MSTR,21700,HSN_Description,'HUMAN SPECIMENS AND PARTS THEREOF ',leading/trailing whitespace
+HSN_MSTR,21717,HSN_Description,"'ALL ITEMS OF MACHINERY INCLUDING PRIME MOVERS, INSTRUMENTS, APPARATUS AND APPLIANCES, CONTROL GEAR AND TRANSMISSION EQUIPMENT, AUXILIARY EQUIPMENT (INCLUDING THOSE REQUIRED FOR RESEARCH AND DEVELOPMENT PURPOSES, TESTING AND QUALITY CONTROL), AS WELL AS ALL COMPONENTS (WHETHER FINISHED OR NOT) OR RAW MATERIALS FOR THE MANUFACTURE OF THE AFORESAID ITEMS AND THEIR COMPONENTS, REQUIRED FOR THE INITIAL SETTING UP OF A UNIT, OR THE SUBSTANTIAL EXPANSION OF AN EXISTING UNIT, OF A SPECIFIED : (1) INDUSTRIAL PLANT, (2 IRRIGATION PROJECT, (3) POWER PROJECT, OTHER THAN SOLAR POWER PLANT OR SOLAR POWER PROJECT (4) MINING PROJECT, (5) PROJECT FOR THE EXPLORATION FOR OIL OR OTHER MINERALS, AND (6) SUCH OTHER  PROJECTS, OTHER THAN SOLAR POWER PLANT OR SOLAR POWER PROJECT, AS THE CENTRAL GOVERNMENT MAY, HAVING REGARD TO THE ECONOMIC DEVELOPMENT OF THE COUNTRY NOTIFY IN THE OFFICIAL GAZETTE IN THIS BEHALF, AND SPARE PARTS, OTHER RAW MATERIALS (INCLUDING SEMI- FINISHED MATERIALS OF CONSUMABLE STORES) NOT EXCEEDING 10% OF THE VALUE OF THE GOODS SPECIFIED ABOVE, PROVIDED  THAT SUCH SPARE PARTS, RAW MATERIALS OR CONSUMABLE STORES ARE ESSENTIAL FOR THE MAINTENANCE OF THE PLANT OR PROJECT MENTIONED IN (1) TO (6) ABOVE : '",leading/trailing whitespace
+HSN_MSTR,21733,HSN_Description,' DRUGS AND MEDICINES',leading/trailing whitespace
+HSN_MSTR,21735,HSN_Description,' OTHER',leading/trailing whitespace
+HSN_MSTR,21797,HSN_Description,'Containing added sugar : Cranberries ',leading/trailing whitespace
+HSN_MSTR,21798,HSN_Description,'Containing added sugar :Blueberries ',leading/trailing whitespace
+HSN_MSTR,21799,HSN_Description,'Containing added sugar :Other ',leading/trailing whitespace
+HSN_MSTR,21800,HSN_Description,'Other : Cranberries ',leading/trailing whitespace
+HSN_MSTR,21802,HSN_Description,'Other : Other ',leading/trailing whitespace
+HSN_MSTR,21833,HSN_Description,'Beverages containing milk : Cranberry products ',leading/trailing whitespace
+HSN_MSTR,21834,HSN_Description,'Beverages containing milk :Other ',leading/trailing whitespace
+HSN_MSTR,21843,HSN_Description,"'Acetyl chloride, Propionyl chloride : Acetyl chloride '",leading/trailing whitespace
+HSN_MSTR,21848,HSN_Description,"'Malonic acid, its salts and esters : Malonic acid '",leading/trailing whitespace
+HSN_MSTR,21878,HSN_Description,'Synthetic flavouring essences :Other ',leading/trailing whitespace
+HSN_MSTR,21909,HSN_Description,"'Non-galvanised pipes, other : Other '",leading/trailing whitespace
+HSN_MSTR,21911,HSN_Description,'Galvanised :Other ',leading/trailing whitespace
+HSN_MSTR,21926,HSN_Description,"'Bars and rods, other than those obtained simply by sintering, profiles, plates, sheets, strip and foil '",leading/trailing whitespace
